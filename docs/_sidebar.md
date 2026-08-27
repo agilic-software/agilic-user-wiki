@@ -1,3 +1,3 @@
-- [Home](/)
+- [Home](/docs/README.md)
 - Getting Started
-  - [Signing In](getting-started/login.md)
+  - [Signing In](/docs/getting-started/login.md)
