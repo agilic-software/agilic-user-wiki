@@ -5,15 +5,32 @@
   <title>Agilic User Wiki</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="docs/theme.css">
 </head>
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: 'Agilic User Wiki',
+      name: '<img src="/logo.png" alt="Agilic" onerror="this.style.display=\'none\'"> Agilic Wiki',
       homepage: 'docs/README.md',
       loadSidebar: 'docs/_sidebar.md',
-      search: 'auto'
+      search: 'auto',
+      plugins: [
+        function (hook) {
+          hook.afterEach(function (html) {
+            return html
+          })
+          hook.mounted(function () {
+            var link = document.createElement('div')
+            link.className = 'agilic-back-link'
+            link.innerHTML = '<a href="/">&larr; Back to agilicsoftware.com</a>'
+            var sidebar = document.querySelector('.sidebar')
+            if (sidebar) {
+              sidebar.insertBefore(link, sidebar.firstChild)
+            }
+          })
+        }
+      ]
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>

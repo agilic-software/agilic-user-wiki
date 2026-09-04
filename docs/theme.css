@@ -1,0 +1,175 @@
+/*
+ * Agilic User Wiki — custom theme layered on top of docsify's Vue theme.
+ * Matches agilicsoftware.com's palette: dark header, gold accent, Inter font.
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --theme-color: #ca8a04; /* primary-600 — accessible gold on white backgrounds */
+  --agilic-accent-900: #111827;
+  --agilic-accent-800: #1f2937;
+  --agilic-accent-700: #374151;
+  --agilic-primary-400: #facc15;
+  --agilic-primary-500: #eab308;
+}
+
+body,
+.markdown-section,
+.sidebar {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Sidebar: dark, matching the site header */
+.sidebar {
+  background-color: var(--agilic-accent-900);
+  color: #d1d5db;
+  border-right: none;
+}
+
+.sidebar-toggle {
+  background-color: var(--agilic-accent-900);
+}
+
+.sidebar-toggle span {
+  background-color: var(--agilic-primary-400);
+}
+
+.sidebar > h1 {
+  padding: 0 20px;
+  margin-bottom: 1.5rem;
+}
+
+.sidebar > h1 a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.sidebar > h1 img {
+  height: 28px;
+}
+
+.sidebar ul li a {
+  color: #e5e7eb;
+  font-size: 15px;
+}
+
+.sidebar ul li a:hover {
+  color: var(--agilic-primary-400);
+  text-decoration: none;
+}
+
+.sidebar ul li.active > a {
+  color: var(--agilic-primary-400);
+  border-right-color: var(--agilic-primary-400);
+  font-weight: 600;
+}
+
+.sidebar li > p {
+  color: #9ca3af;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+}
+
+/* Search box */
+.search {
+  border-top: 1px solid var(--agilic-accent-700) !important;
+  padding: 12px 20px !important;
+}
+
+.search input {
+  background-color: var(--agilic-accent-800) !important;
+  border: 1px solid var(--agilic-accent-700) !important;
+  color: #fff !important;
+}
+
+.search input::placeholder {
+  color: #9ca3af;
+}
+
+.search .clear-button svg {
+  fill: #9ca3af;
+}
+
+.search .matching-post {
+  border-bottom-color: var(--agilic-accent-700) !important;
+}
+
+.search a {
+  color: #d1d5db !important;
+}
+
+.search h2 {
+  color: #fff !important;
+}
+
+.search p {
+  color: #9ca3af !important;
+}
+
+.search .search-keyword {
+  color: var(--agilic-primary-400) !important;
+}
+
+/* Main content links + headings — matches agilicsoftware.com's body typography:
+   near-black headings (text-gray-900), gold links (text-primary-600). */
+.markdown-section a {
+  color: var(--theme-color);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.markdown-section a:hover {
+  color: #a16207; /* primary-700 */
+  text-decoration: underline;
+}
+
+.markdown-section h1,
+.markdown-section h2,
+.markdown-section h3,
+.markdown-section h4,
+.markdown-section strong {
+  color: #111827; /* gray-900 */
+  font-weight: 700;
+}
+
+/* Docsify wraps heading text in <a class="anchor"><span>, which otherwise
+   overrides the heading color above with its own #34495e default. */
+.markdown-section h1 .anchor span,
+.markdown-section h2 .anchor span,
+.markdown-section h3 .anchor span,
+.markdown-section h4 .anchor span {
+  color: #111827;
+}
+
+.markdown-section blockquote {
+  border-left-color: var(--agilic-primary-400);
+}
+
+.markdown-section code {
+  color: #a16207; /* primary-700 */
+}
+
+/* "Back to Agilic" link, injected at top of sidebar via docsify plugin */
+.agilic-back-link {
+  display: block;
+  padding: 16px 20px 0;
+  font-size: 13px;
+}
+
+.agilic-back-link a {
+  color: #9ca3af;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.agilic-back-link a:hover {
+  color: var(--agilic-primary-400);
+}
