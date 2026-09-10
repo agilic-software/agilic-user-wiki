@@ -1,0 +1,1 @@
+site_name: Agilic Training Wiki (Preview) docs_dir: docs theme: name: material palette: primary: indigo features: - navigation.sections - search.suggest markdown_extensions: - admonition - pymdownx.details - pymdownx.superfences nav: - Using Kanban Boards: s13-kanban-boards/using-kanban-boards.md Scroll down
