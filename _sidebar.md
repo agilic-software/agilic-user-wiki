@@ -9,8 +9,8 @@
 - **Section 1 — New User Orientation**
   - [Navigate as a User](section-1-new-user-orientation/navigate-as-user.md)
   - [Navigate Org Admin](section-1-new-user-orientation/navigate-org-admin.md)
-  - Navigate a Team
-  - Navigate a Work Package
+  - [Navigate a Team](section-1-new-user-orientation/navigate-a-team.md)
+  - [Navigate a Work Package](section-1-new-user-orientation/navigate-a-work-package.md)
 
 - **Section 2 — Setting up your Org**
   - Setting Up Your Organization
