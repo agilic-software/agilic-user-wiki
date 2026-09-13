@@ -10,7 +10,7 @@ Org Admin is the management console for your organization — separate from the 
 
 Org Admin is available if you have admin access for your organization.
 
-![Org Admin left-hand menu](media/orgadmin-image1.png) ![Org Admin left-hand menu, expanded](media/orgadmin-image5.png)
+![Org Admin left-hand menu](media/orgadmin-image5.png)
 
 **Organization**
 
