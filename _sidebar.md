@@ -31,7 +31,7 @@
   - [Private Work Packages](section-4-core-day-to-day-work/private-work-packages.md)
 
 - **Section 5 — AI Agent**
-  - Using the Agilic AI Assistant
+  - [Using the Agilic AI Assistant](section-5-ai-agent/using-the-agilic-ai-assistant.md)
 
 - **Section 6 — Work Package Overview**
   - Pre-Planning Capabilities
