@@ -60,7 +60,7 @@
   - [Work Package Planning Tools](section-11-work-package-pre-planning/work-package-planning-tools.md)
 
 - **Section 12 — Timesheets**
-  - Timesheets
+  - [Timesheets](section-12-timesheets/timesheets.md)
 
 - **Section 13 — Kanban Boards**
   - Kanban Boards
