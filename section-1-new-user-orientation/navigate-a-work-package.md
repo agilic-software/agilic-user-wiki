@@ -10,27 +10,27 @@ A Work Package (WP) is the core unit of work in Agilic — anything from a large
 
 From the main Work Packages list, select any Work Package you're part of to open it. Everything below lives inside that one Work Package. Alternatively, you can select from any My View Owner/Driver card and that link will take you to the main Work Package page.
 
-![Work Packages list](media/navwp-image12.png)
+![Work Packages list](media/01c-001.png)
 
 **Work Package Management**
 
 The WP's landing page — its Objective, Milestone Management, RIDE Management, and AI Recommendations.
 
-![Work Package Management landing page](media/navwp-image1.png)
+![Work Package Management landing page](media/01c-002.png)
 
 **Work Package Header**
 
 The Work Package Header shows on every WP view. It can be minimized if you don't need to see all the information.
 
-![Work Package Header, expanded](media/navwp-image4.png)
+![Work Package Header, expanded](media/01c-003.png)
 
-![Work Package Header, minimized](media/navwp-image11.png)
+![Work Package Header, minimized](media/01c-004.png)
 
 **Work Items (the "4D" Tabs)**
 
 The core working tabs, reflecting Agilic's 4D Framework — Define, Do Work, Document and Deliver — plus the RIDE.
 
-![4D tabs](media/navwp-image2.png)
+![4D tabs](media/01c-005.png)
 
 1. Define — what's needed to make sure the deliverables are correct
 2. Do Work — the actual task/execution tracking
@@ -40,7 +40,7 @@ The core working tabs, reflecting Agilic's 4D Framework — Define, Do Work, Doc
 
 **Reporting**
 
-![Reporting tabs](media/navwp-image9.png)
+![Reporting tabs](media/01c-006.png)
 
 1. Kanban for this WP — unlimited boards
 
@@ -59,7 +59,7 @@ The core working tabs, reflecting Agilic's 4D Framework — Define, Do Work, Doc
 
 Who's on this specific Work Package — separate from your organization's full People list.
 
-![WP Roster tabs](media/navwp-image10.png)
+![WP Roster tabs](media/01c-007.png)
 
 1. WP Roster — shows the team members and their contact information.
    - Anyone can see this information
@@ -79,19 +79,19 @@ Everyone on this Work Package's allocations and logged hours.
 - Only the Owner, Driver, and Org Admin can see everyone's information
 - Remaining Team Members can see only what their teammates are Assigned to
 
-![Timesheet view](media/navwp-image5.png)
+![Timesheet view](media/01c-008.png)
 
 **Wiki**
 
 File/document storage for the Work Package.
 
-![Wiki view](media/navwp-image8.png)
+![Wiki view](media/01c-009.png)
 
 **Planning**
 
 Scheduling and breakdown tools: Work Breakdown Structure (WBS), Predecessor List, Success Matrix, PERT Chart, and Gantt Chart.
 
-![Planning tabs](media/navwp-image3.png)
+![Planning tabs](media/01c-010.png)
 
 1. Relationships (between Items) — a list of Items that shows which Item has what relationships
    - Associated — a bread crumb to similar content. There is no schedule dependency.
@@ -111,7 +111,7 @@ Scheduling and breakdown tools: Work Breakdown Structure (WBS), Predecessor List
 
 Only relevant if this WP has external clients. Controls exactly what a client can see — which milestones, RIDE items, and status updates get shared with them.
 
-![Client Portal Management tabs](media/navwp-image7.png)
+![Client Portal Management tabs](media/01c-011.png)
 
 1. Control — input Client's Effort Status, Client Milestone Management, Client RIDE Management
 2. Client Documents — history of all documents uploaded to the Client Portal (even after deleted)
@@ -123,7 +123,7 @@ Only relevant if this WP has external clients. Controls exactly what a client ca
 
 WP-level configuration — Work Item Type settings, item settings, reporting settings, labels, private WP settings, and module access.
 
-![Settings tabs](media/navwp-image6.png)
+![Settings tabs](media/01c-012.png)
 
 1. Work Package — WP State, WP Health, WP Phase Settings
 2. Work Item Type — select who is Owner / Driver of a specific Work Item Type
