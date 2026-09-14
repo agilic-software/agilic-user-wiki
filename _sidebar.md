@@ -24,11 +24,11 @@
 
 - **Section 4 — Core Day-to-Day Work**
   - Create Work Package / Add People to WP
-  - Work Item Types
-  - Working Standard Items
-  - Working RIDE Items
-  - Updating Permissions for People
-  - Private Work Packages
+  - [Work Item Types](section-4-core-day-to-day-work/work-item-types.md)
+  - [Working Standard Items](section-4-core-day-to-day-work/working-standard-items.md)
+  - [Working RIDE Items](section-4-core-day-to-day-work/working-ride-items.md)
+  - [Updating Permissions for People](section-4-core-day-to-day-work/updating-permissions.md)
+  - [Private Work Packages](section-4-core-day-to-day-work/private-work-packages.md)
 
 - **Section 5 — AI Agent**
   - Using the Agilic AI Assistant
