@@ -45,8 +45,8 @@
   - [My Team Overview](section-7-my-team-overview/my-team-overview.md)
 
 - **Section 8 — My View Overview**
-  - My View Overview
-  - My View Reporting
+  - [My View Overview](section-8-my-view-overview/my-view-overview.md)
+  - [My View Reporting](section-8-my-view-overview/my-view-reporting.md)
 
 - **Section 9 — Client Portal**
   - Client Portal — Getting Started
