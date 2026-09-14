@@ -67,7 +67,7 @@
   - [Using Kanban Boards](section-13-kanban-boards/using-kanban-boards.md)
 
 - **Section 14 — Knowledge - Search**
-  - Knowledge - Search
+  - [Knowledge - Search](section-14-knowledge-search/knowledge-search.md)
 
 - **Section 15 — Reporting Detail**
   - Kanban (Reporting)
