@@ -1,10 +1,10 @@
 - [Home](/)
 
 - **Section 0 — Core Terminology & Tracking**
-  - Terminology Index & Dictionary
-  - Feature Index
-  - Role & Permission Matrix
-  - Persona Guides
+  - [Terminology Index & Dictionary](section-0-core-terminology/terminology-index-dictionary.md)
+  - [Feature Index](section-0-core-terminology/feature-index.md)
+  - [Role & Permission Matrix](section-0-core-terminology/role-permission-matrix.md)
+  - [Persona Guides](section-0-core-terminology/persona-guides.md)
 
 - **Section 1 — New User Orientation**
   - [Navigate as a User](section-1-new-user-orientation/navigate-as-user.md)
