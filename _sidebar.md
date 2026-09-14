@@ -57,7 +57,7 @@
 
 - **Section 11 — Work Package Pre-Planning**
   - Work Package Pre-Planning
-  - Work Package Planning Tools
+  - [Work Package Planning Tools](section-11-work-package-pre-planning/work-package-planning-tools.md)
 
 - **Section 12 — Timesheets**
   - Timesheets
