@@ -42,7 +42,7 @@
   - [Work Package Client Portal Management](section-6-work-package-overview/work-package-client-portal-management.md)
 
 - **Section 7 — My Team Overview**
-  - My Team Overview
+  - [My Team Overview](section-7-my-team-overview/my-team-overview.md)
 
 - **Section 8 — My View Overview**
   - My View Overview
