@@ -13,9 +13,9 @@
   - [Navigate a Work Package](section-1-new-user-orientation/navigate-a-work-package.md)
 
 - **Section 2 — Setting up your Org**
-  - Setting Up Your Organization
-  - Org Settings
-  - Permissions for People
+  - [Setting Up Your Organization](section-2-setting-up-your-org/setting-up-your-organization.md)
+  - [Org Settings](section-2-setting-up-your-org/org-settings.md)
+  - [Permissions for People](section-2-setting-up-your-org/permissions-for-people.md)
 
 - **Section 3 — Recurring Admin Tasks**
   - Adding & Managing People
