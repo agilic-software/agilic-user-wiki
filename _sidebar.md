@@ -53,7 +53,7 @@
   - [Client Portal Module — Overview](section-9-client-portal/client-portal-module-overview.md)
 
 - **Section 10 — Client Management**
-  - Managing Client Companies & Contacts
+  - [Managing Client Companies & Contacts](section-10-client-management/managing-client-companies-contacts.md)
 
 - **Section 11 — Work Package Pre-Planning**
   - Work Package Pre-Planning
