@@ -49,8 +49,8 @@
   - [My View Reporting](section-8-my-view-overview/my-view-reporting.md)
 
 - **Section 9 — Client Portal**
-  - Client Portal — Getting Started
-  - Client Portal Module — Overview
+  - [Client Portal — Getting Started](section-9-client-portal/client-portal-getting-started.md)
+  - [Client Portal Module — Overview](section-9-client-portal/client-portal-module-overview.md)
 
 - **Section 10 — Client Management**
   - Managing Client Companies & Contacts
