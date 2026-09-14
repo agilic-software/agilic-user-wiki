@@ -18,9 +18,9 @@
   - [Permissions for People](section-2-setting-up-your-org/permissions-for-people.md)
 
 - **Section 3 — Recurring Admin Tasks**
-  - Adding & Managing People
-  - Creating & Managing Teams
-  - Managing Billing & Subscription
+  - [Adding & Managing People](section-3-recurring-admin-tasks/adding-managing-people.md)
+  - [Creating & Managing Teams](section-3-recurring-admin-tasks/creating-managing-teams.md)
+  - [Managing Billing & Subscription](section-3-recurring-admin-tasks/managing-billing.md)
 
 - **Section 4 — Core Day-to-Day Work**
   - Create Work Package / Add People to WP
