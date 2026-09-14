@@ -23,7 +23,6 @@
   - [Managing Billing & Subscription](section-3-recurring-admin-tasks/managing-billing.md)
 
 - **Section 4 — Core Day-to-Day Work**
-  - Create Work Package / Add People to WP
   - [Work Item Types](section-4-core-day-to-day-work/work-item-types.md)
   - [Working Standard Items](section-4-core-day-to-day-work/working-standard-items.md)
   - [Working RIDE Items](section-4-core-day-to-day-work/working-ride-items.md)
@@ -34,12 +33,13 @@
   - [Using the Agilic AI Assistant](section-5-ai-agent/using-the-agilic-ai-assistant.md)
 
 - **Section 6 — Work Package Overview**
-  - Pre-Planning Capabilities
-  - Work Package Overview
+  - [Create Work Package / Add People to WP](section-6-work-package-overview/create-work-package.md)
+  - [Pre-Planning Capabilities](section-6-work-package-overview/pre-planning-capabilities.md)
+  - [Work Package Overview](section-6-work-package-overview/work-package-overview.md)
   - Work Package Reports
-  - Work Package Planning
-  - Work Package Settings
-  - Work Package Client Portal Management
+  - [Work Package Planning](section-6-work-package-overview/work-package-planning.md)
+  - [Work Package Settings](section-6-work-package-overview/work-package-settings.md)
+  - [Work Package Client Portal Management](section-6-work-package-overview/work-package-client-portal-management.md)
 
 - **Section 7 — My Team Overview**
   - My Team Overview
