@@ -64,7 +64,7 @@
 
 - **Section 13 — Kanban Boards**
   - Kanban Boards
-  - Using Kanban Boards
+  - [Using Kanban Boards](section-13-kanban-boards/using-kanban-boards.md)
 
 - **Section 14 — Knowledge - Search**
   - Knowledge - Search
