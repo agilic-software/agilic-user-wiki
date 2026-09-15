@@ -27,11 +27,32 @@ body,
   border-right: none;
 }
 
+/* Move the toggle to the top-left; docsify's vue theme pins it bottom-left.
+ * Only the position is changed — width, and the body.close collapsed state,
+ * are left to vue.css. */
 .sidebar-toggle {
-  background-color: var(--agilic-accent-900);
+  background-color: transparent;
+  top: 0;
+  bottom: auto;
+  /* vue.css makes this 284px wide, which would cover the whole first row
+   * of the sidebar and swallow clicks on the back-link beneath it. */
+  width: auto;
 }
 
 .sidebar-toggle span {
+  background-color: var(--agilic-primary-400);
+}
+
+/* Collapsed: the sidebar slides away and the toggle sits over white content,
+ * where gold bars alone wash out. Give them a dark pill to sit on. */
+body.close .sidebar-toggle {
+  background-color: var(--agilic-accent-900);
+  width: auto;
+  padding: 12px 14px;
+  border-radius: 0 0 6px 0;
+}
+
+body.close .sidebar-toggle span {
   background-color: var(--agilic-primary-400);
 }
 
@@ -92,8 +113,24 @@ body,
   color: #9ca3af;
 }
 
+/* The clear button is a filled circle with two stroked paths forming the X.
+ * Colouring only `fill` recolours the disc but leaves the X invisible against
+ * it, so set the circle and the strokes separately. */
+/* The plugin renders the 26x24 icon at scale(.5), leaving 1px-wide X strokes
+ * inside a ~6px disc — they disappear and it reads as a plain dot. Scale it
+ * back up and thicken the strokes. */
 .search .clear-button svg {
-  fill: #9ca3af;
+  transform: scale(.8);
+}
+
+.search .clear-button svg circle {
+  fill: var(--agilic-accent-700);
+}
+
+.search .clear-button svg path {
+  stroke: #f3f4f6;
+  stroke-width: 3;
+  stroke-linecap: round;
 }
 
 .search .matching-post {
@@ -156,10 +193,14 @@ body,
 }
 
 /* "Back to Agilic" link, injected at top of sidebar via docsify plugin */
+/* Extra left inset clears the top-left sidebar toggle. */
 .agilic-back-link {
   display: block;
-  padding: 16px 20px 0;
+  padding: 16px 20px 0 44px;
   font-size: 13px;
+  /* Above the sidebar toggle (z-index 30) so the link stays clickable. */
+  position: relative;
+  z-index: 31;
 }
 
 .agilic-back-link a {
