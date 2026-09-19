@@ -61,3 +61,5 @@
   - [Event Calendar](docs/s8-reporting/event-calendar.md)
   - [Charts](docs/s8-reporting/charts.md)
   - [AI Summary](docs/s8-reporting/ai-summary.md)
+- Section 9: Client Management
+  - [Managing Client Companies & Contacts](docs/s9-client-management/managing-client-companies-and-contacts.md)
