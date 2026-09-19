@@ -187,7 +187,7 @@ in the Kanban Boards. A Label Strategy for your Organization is highly
 recommended.
 
 ***See also:** [Things to Consider when Setting Up Your Org (Section
-2)](#/s2-setting-up-your-org/things-to-consider-when-setting-up-your-org).*
+2)](/s2-setting-up-your-org/things-to-consider-when-setting-up-your-org.md).*
 
 The Core Labels available in Agilic can be set up at the Organization
 Level (Global) and/or at the Work Package Level. Global labels are

@@ -8,7 +8,7 @@ Admin, or from within My Team if you are that team's Owner or Driver.
 
 ***See also:** For a full tour of every My Team screen, see [How to
 Navigate a Team (Section
-4)](#/s4-teams/navigate-a-team).*
+4)](/s4-teams/navigate-a-team.md).*
 
 # Creating a New Team
 
@@ -89,7 +89,7 @@ what, and when.
 Adding someone to a Team doesn't automatically add them to a specific
 Work Package --- those rosters are managed separately. See [Create a
 Work Package (Section
-3)](#/s3-work-packages/create-a-work-package).
+3)](/s3-work-packages/create-a-work-package.md).
 
 # Managing the Team
 

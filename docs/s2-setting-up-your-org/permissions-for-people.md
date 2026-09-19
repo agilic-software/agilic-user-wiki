@@ -31,7 +31,7 @@ To access the Org Admin area where permissions are set, you must have Org Admin-
 
 ***See also:** For creating an organization for the first time, see
 [Creating Your Organization (Section
-2)](#/s2-setting-up-your-org/create-your-organization).*
+2)](/s2-setting-up-your-org/create-your-organization.md).*
 
 Standard permissions are set in Org Admin → Org People List. Here you can grant:
 
@@ -128,9 +128,9 @@ Work Package Client Portal Management. Client users never see the
 internal application --- only their own simplified Client Portal
 experience.\
 ***See also:** For adding and managing Client Contacts, see* [Managing
-Client Companies & Contacts (Section 9)](#/s9-client-management/managing-client-companies-and-contacts)*.
+Client Companies & Contacts (Section 9)](/s9-client-management/managing-client-companies-and-contacts.md)*.
 For granting a specific Work Package's Client Portal Access, see*
-[Work Package Client Portal Management (Section 3)](#/s3-work-packages/work-package-client-portal-management)*.*
+[Work Package Client Portal Management (Section 3)](/s3-work-packages/work-package-client-portal-management.md)*.*
 
 # Quick Reference
 

@@ -40,7 +40,7 @@ The minimum required fields are:
 ***See also:** Every user automatically gets one dedicated Private Work
 Package --- this validation just guards against manually creating a
 regular WP with that prefix. See [My Private Work Package (Section
-5)](#/s5-my-view/my-private-work-package).*
+5)](/s5-my-view/my-private-work-package.md).*
 
 -   WP Title - The title of the Work Package
 
@@ -65,7 +65,7 @@ modify those in the WP Settings.
 
 ***See also:** Org-wide defaults for these are set in [Setting Up Your
 Organization's Settings (Section
-2)](#/s2-setting-up-your-org/org-settings).*
+2)](/s2-setting-up-your-org/org-settings.md).*
 
 **Step 4: Add Attachments (Optional)**
 
@@ -82,10 +82,10 @@ landing page.
 
 # Related Tasks
 
--   To manage the Work Package's day-to-day work, see [Work Item Types (Section 6)](#/s6-working-standard-items/work-item-types)
+-   To manage the Work Package's day-to-day work, see [Work Item Types (Section 6)](/s6-working-standard-items/work-item-types.md)
 
--   To track risks, issues, dependencies, and escalations, see [Working RIDE Items (Section 6)](#/s6-working-standard-items/working-ride-items)
+-   To track risks, issues, dependencies, and escalations, see [Working RIDE Items (Section 6)](/s6-working-standard-items/working-ride-items.md)
 
--   For defining scope, preparing your roster, and setting allocations before this stage, see [Work Package Planning (Section 3)](#/s3-work-packages/work-package-planning)
+-   For defining scope, preparing your roster, and setting allocations before this stage, see [Work Package Planning (Section 3)](/s3-work-packages/work-package-planning.md)
 
--   For details on what different access levels mean, see [Permissions for People (Section 2)](#/s2-setting-up-your-org/permissions-for-people)
+-   For details on what different access levels mean, see [Permissions for People (Section 2)](/s2-setting-up-your-org/permissions-for-people.md)
