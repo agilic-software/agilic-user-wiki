@@ -1,3 +1,11 @@
 - [Home](docs/README.md)
 - Getting Started
   - [Signing In](docs/getting-started/login.md)
+- [Home](docs/README.md)
+- Getting Started
+  - [Signing In](docs/getting-started/login.md)
+- Section 1: Agilic Fundamentals
+  - [Navigate as a User](docs/s1-agilic-fundamentals/navigate-as-a-user.md)
+  - [Core Terms & Concepts](docs/s1-agilic-fundamentals/core-terms-concepts.md)
+  - [Roles & Permissions](docs/s1-agilic-fundamentals/roles-permissions.md)
+  - [Persona Guides](docs/s1-agilic-fundamentals/persona-guides.md)
