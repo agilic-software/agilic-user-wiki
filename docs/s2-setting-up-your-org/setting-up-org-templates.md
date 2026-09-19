@@ -11,7 +11,7 @@ the companion guide first.
 *See also: For guidance on what to actually write for your States,
 Phases, and Labels --- and the mistakes to avoid --- see [Things to
 Consider when Setting Up Your Organization (Section
-2)](things-to-consider-when-setting-up-your-org.md).*
+2)](#/s2-setting-up-your-org/things-to-consider-when-setting-up-your-org).*
 
 # **Getting There**
 
@@ -40,7 +40,7 @@ entered --- once Applied, these become available to every Work Package
 in your organization by default. *See also: For guidance on designing
 your Phases properly, see Appendix B of [Things to Consider when
 Setting Up Your Organization (Section
-2)](things-to-consider-when-setting-up-your-org.md).*
+2)](#/s2-setting-up-your-org/things-to-consider-when-setting-up-your-org).*
 
 -   You can
 
@@ -80,7 +80,7 @@ guide gets entered --- once Applied, these become available to every
 Work Package in your organization by default. *See also: For why Item
 State and Status are kept as two separate fields, see Appendix A of
 [Things to Consider when Setting Up Your Organization (Section
-2)](things-to-consider-when-setting-up-your-org.md).*
+2)](#/s2-setting-up-your-org/things-to-consider-when-setting-up-your-org).*
 
 -   You can
 
@@ -139,7 +139,7 @@ Simple, UnBound, or Bound.
 *See also: If you're not sure which Label Type fits what you're
 adding, Appendix C of [Things to Consider when Setting Up Your
 Organization (Section
-2)](things-to-consider-when-setting-up-your-org.md)
+2)](#/s2-setting-up-your-org/things-to-consider-when-setting-up-your-org)
 covers the difference.*
 
 **Step 7: Create the Label**

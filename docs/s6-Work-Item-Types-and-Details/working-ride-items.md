@@ -11,7 +11,7 @@ RIDE's work primarily like Standard Items, but have a few differences.
 
 ***See also:** RIDE items include everything covered in [Working
 Standard Items (Section
-6)](working-standard-items.md)
+6)](#/s6-working-standard-items/working-standard-items)
 (Basic Information, Hours Summary, State vs. Status, Subtasks,
 Attachments, Relationships, Comments) --- this guide only covers what's
 different.*
@@ -113,7 +113,7 @@ RIDE visible on the Stakeholder Report.
 
 ***See also:** For the different Kanban boards across Agilic, see
 [Kanban Boards (Section
-8)](../s8-reporting/kanban-boards.md).*
+8)](#/s8-reporting/kanban-boards).*
 
 # Escalating to a Client
 

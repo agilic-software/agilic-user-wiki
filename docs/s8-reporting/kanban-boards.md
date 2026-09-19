@@ -92,9 +92,9 @@ Each card shows:
 
 ***See also:** Everything captured on an item's full detail view is
 covered in [Working Standard Items (Section
-6)](../s6-working-standard-items/working-standard-items.md)
+6)](#/s6-working-standard-items/working-standard-items)
 and [Working RIDE Items (Section
-6)](../s6-working-standard-items/working-ride-items.md).*
+6)](#/s6-working-standard-items/working-ride-items).*
 
 # Adding a Comment or Status from a Card
 

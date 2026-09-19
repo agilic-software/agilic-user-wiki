@@ -21,4 +21,4 @@ From My View, go to the My Work tab.
 
 ![05a-002](media/05a-002.png)
 
-*See also: Each of these tabs is also reachable directly from the persistent top toolbar's quick-access pills --- see [How to Navigate as a User (Section 1)](../s1-agilic-fundamentals/navigate-as-a-user.md).*
+*See also: Each of these tabs is also reachable directly from the persistent top toolbar's quick-access pills --- see [How to Navigate as a User (Section 1)](#/s1-agilic-fundamentals/navigate-as-a-user).*

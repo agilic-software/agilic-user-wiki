@@ -8,7 +8,7 @@ a narrower permission than general Org Admin access.
 ***See also:** Billing Admin is a single-user role, and that person must
 already have Org Admin access. Anyone with Org Admin access can update
 who holds it --- see [Permissions for People (Section
-2)](permissions-for-people.md).*
+2)](#/s2-setting-up-your-org/permissions-for-people).*
 
 # Getting There
 

@@ -7,10 +7,10 @@ doesn't have a dedicated home yet.
 
 ***See also:** For a first-day tour of every tab, see [How to Navigate
 a Work Package (Section
-3)](navigate-a-work-package.md).
+3)](#/s3-work-packages/navigate-a-work-package).
 For creating a WP and managing its roster, see [Create a Work Package
 (Section
-3)](create-a-work-package.md) and
+3)](#/s3-work-packages/create-a-work-package) and
 Work Package Roster / Add People to Work Package (Section 3)*
 
 # Work Package Management
@@ -28,7 +28,7 @@ you're ready to plan out the schedule.
 
 ***See also:** Full deep-dive coverage in [Things to Consider when
 Pre-Planning a Work Package (Section
-3)](things-to-consider-when-pre-planning-a-work-package.md).*
+3)](#/s3-work-packages/things-to-consider-when-pre-planning-a-work-package).*
 
 # Work Items and RIDE
 
@@ -39,11 +39,11 @@ Escalations.
 ![03a-002](media/03a-002.png)
 
 ***See also:** Fully covered in [Work Item Types (Section
-6)](../s6-working-standard-items/work-item-types.md),
+6)](#/s6-working-standard-items/work-item-types),
 [Working Standard Items (Section
-6)](../s6-working-standard-items/working-standard-items.md),
+6)](#/s6-working-standard-items/working-standard-items),
 and [Working RIDE Items (Section
-6)](../s6-working-standard-items/working-ride-items.md).*
+6)](#/s6-working-standard-items/working-ride-items).*
 
 # Roster
 
@@ -74,7 +74,7 @@ Chart --- the scheduling and breakdown tools for this Work Package.
 
 ***See also:** Full deep-dive coverage in [Work Package Planning
 (Section
-3)](work-package-planning.md).*
+3)](#/s3-work-packages/work-package-planning).*
 
 # Settings
 
@@ -85,7 +85,7 @@ Reporting, Labels, and Module Access sub-tabs.
 
 ***See also:** Full deep-dive coverage in [Work Package Settings
 (Section
-3)](work-package-settings.md).*
+3)](#/s3-work-packages/work-package-settings).*
 
 # Timesheet
 
@@ -103,9 +103,9 @@ Allocations for a person.
 
 ***See also:** Item-level Hours Summary (Planned vs. Logged) is covered
 in [Working Standard Items (Section
-6)](../s6-working-standard-items/working-standard-items.md).
+6)](#/s6-working-standard-items/working-standard-items).
 The full Timesheet guide is [Timesheets (Section
-7)](../s7-timesheets/timesheets.md).*
+7)](#/s7-timesheets/timesheets).*
 
 # Wiki
 
@@ -123,4 +123,4 @@ shared with them.
 
 ***See also:** Full deep-dive coverage in [Work Package Client Portal
 Management (Section
-3)](work-package-client-portal-management.md).*
+3)](#/s3-work-packages/work-package-client-portal-management).*

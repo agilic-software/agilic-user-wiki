@@ -8,10 +8,10 @@ enabled for your organization.
 
 ***See also:** For what your clients actually experience, see [Client
 Portal External User Guide (Section
-10)](../s10-client-portal/client-portal-external-user-guide.md).
+10)](#/s10-client-portal/client-portal-external-user-guide).
 To enable Client Portal in the first place, see [Setting Up Your
 Organization's Settings (Section
-2)](../s2-setting-up-your-org/org-settings.md).*
+2)](#/s2-setting-up-your-org/org-settings).*
 
 # Getting There
 
@@ -81,7 +81,7 @@ their permission levels in that Client Portal.
 
 ***See also:** Access managed from the Work Package side in the Access
 tab of [Work Package Client Portal Management (Section
-3)](../s3-work-packages/work-package-client-portal-management.md)*
+3)](#/s3-work-packages/work-package-client-portal-management)*
 
 **Step 7: Understand What Client Contacts Can Do**
 
@@ -93,7 +93,7 @@ tab of [Work Package Client Portal Management (Section
 
 ***See also:** Full detail on Client Portal Permissions is in
 [Permissions for People (Section
-2)](../s2-setting-up-your-org/permissions-for-people.md).*
+2)](#/s2-setting-up-your-org/permissions-for-people).*
 
 **Step 8: Remove a Client User or Company**
 
@@ -111,7 +111,7 @@ can see a specific Work Package --- that's controlled separately, from
 within each Work Package's Client Portal Management screen.
 
 ***See also:** See [Work Package Client Portal Management (Section
-3)](../s3-work-packages/work-package-client-portal-management.md)
+3)](#/s3-work-packages/work-package-client-portal-management)
 for granting Work Package-level Client Portal access, including Control
 (Client Milestone Management, Client RIDE Management), Client Documents,
 Preview Portal, and Display Portal.*
