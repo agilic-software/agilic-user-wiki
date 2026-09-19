@@ -1,6 +1,6 @@
-Agilic Fundamentals
+# Core Terms & Concepts
 
-*September 18, 2026 • Section 1*
+*September 19, 2026 • Section 1*
 
 There are a few terms and concepts that you should know in order to
 understand how Agilic works.

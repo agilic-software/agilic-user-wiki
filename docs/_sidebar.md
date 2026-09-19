@@ -5,7 +5,6 @@
   - [Navigate as a User](s1-agilic-fundamentals/navigate-as-a-user.md)
   - [Core Terms & Concepts](s1-agilic-fundamentals/core-terms-concepts.md)
   - [Roles & Permissions](s1-agilic-fundamentals/roles-permissions.md)
-  - [Persona Guides](s1-agilic-fundamentals/persona-guides.md)
 - Section 2: Setting Up Your Org
   - [Navigate Org Admin](s2-setting-up-your-org/navigate-org-admin.md)
   - [Create Your Organization](s2-setting-up-your-org/create-your-organization.md)
@@ -68,5 +67,5 @@
 - Section 12: Knowledge Search
   - [Knowledge Search](s12-knowledge-search/knowledge-search.md)
 - Appendix
-  - [Feature Index](appendix/feature-index.md)
-  - [Terminology Index & Dictionary](appendix/terminology-index.md)
+  - [Feature Index](s-appendix/feature-index.md)
+  - [Terminology Index & Dictionary](s-appendix/terminology-index.md)
