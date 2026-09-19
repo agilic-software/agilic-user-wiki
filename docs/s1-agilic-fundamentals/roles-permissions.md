@@ -1,4 +1,6 @@
-*September 18, 2026 • Section 1*
+# Roles & Permissions
+
+*September 19, 2026 • Section 1*
 
 "I'm a [role] --- what can I actually do in Agilic?" This page
 answers that directly, organized by role rather than by feature. It
@@ -92,9 +94,7 @@ section document wins --- update this page to match.*
 
 -   Org Reporting --- can access org-level reporting --- [Permissions for People (Section 2)](/s2-setting-up-your-org/permissions-for-people.md)
 
--   Granted individually per person from Org Admin → Org People List --- [Updating Permissions (Section 2](/s2-setting-up-your-org/adding-and-managing-people.md)
-
--   [)](/s2-setting-up-your-org/adding-and-managing-people.md)
+-   Granted individually per person from Org Admin → Org People List --- [Updating Permissions (Section 2)](/s2-setting-up-your-org/adding-and-managing-people.md)
 
 # Org Admin
 
@@ -108,7 +108,7 @@ section document wins --- update this page to match.*
 
 # External Client User
 
--   A completely separate access model - [Work Package Client Portal Management (Section 10)](/s10-client-portal/client-portal-module.md), [Work Package Client Portal Management (Section 3)](/s3-work-packages/work-package-client-portal-management.md)
+-   A completely separate access model --- [Work Package Client Portal Management (Section 10)](/s10-client-portal/client-portal-module.md), [Work Package Client Portal Management (Section 3)](/s3-work-packages/work-package-client-portal-management.md)
 
 -   View milestones and status updates for their project --- [Client Portal External User Guide (Section 10)](/s10-client-portal/client-portal-external-user-guide.md)
 
@@ -116,4 +116,4 @@ section document wins --- update this page to match.*
 
     -   If enabled - Comment and/or upload attachments; can always download shared attachments
 
--   Managed by Internal Team Members on the WP inside the Client Portal Module. The Client must be added into Client Management in order to be given access to the Client Portal ---[Work Package Client Portal Management (Section 10)](/s10-client-portal/client-portal-module.md), [Managing Client Companies & Contacts (Section 9)](/s9-client-management/managing-client-companies-and-contacts.md), [Work Package Client Portal Management (Section 3)](/s3-work-packages/work-package-client-portal-management.md)
+-   Managed by Internal Team Members on the WP inside the Client Portal Module. The Client must be added into Client Management in order to be given access to the Client Portal --- [Work Package Client Portal Management (Section 10)](/s10-client-portal/client-portal-module.md), [Managing Client Companies & Contacts (Section 9)](/s9-client-management/managing-client-companies-and-contacts.md), [Work Package Client Portal Management (Section 3)](/s3-work-packages/work-package-client-portal-management.md)

@@ -1,4 +1,6 @@
-*September 18, 2026 • Section 1: New User Orientation*
+# How to Navigate as a User
+
+*September 19, 2026 • Section 1: New User Orientation*
 
 This is a quick tour of the main areas you'll use every day in Agilic
 as a regular team member. It won't teach you how to do every task ---
@@ -220,18 +222,10 @@ Work Packages I'm On.
 
 # Quick Reference
 
-  -----------------------------------------------------------------------
-  **Screen**             **What it's for**
-  ---------------------- ------------------------------------------------
-  My View                Your personal dashboard across all your Work
-                         Packages
-
-  My Team                Your standing team (if you belong to one)
-
-  Knowledge - Search     Find items or Work Packages org-wide
-
-  About                  Announcements and a list of your org's admins
-
-  Work Packages          Where you do the actual work --- see the
-                         dedicated guide
-  -----------------------------------------------------------------------
+| Screen | What it's for |
+|---|---|
+| My View | Your personal dashboard across all your Work Packages |
+| My Team | Your standing team (if you belong to one) |
+| Knowledge - Search | Find items or Work Packages org-wide |
+| About | Announcements and a list of your org's admins |
+| Work Packages | Where you do the actual work --- see the dedicated guide |
