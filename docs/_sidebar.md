@@ -39,3 +39,11 @@
   - [Team Roster / Add a Person to the Team](docs/s4-teams/team-roster-add-a-person-to-the-team.md)
   - [Team Reporting](docs/s4-teams/team-reporting.md)
   - [Team Timesheet](docs/s4-teams/team-timesheet.md)
+- Section 5: My View
+  - [My View Overview](docs/s5-my-view/my-view-overview.md)
+  - [My Work](docs/s5-my-view/my-work.md)
+  - [My View Reporting](docs/s5-my-view/my-view-reporting.md)
+  - [My Timesheet](docs/s5-my-view/my-timesheet.md)
+  - [My Profile](docs/s5-my-view/my-profile.md)
+  - [My Settings](docs/s5-my-view/my-settings.md)
+  - [My Private Work Package](docs/s5-my-view/my-private-work-package.md)
