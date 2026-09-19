@@ -68,6 +68,9 @@ nav:
     - Item Hours: s8-reporting/item-hours.md
     - Event Calendar: s8-reporting/event-calendar.md
     - Charts: s8-reporting/charts.md
-  - AI Summary: s8-reporting/ai-summary.md
-    - Section 9: Client Management:
+    - AI Summary: s8-reporting/ai-summary.md
+  - Section 9: Client Management:
     - Managing Client Companies & Contacts: s9-client-management/managing-client-companies-and-contacts.md
+  - Section 10: Client Portal:
+    - Client Portal Module: s10-client-portal/client-portal-module.md
+    - Client Portal External User Guide: s10-client-portal/client-portal-external-user-guide.md

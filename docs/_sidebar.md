@@ -63,3 +63,6 @@
   - [AI Summary](docs/s8-reporting/ai-summary.md)
 - Section 9: Client Management
   - [Managing Client Companies & Contacts](docs/s9-client-management/managing-client-companies-and-contacts.md)
+- Section 10: Client Portal
+  - [Client Portal Module](docs/s10-client-portal/client-portal-module.md)
+  - [Client Portal External User Guide](docs/s10-client-portal/client-portal-external-user-guide.md)
