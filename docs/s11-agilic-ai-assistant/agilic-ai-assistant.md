@@ -65,11 +65,11 @@ the scenes. You don't need to know which one is handling your request
 
 ***See also:** For background on Work Item Types and RIDE, see [Work
 Item Types (Section
-6)](../s6-working-standard-items/work-item-types.md),
+6)](#/s6-working-standard-items/work-item-types),
 [Working Standard Items (Section
-6)](../s6-working-standard-items/working-standard-items.md)
+6)](#/s6-working-standard-items/working-standard-items)
 and [Working RIDE Items (Section
-6)](../s6-working-standard-items/working-ride-items.md).*
+6)](#/s6-working-standard-items/working-ride-items).*
 
 **Documents and Google Drive**
 
@@ -100,7 +100,7 @@ Google Drive account.
 
 ***See also:** Personal Connectors are covered in [My View Overview
 (Section
-5)](../s5-my-view/my-view-overview.md).*
+5)](#/s5-my-view/my-view-overview).*
 
 **Step 2:** Reference a Drive File in Chat
 
@@ -160,7 +160,7 @@ through the normal interface too, with you as its default Owner/Driver.
 
 ***See also:** For the full picture --- including the toolbar button and
 custom Work Item Type naming --- see [My Private Work Package (Section
-5)](../s5-my-view/my-private-work-package.md).*
+5)](#/s5-my-view/my-private-work-package).*
 
 # How It Behaves
 
@@ -182,7 +182,7 @@ The Assistant never shows you data you wouldn't otherwise be able to
 see.
 
 ***See also:** See [Permissions for People (Section
-2)](../s2-setting-up-your-org/permissions-for-people.md)
+2)](#/s2-setting-up-your-org/permissions-for-people)
 for the full security model.*
 
 **What It Won't Show You**
@@ -240,7 +240,7 @@ on the Roster.
 
 ***See also:** AI Recommendations is also mentioned in [Work Package
 Management (Section
-3)](../s3-work-packages/work-package-management.md)
+3)](#/s3-work-packages/work-package-management)
 --- this is the fuller description of what it shows.*
 
 **Work Package: Reporting:** AI Summary - Gives a detailed, current
@@ -255,7 +255,7 @@ This summary is automatically stored and is copyable and downloadable.
 
 ***See also:** Full detail on AI Summary is in [Work Package Reporting
 (Section
-3)](../s3-work-packages/work-package-reporting.md).*
+3)](#/s3-work-packages/work-package-reporting).*
 
 **Work Package: Planning:** WBS AI - On the Work Breakdown Structure
 (WBS) of the Planning views, there is an additional AI button. Selecting
@@ -267,4 +267,4 @@ set up by Work Item Type, or try other options.
 
 ***See also:** Full detail on AI WBS is in [Work Package Planning
 (Section
-3)](../s3-work-packages/work-package-planning.md).*
+3)](#/s3-work-packages/work-package-planning).*

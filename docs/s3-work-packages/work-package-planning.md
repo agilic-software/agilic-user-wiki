@@ -9,7 +9,7 @@ Breakdown Structure (WBS), and Baseline Planned.
 ***See also:** For everything that comes before this stage --- defining
 the Work Package itself, and preparing your roster --- see [Things to
 Consider when Pre-Planning a Work Package (Section
-3)](things-to-consider-when-pre-planning-a-work-package.md).*
+3)](#/s3-work-packages/things-to-consider-when-pre-planning-a-work-package).*
 
 # Getting There
 

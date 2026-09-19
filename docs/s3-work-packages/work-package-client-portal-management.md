@@ -6,12 +6,12 @@ status updates get shared with them.
 
 ***See also:** For what the client actually experiences, see [Client
 Portal External User Guide (Section
-10)](../s10-client-portal/client-portal-external-user-guide.md).
+10)](#/s10-client-portal/client-portal-external-user-guide).
 For the internal user side, see [Client Portal Module (Section
-10)](../s10-client-portal/client-portal-module.md).
+10)](#/s10-client-portal/client-portal-module).
 For the admin side of managing client companies and contacts, see
 [Managing Client Companies & Contacts (Section
-9)](../s9-client-management/managing-client-companies-and-contacts.md).*
+9)](#/s9-client-management/managing-client-companies-and-contacts).*
 
 # Getting There
 

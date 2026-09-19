@@ -6,7 +6,7 @@ Reporting, Labels, and Module Access sub-tabs.
 
 ***See also:** For org-wide defaults that feed these settings, see
 [Setting Up Your Organization's Settings (Section
-2)](../s2-setting-up-your-org/org-settings.md).*
+2)](#/s2-setting-up-your-org/org-settings).*
 
 # Getting There
 
@@ -113,7 +113,7 @@ need to go back and re-apply those labels to the items.
 
 ***See also:** These are the same three label types configured org-wide
 in [Setting Up Your Organization's Settings (Section
-2)](../s2-setting-up-your-org/org-settings.md).*
+2)](#/s2-setting-up-your-org/org-settings).*
 
 # Module Access
 
@@ -126,8 +126,8 @@ Portal.
 ***See also:** Turning on Client Portal here is the Work-Package-level
 step; it must also be enabled org-wide first --- see [Client Portal
 Module (Section
-10)](../s10-client-portal/client-portal-module.md)
+10)](#/s10-client-portal/client-portal-module)
 and [Setting Up Your Organization's Settings (Section
-2)](../s2-setting-up-your-org/org-settings.md). Once on,
+2)](#/s2-setting-up-your-org/org-settings). Once on,
 manage it in [Work Package Client Portal Management (Section
-3)](work-package-client-portal-management.md).*
+3)](#/s3-work-packages/work-package-client-portal-management).*

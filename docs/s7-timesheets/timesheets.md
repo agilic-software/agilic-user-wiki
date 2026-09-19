@@ -14,7 +14,7 @@ Package.
 
 ***See also:** Allocations are set up as part of Planning --- see [Work
 Package Planning (Section
-3)](../s3-work-packages/work-package-planning.md).*
+3)](#/s3-work-packages/work-package-planning).*
 
 Timesheets source of truth is located on individual Work Packages,
 however Users can see (and Log Time) on My View and Team Views. The

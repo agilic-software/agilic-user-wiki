@@ -15,7 +15,7 @@ Custom Links pinned to your persistent top toolbar.
 
 ![05a-005](media/05a-005.png)
 
-*See also: Pinning a Custom Link from the toolbar itself is covered in [How to Navigate as a User (Section 1)](../s1-agilic-fundamentals/navigate-as-a-user.md).*
+*See also: Pinning a Custom Link from the toolbar itself is covered in [How to Navigate as a User (Section 1)](#/s1-agilic-fundamentals/navigate-as-a-user).*
 
 ![05a-006](media/05a-006.png)
 
