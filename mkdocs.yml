@@ -39,3 +39,11 @@ nav:
     - Work Package Reporting: s3-work-packages/work-package-reporting.md
     - Work Package Timesheets: s3-work-packages/work-package-timesheets.md
     - Work Package Wiki: s3-work-packages/work-package-wiki.md
+  - Section 4: Teams:
+    - Navigate a Team: s4-teams/navigate-a-team.md
+    - Create a Team: s4-teams/create-a-team.md
+    - Team Management: s4-teams/team-management.md
+    - Team Work: s4-teams/team-work.md
+    - Team Roster / Add a Person to the Team: s4-teams/team-roster-add-a-person-to-the-team.md
+    - Team Reporting: s4-teams/team-reporting.md
+    - Team Timesheet: s4-teams/team-timesheet.md

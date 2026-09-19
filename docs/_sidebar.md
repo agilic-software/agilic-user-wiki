@@ -31,3 +31,11 @@
   - [Work Package Reporting](docs/s3-work-packages/work-package-reporting.md)
   - [Work Package Timesheets](docs/s3-work-packages/work-package-timesheets.md)
   - [Work Package Wiki](docs/s3-work-packages/work-package-wiki.md)
+- Section 4: Teams
+  - [Navigate a Team](docs/s4-teams/navigate-a-team.md)
+  - [Create a Team](docs/s4-teams/create-a-team.md)
+  - [Team Management](docs/s4-teams/team-management.md)
+  - [Team Work](docs/s4-teams/team-work.md)
+  - [Team Roster / Add a Person to the Team](docs/s4-teams/team-roster-add-a-person-to-the-team.md)
+  - [Team Reporting](docs/s4-teams/team-reporting.md)
+  - [Team Timesheet](docs/s4-teams/team-timesheet.md)
