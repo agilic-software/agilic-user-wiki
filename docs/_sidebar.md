@@ -9,3 +9,12 @@
   - [Core Terms & Concepts](docs/s1-agilic-fundamentals/core-terms-concepts.md)
   - [Roles & Permissions](docs/s1-agilic-fundamentals/roles-permissions.md)
   - [Persona Guides](docs/s1-agilic-fundamentals/persona-guides.md)
+  - Section 2: Setting Up Your Org
+  - [Navigate Org Admin](docs/s2-setting-up-your-org/navigate-org-admin.md)
+  - [Create Your Organization](docs/s2-setting-up-your-org/create-your-organization.md)
+  - [Things to Consider When Setting Up Your Org](docs/s2-setting-up-your-org/things-to-consider-when-setting-up-your-org.md)
+  - [Org Settings](docs/s2-setting-up-your-org/org-settings.md)
+  - [Setting Up Org Templates](docs/s2-setting-up-your-org/setting-up-org-templates.md)
+  - [Permissions for People](docs/s2-setting-up-your-org/permissions-for-people.md)
+  - [Adding & Managing People](docs/s2-setting-up-your-org/adding-and-managing-people.md)
+  - [Managing Billing](docs/s2-setting-up-your-org/managing-billing.md)
