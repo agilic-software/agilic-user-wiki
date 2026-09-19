@@ -1,0 +1,72 @@
+- [Home](README.md)
+- Getting Started
+  - [Signing In](getting-started/login.md)
+- Section 1: Agilic Fundamentals
+  - [Navigate as a User](s1-agilic-fundamentals/navigate-as-a-user.md)
+  - [Core Terms & Concepts](s1-agilic-fundamentals/core-terms-concepts.md)
+  - [Roles & Permissions](s1-agilic-fundamentals/roles-permissions.md)
+  - [Persona Guides](s1-agilic-fundamentals/persona-guides.md)
+- Section 2: Setting Up Your Org
+  - [Navigate Org Admin](s2-setting-up-your-org/navigate-org-admin.md)
+  - [Create Your Organization](s2-setting-up-your-org/create-your-organization.md)
+  - [Things to Consider When Setting Up Your Org](s2-setting-up-your-org/things-to-consider-when-setting-up-your-org.md)
+  - [Org Settings](s2-setting-up-your-org/org-settings.md)
+  - [Setting Up Org Templates](s2-setting-up-your-org/setting-up-org-templates.md)
+  - [Permissions for People](s2-setting-up-your-org/permissions-for-people.md)
+  - [Adding & Managing People](s2-setting-up-your-org/adding-and-managing-people.md)
+  - [Managing Billing](s2-setting-up-your-org/managing-billing.md)
+- Section 3: Work Packages
+  - [Navigate a Work Package](s3-work-packages/navigate-a-work-package.md)
+  - [Create a Work Package](s3-work-packages/create-a-work-package.md)
+  - [Things to Consider When Pre-Planning a Work Package](s3-work-packages/things-to-consider-when-pre-planning-a-work-package.md)
+  - [Work Package Planning](s3-work-packages/work-package-planning.md)
+  - [Work Package Management](s3-work-packages/work-package-management.md)
+  - [Work Package Settings](s3-work-packages/work-package-settings.md)
+  - [Work Package Client Portal Management](s3-work-packages/work-package-client-portal-management.md)
+  - [Work Package Work Items](s3-work-packages/work-package-work-items.md)
+  - [Work Package Roster / Add People to WP](s3-work-packages/work-package-roster-add-people-to-wp.md)
+  - [Work Package Reporting](s3-work-packages/work-package-reporting.md)
+  - [Work Package Timesheets](s3-work-packages/work-package-timesheets.md)
+  - [Work Package Wiki](s3-work-packages/work-package-wiki.md)
+- Section 4: Teams
+  - [Navigate a Team](s4-teams/navigate-a-team.md)
+  - [Create a Team](s4-teams/create-a-team.md)
+  - [Team Management](s4-teams/team-management.md)
+  - [Team Work](s4-teams/team-work.md)
+  - [Team Roster / Add a Person to the Team](s4-teams/team-roster-add-a-person-to-the-team.md)
+  - [Team Reporting](s4-teams/team-reporting.md)
+  - [Team Timesheet](s4-teams/team-timesheet.md)
+- Section 5: My View
+  - [My View Overview](s5-my-view/my-view-overview.md)
+  - [My Work](s5-my-view/my-work.md)
+  - [My View Reporting](s5-my-view/my-view-reporting.md)
+  - [My Timesheet](s5-my-view/my-timesheet.md)
+  - [My Profile](s5-my-view/my-profile.md)
+  - [My Settings](s5-my-view/my-settings.md)
+  - [My Private Work Package](s5-my-view/my-private-work-package.md)
+- Section 6: Work Item Types and Details
+  - [Working Standard Items](s6-working-standard-items/working-standard-items.md)
+  - [Work Item Types](s6-working-standard-items/work-item-types.md)
+  - [Working RIDE Items](s6-working-standard-items/working-ride-items.md)
+- Section 7: Timesheets
+  - [Timesheets](s7-timesheets/timesheets.md)
+- Section 8: Reporting
+  - [Kanban Boards](s8-reporting/kanban-boards.md)
+  - [Stakeholder Report](s8-reporting/stakeholder-report.md)
+  - [Status Report](s8-reporting/status-report.md)
+  - [Item Hours](s8-reporting/item-hours.md)
+  - [Event Calendar](s8-reporting/event-calendar.md)
+  - [Charts](s8-reporting/charts.md)
+  - [AI Summary](s8-reporting/ai-summary.md)
+- Section 9: Client Management
+  - [Managing Client Companies & Contacts](s9-client-management/managing-client-companies-and-contacts.md)
+- Section 10: Client Portal
+  - [Client Portal Module](s10-client-portal/client-portal-module.md)
+  - [Client Portal External User Guide](s10-client-portal/client-portal-external-user-guide.md)
+- Section 11: Agilic AI Assistant
+  - [Agilic AI Assistant](s11-ai-assistant/agilic-ai-assistant.md)
+- Section 12: Knowledge Search
+  - [Knowledge Search](s12-knowledge-search/knowledge-search.md)
+- Appendix
+  - [Feature Index](appendix/feature-index.md)
+  - [Terminology Index & Dictionary](appendix/terminology-index.md)
