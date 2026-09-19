@@ -31,3 +31,45 @@
   - [Work Package Reporting](docs/s3-work-packages/work-package-reporting.md)
   - [Work Package Timesheets](docs/s3-work-packages/work-package-timesheets.md)
   - [Work Package Wiki](docs/s3-work-packages/work-package-wiki.md)
+- Section 4: Teams
+  - [Navigate a Team](docs/s4-teams/navigate-a-team.md)
+  - [Create a Team](docs/s4-teams/create-a-team.md)
+  - [Team Management](docs/s4-teams/team-management.md)
+  - [Team Work](docs/s4-teams/team-work.md)
+  - [Team Roster / Add a Person to the Team](docs/s4-teams/team-roster-add-a-person-to-the-team.md)
+  - [Team Reporting](docs/s4-teams/team-reporting.md)
+  - [Team Timesheet](docs/s4-teams/team-timesheet.md)
+- Section 5: My View
+  - [My View Overview](docs/s5-my-view/my-view-overview.md)
+  - [My Work](docs/s5-my-view/my-work.md)
+  - [My View Reporting](docs/s5-my-view/my-view-reporting.md)
+  - [My Timesheet](docs/s5-my-view/my-timesheet.md)
+  - [My Profile](docs/s5-my-view/my-profile.md)
+  - [My Settings](docs/s5-my-view/my-settings.md)
+  - [My Private Work Package](docs/s5-my-view/my-private-work-package.md)
+- Section 6: Work Item Types and Details
+  - [Working Standard Items](docs/s6-working-standard-items/working-standard-items.md)
+  - [Work Item Types](docs/s6-working-standard-items/work-item-types.md)
+  - [Working RIDE Items](docs/s6-working-standard-items/working-ride-items.md)
+- Section 7: Timesheets
+  - [Timesheets](docs/s7-timesheets/timesheets.md)
+- Section 8: Reporting
+  - [Kanban Boards](docs/s8-reporting/kanban-boards.md)
+  - [Stakeholder Report](docs/s8-reporting/stakeholder-report.md)
+  - [Status Report](docs/s8-reporting/status-report.md)
+  - [Item Hours](docs/s8-reporting/item-hours.md)
+  - [Event Calendar](docs/s8-reporting/event-calendar.md)
+  - [Charts](docs/s8-reporting/charts.md)
+  - [AI Summary](docs/s8-reporting/ai-summary.md)
+- Section 9: Client Management
+  - [Managing Client Companies & Contacts](docs/s9-client-management/managing-client-companies-and-contacts.md)
+- Section 10: Client Portal
+  - [Client Portal Module](docs/s10-client-portal/client-portal-module.md)
+  - [Client Portal External User Guide](docs/s10-client-portal/client-portal-external-user-guide.md)
+- Section 11: Agilic AI Assistant
+  - [Agilic AI Assistant](docs/s11-ai-assistant/agilic-ai-assistant.md)
+- Section 12: Knowledge Search
+  - [Knowledge Search](docs/s12-knowledge-search/knowledge-search.md)
+- Appendix
+  - [Feature Index](docs/appendix/feature-index.md)
+  - [Terminology Index & Dictionary](docs/appendix/terminology-index.md)
