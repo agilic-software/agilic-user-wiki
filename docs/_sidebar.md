@@ -53,3 +53,11 @@
   - [Working RIDE Items](docs/s6-working-standard-items/working-ride-items.md)
 - Section 7: Timesheets
   - [Timesheets](docs/s7-timesheets/timesheets.md)
+- Section 8: Reporting
+  - [Kanban Boards](docs/s8-reporting/kanban-boards.md)
+  - [Stakeholder Report](docs/s8-reporting/stakeholder-report.md)
+  - [Status Report](docs/s8-reporting/status-report.md)
+  - [Item Hours](docs/s8-reporting/item-hours.md)
+  - [Event Calendar](docs/s8-reporting/event-calendar.md)
+  - [Charts](docs/s8-reporting/charts.md)
+  - [AI Summary](docs/s8-reporting/ai-summary.md)
