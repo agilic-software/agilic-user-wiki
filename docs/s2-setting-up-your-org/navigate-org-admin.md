@@ -8,7 +8,7 @@ minutes.
 ***See also:** The persistent top toolbar (Home, quick-access pills, AI
 Agent, Search, Feedback, and more) is covered in [How to Navigate as a
 User (Section
-1)](#/s1-agilic-fundamentals/navigate-as-a-user).*
+1)](/s1-agilic-fundamentals/navigate-as-a-user.md).*
 
 # Getting There
 
@@ -71,7 +71,7 @@ Organization-wide views that roll up data across every Work Package
 
 ***See also:** For how Org Kanban compares to My, Team, and WP Kanban
 boards, see [Kanban Boards (Section
-8)](#/s8-reporting/kanban-boards).*
+8)](/s8-reporting/kanban-boards.md).*
 
 **Work Packages**
 
@@ -139,13 +139,13 @@ narrower permission than general org-admin access.
 This tour only covers what each tab is for. For step-by-step
 instructions on inviting people, managing teams, and configuring
 settings, see the dedicated guides: [Adding & Managing People (Section
-2)](#/s2-setting-up-your-org/adding-and-managing-people),
+2)](/s2-setting-up-your-org/adding-and-managing-people.md),
 [Create a Team (Section
-4)](#/s4-teams/create-a-team), [Managing
+4)](/s4-teams/create-a-team.md), [Managing
 Billing & Subscription (Section
-2)](#/s2-setting-up-your-org/managing-billing), and
+2)](/s2-setting-up-your-org/managing-billing.md), and
 [Setting Up Your Organization's Settings (Section
-2)](#/s2-setting-up-your-org/org-settings).
+2)](/s2-setting-up-your-org/org-settings.md).
 
 **Tip:** If you don't see the Org Admin area at all, you don't
 currently have admin access --- check with an existing admin in your
