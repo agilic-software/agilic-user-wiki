@@ -68,3 +68,8 @@
   - [Client Portal External User Guide](docs/s10-client-portal/client-portal-external-user-guide.md)
 - Section 11: Agilic AI Assistant
   - [Agilic AI Assistant](docs/s11-ai-assistant/agilic-ai-assistant.md)
+- Section 12: Knowledge Search
+  - [Knowledge Search](docs/s12-knowledge-search/knowledge-search.md)
+- Appendix
+  - [Feature Index](docs/appendix/feature-index.md)
+  - [Terminology Index & Dictionary](docs/appendix/terminology-index.md)
