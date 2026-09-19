@@ -66,3 +66,5 @@
 - Section 10: Client Portal
   - [Client Portal Module](docs/s10-client-portal/client-portal-module.md)
   - [Client Portal External User Guide](docs/s10-client-portal/client-portal-external-user-guide.md)
+- Section 11: Agilic AI Assistant
+  - [Agilic AI Assistant](docs/s11-ai-assistant/agilic-ai-assistant.md)
