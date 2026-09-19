@@ -9,7 +9,7 @@
   - [Core Terms & Concepts](docs/s1-agilic-fundamentals/core-terms-concepts.md)
   - [Roles & Permissions](docs/s1-agilic-fundamentals/roles-permissions.md)
   - [Persona Guides](docs/s1-agilic-fundamentals/persona-guides.md)
-  - Section 2: Setting Up Your Org
+- Section 2: Setting Up Your Org
   - [Navigate Org Admin](docs/s2-setting-up-your-org/navigate-org-admin.md)
   - [Create Your Organization](docs/s2-setting-up-your-org/create-your-organization.md)
   - [Things to Consider When Setting Up Your Org](docs/s2-setting-up-your-org/things-to-consider-when-setting-up-your-org.md)
@@ -18,3 +18,16 @@
   - [Permissions for People](docs/s2-setting-up-your-org/permissions-for-people.md)
   - [Adding & Managing People](docs/s2-setting-up-your-org/adding-and-managing-people.md)
   - [Managing Billing](docs/s2-setting-up-your-org/managing-billing.md)
+- Section 3: Work Packages
+  - [Navigate a Work Package](docs/s3-work-packages/navigate-a-work-package.md)
+  - [Create a Work Package](docs/s3-work-packages/create-a-work-package.md)
+  - [Things to Consider When Pre-Planning a Work Package](docs/s3-work-packages/things-to-consider-when-pre-planning-a-work-package.md)
+  - [Work Package Planning](docs/s3-work-packages/work-package-planning.md)
+  - [Work Package Management](docs/s3-work-packages/work-package-management.md)
+  - [Work Package Settings](docs/s3-work-packages/work-package-settings.md)
+  - [Work Package Client Portal Management](docs/s3-work-packages/work-package-client-portal-management.md)
+  - [Work Package Work Items](docs/s3-work-packages/work-package-work-items.md)
+  - [Work Package Roster / Add People to WP](docs/s3-work-packages/work-package-roster-add-people-to-wp.md)
+  - [Work Package Reporting](docs/s3-work-packages/work-package-reporting.md)
+  - [Work Package Timesheets](docs/s3-work-packages/work-package-timesheets.md)
+  - [Work Package Wiki](docs/s3-work-packages/work-package-wiki.md)

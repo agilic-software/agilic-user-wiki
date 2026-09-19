@@ -26,3 +26,16 @@ nav:
     - Permissions for People: s2-setting-up-your-org/permissions-for-people.md
     - Adding & Managing People: s2-setting-up-your-org/adding-and-managing-people.md
     - Managing Billing: s2-setting-up-your-org/managing-billing.md
+  - Section 3: Work Packages:
+    - Navigate a Work Package: s3-work-packages/navigate-a-work-package.md
+    - Create a Work Package: s3-work-packages/create-a-work-package.md
+    - Things to Consider When Pre-Planning a Work Package: s3-work-packages/things-to-consider-when-pre-planning-a-work-package.md
+    - Work Package Planning: s3-work-packages/work-package-planning.md
+    - Work Package Management: s3-work-packages/work-package-management.md
+    - Work Package Settings: s3-work-packages/work-package-settings.md
+    - Work Package Client Portal Management: s3-work-packages/work-package-client-portal-management.md
+    - Work Package Work Items: s3-work-packages/work-package-work-items.md
+    - Work Package Roster / Add People to WP: s3-work-packages/work-package-roster-add-people-to-wp.md
+    - Work Package Reporting: s3-work-packages/work-package-reporting.md
+    - Work Package Timesheets: s3-work-packages/work-package-timesheets.md
+    - Work Package Wiki: s3-work-packages/work-package-wiki.md
