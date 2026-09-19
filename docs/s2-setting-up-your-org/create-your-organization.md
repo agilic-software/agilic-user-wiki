@@ -125,7 +125,7 @@ Admin → People views.
 
 ***See also:** For the full permissions model, see [Permissions for
 People (Section
-2)](#/s2-setting-up-your-org/permissions-for-people).*
+2)](/s2-setting-up-your-org/permissions-for-people.md).*
 
 ![02a-010](media/02a-010.png)
 
@@ -146,7 +146,7 @@ Once your organization is set up, here's what to do first:
 
 -   Invite your teammates --- head to Org Admin → People → Add New Person to bring your team into Agilic
 
--   [Configure your Org Settings (Section 2)](#/s2-setting-up-your-org/org-settings) --- set date/time preferences, labels, and templates before your team starts creating Work Packages
+-   [Configure your Org Settings (Section 2)](/s2-setting-up-your-org/org-settings.md) --- set date/time preferences, labels, and templates before your team starts creating Work Packages
 
 -   Explore My View --- your personal dashboard for anything assigned to you
 
@@ -154,12 +154,12 @@ Once your organization is set up, here's what to do first:
 
 ***See also:** For inviting your team, see [Adding & Managing People
 (Section
-2)](#/s2-setting-up-your-org/adding-and-managing-people).
+2)](/s2-setting-up-your-org/adding-and-managing-people.md).
 For org-wide configuration, see [Setting Up Your Organization's
 Settings (Section
-2](#/s2-setting-up-your-org/org-settings)). For
+2](/s2-setting-up-your-org/org-settings.md)). For
 creating your first Work Package, see [Create a Work Package (Section
-3)](#/s3-work-packages/create-a-work-package).*
+3)](/s3-work-packages/create-a-work-package.md).*
 
 # Quick Reference
 

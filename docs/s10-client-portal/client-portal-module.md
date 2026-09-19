@@ -7,13 +7,13 @@ you drill into the step-by-step admin screens.
 
 ***See also:** For what your client actually experiences once invited,
 see [Client Portal External User Guide (Section
-10)](#/s10-client-portal/client-portal-external-user-guide).
+10)](/s10-client-portal/client-portal-external-user-guide.md).
 For the full step-by-step admin controls inside a specific Work Package,
 see [Work Package Client Portal Management (Section
-3)](#/s3-work-packages/work-package-client-portal-management).
+3)](/s3-work-packages/work-package-client-portal-management.md).
 For managing client companies and contacts org-wide, see [Managing
 Client Companies & Contacts (Section
-9)](#/s9-client-management/managing-client-companies-and-contacts).*
+9)](/s9-client-management/managing-client-companies-and-contacts.md).*
 
 # What the Client Portal Is
 
@@ -33,7 +33,7 @@ entire organization.
 
 ***See also:** Org-wide enablement is covered in [Setting Up Your
 Organization's Settings (Section
-2)](#/s2-setting-up-your-org/org-settings).*
+2)](/s2-setting-up-your-org/org-settings.md).*
 
 ![10-001](media/10-001.png)
 
@@ -51,7 +51,7 @@ Package.
 
 ***See also:** Full permission detail in [Permissions for People
 (Section
-2)](#/s2-setting-up-your-org/permissions-for-people).*
+2)](/s2-setting-up-your-org/permissions-for-people.md).*
 
 # The Pieces, at a Glance
 
@@ -59,7 +59,7 @@ Once enabled on a Work Package, the Client Portal Module gives your team
 direct control and management of external Users and what they can see.
 For full step-by-step instructions on using the Client Portal Module,
 see [Work Package Client Portal Management (Section
-3)](#/s3-work-packages/work-package-client-portal-management).
+3)](/s3-work-packages/work-package-client-portal-management.md).
 
 There are 5 sub-tabs for the Client Portal Module:
 
@@ -147,7 +147,7 @@ than something the client operates themselves.
 **Note:** What the client themselves can do --- leaving comments,
 viewing/uploading attachments --- is documented separately in [Client
 Portal External User Guide (Section
-10)](#/s10-client-portal/client-portal-external-user-guide),
+10)](/s10-client-portal/client-portal-external-user-guide.md),
 since that's the client's own experience, not something managed from
 this internal Display Portal screen.
 
@@ -158,4 +158,4 @@ separately from any single Work Package's access settings.
 
 ***See also:** Full detail in [Managing Client Companies & Contacts
 (Section
-9)](#/s9-client-management/managing-client-companies-and-contacts).*
+9)](/s9-client-management/managing-client-companies-and-contacts.md).*

@@ -8,7 +8,7 @@ minutes.
 ***See also:** The persistent top toolbar (Home, quick-access pills, AI
 Agent, Search, Feedback, and more) is covered in [How to Navigate as a
 User (Section
-1)](#/s1-agilic-fundamentals/navigate-as-a-user).*
+1)](/s1-agilic-fundamentals/navigate-as-a-user.md).*
 
 # Getting There
 
@@ -72,7 +72,7 @@ across all Work Packages.
 
 ***See also:** For how Team Kanban compares to My, WP, and Org Kanban
 boards, see [Kanban Boards (Section
-8)](#/s8-reporting/kanban-boards).*
+8)](/s8-reporting/kanban-boards.md).*
 
 2.  **Stakeholder Report** - Shows all Stakeholder Reports from the Work Packages team members are on the roster of.
 
@@ -116,4 +116,4 @@ The entire team's allocations and logged hours.
 
 **Tip:** For a shorter overview alongside the rest of your everyday
 navigation, see [How to Navigate as a User (Section
-1)](#/s1-agilic-fundamentals/navigate-as-a-user).
+1)](/s1-agilic-fundamentals/navigate-as-a-user.md).

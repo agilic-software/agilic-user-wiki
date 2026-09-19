@@ -8,7 +8,7 @@ back to regularly as your team grows or changes.
 
 ***See also:** For a full breakdown of every access layer, see
 [Permissions for People (Section
-2)](#/s2-setting-up-your-org/permissions-for-people).*
+2)](/s2-setting-up-your-org/permissions-for-people.md).*
 
 # Getting There
 
@@ -45,7 +45,7 @@ use these org-level role placeholders, or create their own.
 
 ***See also:** A Role is a job title/skillset label only --- it carries
 no permissions of its own. [See Permissions for People (Section
-2)](#/s2-setting-up-your-org/permissions-for-people).*
+2)](/s2-setting-up-your-org/permissions-for-people.md).*
 
 **Step 3: Add a New Person**
 
@@ -113,4 +113,4 @@ List to see their verification status.
 
 -   To grant Billing Admin, see Step 5 above
 
--   For details on what different access levels mean, see [Permissions for People (Section 2)](#/s2-setting-up-your-org/permissions-for-people)
+-   For details on what different access levels mean, see [Permissions for People (Section 2)](/s2-setting-up-your-org/permissions-for-people.md)

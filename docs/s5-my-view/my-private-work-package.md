@@ -3,7 +3,7 @@
 This is a summary-level overview of Private Work Packages --- what they
 are and how they're identified. For the fuller picture of how they show
 up in your personal views, see [My View Overview (Section
-5)](#/s5-my-view/my-view-overview).
+5)](/s5-my-view/my-view-overview.md).
 
 # Getting There
 
@@ -52,4 +52,4 @@ your own.
 
 # Related Tasks
 
--   For the full picture of how Private Work Packages appear in your personal views, see [My View Overview (Section 5)](#/s5-my-view/my-view-overview)
+-   For the full picture of how Private Work Packages appear in your personal views, see [My View Overview (Section 5)](/s5-my-view/my-view-overview.md)

@@ -67,7 +67,7 @@ Agent in Agilic.
 ***See also:** This is distinct from the Wiki tab, which is general
 file/document storage for the whole Work Package --- see [Work Package
 Management (Section
-3)](#/s3-work-packages/work-package-management).*
+3)](/s3-work-packages/work-package-management.md).*
 
 # External Links
 
@@ -95,10 +95,10 @@ work.
 
 ***See also:** Org-level Role Placeholders are managed in [Adding &
 Managing People (Section
-2)](#/s2-setting-up-your-org/adding-and-managing-people).
+2)](/s2-setting-up-your-org/adding-and-managing-people.md).
 The underlying concept is also covered in [Permissions for People
 (Section
-2)](#/s2-setting-up-your-org/permissions-for-people).*
+2)](/s2-setting-up-your-org/permissions-for-people.md).*
 
 **Tip:** Using Role Placeholders early lets you build out your WBS and
 schedule around the roles you'll need, even before recruiting or
@@ -113,4 +113,4 @@ to a Roster member --- before any actual hours are logged.
 
 ***See also:** Full detail on setting and adjusting Allocations is in
 [Timesheets (Section
-7)](#/s7-timesheets/timesheets).*
+7)](/s7-timesheets/timesheets.md).*

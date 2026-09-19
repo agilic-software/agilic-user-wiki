@@ -57,7 +57,7 @@ screen --- so you're only ever looking at what actually matters to you.
 ***See also:** Your project team controls what you see from their side
 using Client Milestone Management and Client RIDE Management --- see
 [Work Package Client Portal Management (Section
-3)](#/s3-work-packages/work-package-client-portal-management).*
+3)](/s3-work-packages/work-package-client-portal-management.md).*
 
 **Step 3: Leave a Comment**
 
@@ -76,7 +76,7 @@ be able to upload your own files.
 
 ***See also:** The underlying permission rules for client comments and
 attachments are covered in [Permissions for People (Section
-2)](#/s2-setting-up-your-org/permissions-for-people).*
+2)](/s2-setting-up-your-org/permissions-for-people.md).*
 
 # Need Help?
 
