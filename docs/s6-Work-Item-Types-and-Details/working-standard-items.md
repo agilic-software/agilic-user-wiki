@@ -8,10 +8,10 @@ applies everywhere.
 
 ***See also:** For an overview of what each Work Item Type tab is for,
 see [Work Item Types (Section
-6)](https://agilic-wiki.local/s6-work-item-types). For
+6)](work-item-types.md). For
 what's different about RIDE items specifically, see [Working RIDE
 Items (Section
-6)](https://agilic-wiki.local/s6-working-ride-items).*
+6)](working-ride-items.md).*
 
 # Getting There
 
@@ -136,7 +136,7 @@ to your drive
 
 ***See also:** For connecting an external drive, see Personal Connectors
 in [My View Overview (Section
-5)](https://agilic-wiki.local/s5-my-view-overview).*
+5)](../s5-my-view/my-view-overview.md).*
 
 Once connected, you can then add links directly to your Drive by
 clicking on the Add from Drive button
@@ -194,4 +194,4 @@ item.
 RIDE items include everything above, plus Risk, Mitigation, and Decision
 Management processes specific to them --- see [Working RIDE Items
 (Section
-6)](https://agilic-wiki.local/s6-working-ride-items).
+6)](working-ride-items.md).

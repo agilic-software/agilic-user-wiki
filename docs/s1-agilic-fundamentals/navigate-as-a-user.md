@@ -122,7 +122,7 @@ pulled together across every Work Package you're part of.
 
 ***See also:** For how My Kanban compares to Team, WP, and Org Kanban
 boards, see [Kanban Boards (Section
-8)](https://agilic-wiki.local/s8-kanban-boards).*
+8)](../s8-reporting/kanban-boards.md).*
 
 -   Stakeholder Report --- shows all Stakeholder Reports from the Work Packages you're on the roster of
 
@@ -168,7 +168,7 @@ own purpose, roster, work, reporting, and timesheets.
 
 ***See also:** This is only a summary --- for the full breakdown of
 every My Team screen, see [How to Navigate a Team (Section
-4)](https://agilic-wiki.local/s4-navigate-a-team).*
+4)](../s4-teams/navigate-a-team.md).*
 
 **Knowledge - Search**
 
@@ -182,7 +182,7 @@ Organization-wide search, independent of any single Work Package.
 
 ***See also:** For the full [Knowledge - Search guide, see Knowledge -
 Search (Section
-12)](https://agilic-wiki.local/s12-knowledge-search).*
+12)](../s12-knowledge-search/knowledge-search.md).*
 
 ![01a-015](media/01a-015.png)
 
@@ -215,7 +215,7 @@ Work Packages I'm On.
 
 **Tip:** Work Packages have their own dedicated navigation guide --- see
 "[How to Navigate a Work Package (Section
-3)](https://agilic-wiki.local/s3-navigate-a-work-package)"
+3)](../s3-work-packages/navigate-a-work-package.md)"
 --- since there's a lot inside each one.
 
 # Quick Reference

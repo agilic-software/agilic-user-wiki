@@ -9,7 +9,7 @@ you.
 
 ***See also:** For a first-day tour, see [How to Navigate a Team
 (Section
-4)](https://agilic-wiki.local/s4-navigate-a-team).*
+4)](navigate-a-team.md).*
 
 # Getting There
 
@@ -120,5 +120,5 @@ The entire team's allocations and logged hours.
 ![04a-012](media/04a-012.png)
 
 ***See also:** Compare to My Timesheet in [My View Overview (Section
-5)](https://agilic-wiki.local/s5-my-view-overview), which
+5)](../s5-my-view/my-view-overview.md), which
 is scoped to just you.*

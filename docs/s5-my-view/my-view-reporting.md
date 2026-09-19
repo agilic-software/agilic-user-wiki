@@ -11,7 +11,7 @@ covers only what's different at the My View level.
 *See also: For the full write-up of every report type below, see the
 corresponding document in Section 8 --- Reporting. For the personal
 dashboard this tab lives inside, see [My View Overview (Section
-5)](https://agilic-wiki.local/s5-my-view-overview).*
+5)](my-view-overview.md).*
 
 # **Getting There**
 
@@ -27,7 +27,7 @@ Package you're part of, not just one.
 ![05b-002](media/05b-002.png)
 
 *See also: [Kanban Boards (Section
-8)](https://agilic-wiki.local/s8-kanban-boards).*
+8)](../s8-reporting/kanban-boards.md).*
 
 # **Stakeholder Report**
 
@@ -41,7 +41,7 @@ it will take you directly to the report.
 ![05b-003](media/05b-003.png)
 
 *See also: [Stakeholder Report (Section
-8)](https://agilic-wiki.local/s8-stakeholder-report).*
+8)](../s8-reporting/stakeholder-report.md).*
 
 # **Status**
 
@@ -51,7 +51,7 @@ items relevant to you across every Work Package.
 ![05b-004](media/05b-004.png)
 
 *See also: [Status Report (Section
-8)](https://agilic-wiki.local/s8-status-report).*
+8)](../s8-reporting/status-report.md).*
 
 # **Item Hours**
 
@@ -61,7 +61,7 @@ you're part of.
 ![05b-005](media/05b-005.png)
 
 *See also: [Item Hours (Section
-8)](https://agilic-wiki.local/s8-item-hours).*
+8)](../s8-reporting/item-hours.md).*
 
 # **Charts**
 
@@ -69,4 +69,4 @@ The same RIDE Charts and Item Charts available at the Work Package
 level, scoped to you across every Work Package.
 
 *See also: [Charts (Section
-8)](https://agilic-wiki.local/s8-charts).*
+8)](../s8-reporting/charts.md).*
