@@ -47,3 +47,7 @@
   - [My Profile](docs/s5-my-view/my-profile.md)
   - [My Settings](docs/s5-my-view/my-settings.md)
   - [My Private Work Package](docs/s5-my-view/my-private-work-package.md)
+- Section 6: Working Standard Items
+  - [Working Standard Items](docs/s6-working-standard-items/working-standard-items.md)
+  - [Work Item Types](docs/s6-working-standard-items/work-item-types.md)
+  - [Working RIDE Items](docs/s6-working-standard-items/working-ride-items.md)
