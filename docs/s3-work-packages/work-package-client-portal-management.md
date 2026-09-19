@@ -6,12 +6,12 @@ status updates get shared with them.
 
 ***See also:** For what the client actually experiences, see [Client
 Portal External User Guide (Section
-10)](https://agilic-wiki.local/s10-client-portal-external-user-guide).
+10)](../s10-client-portal/client-portal-external-user-guide.md).
 For the internal user side, see [Client Portal Module (Section
-10)](https://agilic-wiki.local/s10-client-portal-module).
+10)](../s10-client-portal/client-portal-module.md).
 For the admin side of managing client companies and contacts, see
 [Managing Client Companies & Contacts (Section
-9)](https://agilic-wiki.local/s9-managing-client-companies-and-contacts).*
+9)](../s9-client-management/managing-client-companies-and-contacts.md).*
 
 # Getting There
 

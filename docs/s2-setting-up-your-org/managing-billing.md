@@ -8,7 +8,7 @@ a narrower permission than general Org Admin access.
 ***See also:** Billing Admin is a single-user role, and that person must
 already have Org Admin access. Anyone with Org Admin access can update
 who holds it --- see [Permissions for People (Section
-2)](https://agilic-wiki.local/s2-permissions-for-people).*
+2)](permissions-for-people.md).*
 
 # Getting There
 

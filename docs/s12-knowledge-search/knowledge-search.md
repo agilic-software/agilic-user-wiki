@@ -5,7 +5,7 @@ across your organization, independent of any single Work Package.
 
 ***See also:** For a quick first-day overview, see [How to Navigate as
 a User (Section
-1)](https://agilic-wiki.local/s1-navigate-as-a-user).*
+1)](../s1-agilic-fundamentals/navigate-as-a-user.md).*
 
 # Getting There
 
@@ -93,16 +93,16 @@ above it (e.g. "463 Items found").
 
 ***See also:** Segment is the older term for Work Item Type --- see
 [Work Item Types (Section
-6)](https://agilic-wiki.local/s6-work-item-types).*
+6)](../s6-working-standard-items/work-item-types.md).*
 
 # Related Tasks
 
 This guide covers the search process itself. For what each result type
 actually is once you open it, see [Work Item Types (Section
-6)](https://agilic-wiki.local/s6-work-item-types),
+6)](../s6-working-standard-items/work-item-types.md),
 [Working Standard Items (Section
-6)](https://agilic-wiki.local/s6-working-standard-items)
+6)](../s6-working-standard-items/working-standard-items.md)
 and [Working RIDE Items (Section
-6)](https://agilic-wiki.local/s6-working-ride-items), or
+6)](../s6-working-standard-items/working-ride-items.md), or
 [Create Work Package / Add People to WP (Section
-3)](https://agilic-wiki.local/s3-create-a-work-package).
+3)](../s3-work-packages/create-a-work-package.md).

@@ -6,7 +6,7 @@ Work Packages. These live under Org Admin → Settings.
 
 ***See also:** For creating your organization for the first time, see
 [Creating Your Organization (Section
-2)](https://agilic-wiki.local/s2-create-your-organization).*
+2)](create-your-organization.md).*
 
 # Getting There
 
@@ -64,7 +64,7 @@ Global Labels but can also set up their own.
 **Tip:** These same label types are also available at the individual
 Work Package level, in that WP's own Settings --- see [Work Package
 Settings (Section
-3)](https://agilic-wiki.local/s3-work-package-settings).
+3)](../s3-work-packages/work-package-settings.md).
 
 **Step 4: Create Work Package Templates (Optional)**
 
@@ -99,7 +99,7 @@ make it the default for new Work Packages.
 
 **Tip:** Only turn on Client Portal if your organization actually works
 with external clients --- see [Client Portal Module (Section
-10)](https://agilic-wiki.local/s10-client-portal-module)
+10)](../s10-client-portal/client-portal-module.md)
 before enabling this.
 
 # Quick Reference

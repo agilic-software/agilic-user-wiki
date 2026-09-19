@@ -9,7 +9,7 @@ this about 5--10 minutes.
 ***See also:** The persistent top toolbar (Home, quick-access pills, AI
 Agent, Search, Feedback, and more) is covered in [How to Navigate as a
 User (Section
-1)](https://agilic-wiki.local/s1-navigate-as-a-user).*
+1)](../s1-agilic-fundamentals/navigate-as-a-user.md).*
 
 # Getting There
 
@@ -201,4 +201,4 @@ reporting settings, labels, private WP settings, and module access.
 **Tip:** This tour only covers what each tab is for. For step-by-step
 instructions on using RIDE, Reports, Planning tools, and everything
 else, see [Work Package Management (Section
-3)](https://agilic-wiki.local/s3-work-package-management).
+3)](work-package-management.md).

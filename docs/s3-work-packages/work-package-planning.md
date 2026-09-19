@@ -9,7 +9,7 @@ Breakdown Structure (WBS), and Baseline Planned.
 ***See also:** For everything that comes before this stage --- defining
 the Work Package itself, and preparing your roster --- see [Things to
 Consider when Pre-Planning a Work Package (Section
-3)](https://agilic-wiki.local/s3-things-to-consider-when-pre-planning-a-work-package).*
+3)](things-to-consider-when-pre-planning-a-work-package.md).*
 
 # Getting There
 

@@ -104,10 +104,10 @@ Every Item being displayed shows you:
 ***See also:** Predecessor/Successor relationships feed directly into
 the PERT Chart and Gantt Chart under Planning --- see [Work Package
 Planning (Section
-3)](https://agilic-wiki.local/s3-work-package-planning).*
+3)](../s3-work-packages/work-package-planning.md).*
 
 # Related Tasks
 
--   For Risks, Issues, Dependencies, and Escalations, see [Working RIDE Items (Section 6)](https://agilic-wiki.local/s6-working-ride-items)
+-   For Risks, Issues, Dependencies, and Escalations, see [Working RIDE Items (Section 6)](working-ride-items.md)
 
--   For everything captured in an item's detail view, see [Working Standard Items (Section 6)](https://agilic-wiki.local/s6-working-standard-items)
+-   For everything captured in an item's detail view, see [Working Standard Items (Section 6)](working-standard-items.md)

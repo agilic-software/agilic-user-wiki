@@ -14,7 +14,7 @@ Package.
 
 ***See also:** Allocations are set up as part of Planning --- see [Work
 Package Planning (Section
-3)](https://agilic-wiki.local/s3-work-package-planning).*
+3)](../s3-work-packages/work-package-planning.md).*
 
 Timesheets source of truth is located on individual Work Packages,
 however Users can see (and Log Time) on My View and Team Views. The
