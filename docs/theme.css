@@ -214,3 +214,230 @@ body.close .sidebar-toggle span {
 .agilic-back-link a:hover {
   color: var(--agilic-primary-400);
 }
+
+/* ---------------------------------------------------------------------------
+ * Screenshot lightbox
+ *
+ * Wiki pages are mostly UI screenshots, scaled down to the content column and
+ * often unreadable at that size. Every content image becomes clickable and
+ * opens full-size in an overlay. The behaviour is wired up in index.html; this
+ * is the styling only.
+ * ------------------------------------------------------------------------- */
+
+/* Affordance: the cursor and a hover lift are what tell people it's clickable. */
+.markdown-section img.agilic-zoomable {
+  cursor: zoom-in;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.markdown-section img.agilic-zoomable:hover {
+  border-color: var(--agilic-primary-400);
+  box-shadow: 0 2px 12px rgba(17, 24, 39, 0.12);
+}
+
+/* Keyboard users get the same affordance as mouse users. */
+.markdown-section img.agilic-zoomable:focus-visible {
+  outline: 3px solid var(--agilic-primary-500);
+  outline-offset: 2px;
+}
+
+.agilic-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 100; /* docsify's sidebar toggle sits at 30 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background-color: rgba(17, 24, 39, 0.92);
+  opacity: 0;
+  transition: opacity 0.18s ease;
+}
+
+/* An explicit `display` above outranks the browser's built-in [hidden]
+ * rule, so the closed overlay would stay laid out and keep swallowing every
+ * click on the page. Hide it explicitly. */
+.agilic-lightbox[hidden] {
+  display: none;
+}
+
+.agilic-lightbox.is-open {
+  opacity: 1;
+}
+
+.agilic-lightbox img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5);
+  cursor: zoom-in;
+  transform-origin: center center;
+  transition: transform 0.2s ease;
+}
+
+/* Zoomed: the image grows past the viewport and the viewer pans by dragging
+ * or scrolling.
+ *
+ * `scale()` is a paint-only transform — it does not enlarge the element's
+ * layout box, so the overlay would have nothing to scroll and the enlarged
+ * image would simply overflow its own bounds. Widening the box with
+ * width/height keeps scrolling honest, and centring via `margin: auto` keeps
+ * the image centred when it is still smaller than the viewport. */
+/* Zoomed: the image grows past the viewport and the viewer pans by dragging
+ * or scrolling.
+ *
+ * `justify-content: center` must NOT be used here. Flex centring positions an
+ * overflowing item by pushing its start edge to a negative offset, which a
+ * scroll container cannot reach — the left (and top) of the image would be
+ * permanently cropped. `flex-start` plus `margin: auto` centres the image
+ * while it is smaller than the viewport, and overflows it symmetrically —
+ * and reachably — once it is larger. */
+.agilic-lightbox.is-zoomed {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* Padding on a scroll container is included in the scrollable area, so it
+   * keeps a little breathing room around the fully-panned image. */
+  padding: 0;
+}
+
+.agilic-lightbox.is-zoomed img {
+  max-width: none;
+  max-height: none;
+  margin: auto;
+  transform: none; /* size drives the zoom instead, so scrolling works */
+  cursor: grab;
+}
+
+.agilic-lightbox.is-zoomed img.is-panning {
+  cursor: grabbing;
+}
+
+/* Zoom controls, bottom centre. Fixed so they stay put while a zoomed image
+ * scrolls beneath them. */
+.agilic-lightbox-controls {
+  position: fixed;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px;
+  background-color: rgba(31, 41, 55, 0.95);
+  border: 1px solid var(--agilic-accent-700);
+  border-radius: 8px;
+  z-index: 2;
+}
+
+.agilic-lightbox-controls button {
+  min-width: 36px;
+  height: 36px;
+  padding: 0 10px;
+  font-size: 18px;
+  line-height: 1;
+  color: #e5e7eb;
+  background: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.agilic-lightbox-controls button:hover:not(:disabled),
+.agilic-lightbox-controls button:focus-visible {
+  background-color: var(--agilic-accent-700);
+  color: var(--agilic-primary-400);
+  outline: none;
+}
+
+.agilic-lightbox-controls button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.agilic-lightbox-zoom-level {
+  min-width: 52px;
+  text-align: center;
+  font-size: 13px;
+  color: #9ca3af;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Fixed, not absolute: while zoomed the overlay scrolls, and an absolutely
+ * positioned close button would scroll away with the image. */
+.agilic-lightbox-close {
+  position: fixed;
+  top: 16px;
+  right: 24px;
+  width: 44px;
+  height: 44px;
+  font-size: 32px;
+  line-height: 1;
+  color: #d1d5db;
+  background-color: rgba(31, 41, 55, 0.9);
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  z-index: 3; /* above the zoomed image */
+}
+
+.agilic-lightbox-close:hover,
+.agilic-lightbox-close:focus-visible {
+  color: var(--agilic-primary-400);
+  outline: none;
+}
+
+/* The caption echoes the image's alt text, so a screenshot keeps its label
+ * when it's pulled out of the surrounding prose. */
+.agilic-lightbox-caption {
+  position: fixed;
+  bottom: 64px; /* clears the zoom controls */
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #9ca3af;
+  font-size: 13px;
+  padding: 0 40px;
+  pointer-events: none;
+}
+
+/* Phones: the padding above wastes most of a small screen. */
+@media screen and (max-width: 768px) {
+  .agilic-lightbox {
+    padding: 16px;
+  }
+
+  .agilic-lightbox-close {
+    top: 8px;
+    right: 8px;
+  }
+
+  /* Most screenshots here are wide desktop UI. Fitting one into a portrait
+   * phone shrinks it to roughly its inline size, which defeats the point of
+   * opening it. Show it at a readable height instead and let the viewer pan
+   * sideways. Once zoomed, the zoom rules take over. */
+  .agilic-lightbox:not(.is-zoomed) {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    justify-content: flex-start;
+  }
+
+  .agilic-lightbox:not(.is-zoomed) img {
+    max-width: none;
+    max-height: none;
+    height: 60vh;
+    width: auto;
+  }
+}
+
+/* Respect a reduced-motion preference: show state changes, skip the fade. */
+@media (prefers-reduced-motion: reduce) {
+  .markdown-section img.agilic-zoomable,
+  .agilic-lightbox {
+    transition: none;
+  }
+}
