@@ -24,9 +24,9 @@ If you’re new to Agilic, start with Getting Started. If you already know what 
 
 1. [How to Navigate as a User (Section 1)](/s1-agilic-fundamentals/navigate-as-a-user.md)
 
-2. [Working Standard Items (Section 6)](/s6-working-standard-items/working-standard-items.md)
+2. [Working Standard Types (Section 6)](/s6-work-item-types-and-details/working-standard-items.md)
 
-3. [Working RIDE Items (Section 6)](/s6-working-standard-items/working-ride-items.md)
+3. [Working RIDE Items (Section 6)](/s6-work-item-types-and-details/working-ride-items.md)
 
 4. [My View Overview (Section 5)](/s5-my-view/my-view-overview.md)
 

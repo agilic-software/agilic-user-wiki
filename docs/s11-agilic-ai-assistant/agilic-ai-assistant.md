@@ -65,11 +65,11 @@ the scenes. You don't need to know which one is handling your request
 
 ***See also:** For background on Work Item Types and RIDE, see [Work
 Item Types (Section
-6)](/s6-working-standard-items/work-item-types.md),
+6)](/s6-work-item-types-and-details/work-item-types.md),
 [Working Standard Items (Section
-6)](/s6-working-standard-items/working-standard-items.md)
+6)](/s6-work-item-types-and-details/working-standard-items.md)
 and [Working RIDE Items (Section
-6)](/s6-working-standard-items/working-ride-items.md).*
+6)](/s6-work-item-types-and-details/working-ride-items.md).*
 
 **Documents and Google Drive**
 

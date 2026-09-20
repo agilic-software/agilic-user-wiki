@@ -11,7 +11,7 @@ RIDE's work primarily like Standard Items, but have a few differences.
 
 ***See also:** RIDE items include everything covered in [Working
 Standard Items (Section
-6)](/s6-working-standard-items/working-standard-items.md)
+6)](/s6-work-item-types-and-details/working-standard-items.md)
 (Basic Information, Hours Summary, State vs. Status, Subtasks,
 Attachments, Relationships, Comments) --- this guide only covers what's
 different.*

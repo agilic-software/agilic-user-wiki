@@ -82,9 +82,9 @@ landing page.
 
 # Related Tasks
 
--   To manage the Work Package's day-to-day work, see [Work Item Types (Section 6)](/s6-working-standard-items/work-item-types.md)
+-   To manage the Work Package's day-to-day work, see [Work Item Types (Section 6)](/s6-work-item-types-and-details/work-item-types.md)
 
--   To track risks, issues, dependencies, and escalations, see [Working RIDE Items (Section 6)](/s6-working-standard-items/working-ride-items.md)
+-   To track risks, issues, dependencies, and escalations, see [Working RIDE Items (Section 6)](/s6-work-item-types-and-details/working-ride-items.md)
 
 -   For defining scope, preparing your roster, and setting allocations before this stage, see [Work Package Planning (Section 3)](/s3-work-packages/work-package-planning.md)
 

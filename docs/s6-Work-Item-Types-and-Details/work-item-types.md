@@ -108,6 +108,6 @@ Planning (Section
 
 # Related Tasks
 
--   For Risks, Issues, Dependencies, and Escalations, see [Working RIDE Items (Section 6)](/s6-working-standard-items/working-ride-items.md)
+-   For Risks, Issues, Dependencies, and Escalations, see [Working RIDE Items (Section 6)](/s6-work-item-types-and-details/working-ride-items.md)
 
--   For everything captured in an item's detail view, see [Working Standard Items (Section 6)](/s6-working-standard-items/working-standard-items.md)
+-   For everything captured in an item's detail view, see [Working Standard Items (Section 6)](/s6-work-item-types-and-details/working-standard-items.md)
