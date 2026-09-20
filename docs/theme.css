@@ -12,6 +12,20 @@
   --agilic-accent-700: #374151;
   --agilic-primary-400: #facc15;
   --agilic-primary-500: #eab308;
+
+  /* Surface and text tokens, taken from agilicsoftware.com's content sections:
+   * tinted section grounds, white cards at 8px radius, muted body text against
+   * near-black headings. */
+  --agilic-surface: #f9fafb;   /* tinted section ground */
+  --agilic-card: #ffffff;
+  --agilic-border: #e5e7eb;
+  --agilic-border-soft: #f3f4f6;
+  --agilic-text: #374151;      /* body copy — softer than heading black */
+  --agilic-text-muted: #6b7280;
+  --agilic-highlight: #fefce8; /* pale gold panel */
+  --agilic-highlight-border: #fef08a;
+  --agilic-radius: 8px;
+  --agilic-shadow: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.03);
 }
 
 body,
@@ -58,7 +72,9 @@ body.close .sidebar-toggle span {
 
 .sidebar > h1 {
   padding: 0 20px;
-  margin-bottom: 1.5rem;
+  margin: 20px 0 1.25rem;
+  font-size: 1.375rem;
+  letter-spacing: -0.01em;
 }
 
 .sidebar > h1 a {
@@ -100,7 +116,8 @@ body.close .sidebar-toggle span {
 /* Search box */
 .search {
   border-top: 1px solid var(--agilic-accent-700) !important;
-  padding: 12px 20px !important;
+  padding: 16px 20px !important;
+  margin-bottom: 0 !important;
 }
 
 .search input {
@@ -153,8 +170,39 @@ body.close .sidebar-toggle span {
   color: var(--agilic-primary-400) !important;
 }
 
-/* Main content links + headings — matches agilicsoftware.com's body typography:
-   near-black headings (text-gray-900), gold links (text-primary-600). */
+/* ---------------------------------------------------------------------------
+ * Reading pane
+ *
+ * agilicsoftware.com builds its content sections out of a small vocabulary:
+ * a tinted #f9fafb ground, white cards at 8px radius with a soft shadow,
+ * near-black headings over muted #374151 body copy, and gold used sparingly
+ * as an accent rather than a fill. The wiki content area used none of it and
+ * read as undifferentiated black-on-white, so the same vocabulary is applied
+ * here — adapted for reference reading rather than marketing layout.
+ * ------------------------------------------------------------------------- */
+
+/* Tinted ground, with the article itself on a white card. */
+.content,
+body .content {
+  background-color: var(--agilic-surface);
+}
+
+.markdown-section {
+  background-color: var(--agilic-card);
+  border: 1px solid var(--agilic-border);
+  border-radius: var(--agilic-radius);
+  box-shadow: var(--agilic-shadow);
+  padding: 40px 48px 56px;
+  margin: 32px auto 48px;
+  color: var(--agilic-text);
+}
+
+.markdown-section p,
+.markdown-section li {
+  color: var(--agilic-text);
+  line-height: 1.7;
+}
+
 .markdown-section a {
   color: var(--theme-color);
   font-weight: 600;
@@ -184,35 +232,265 @@ body.close .sidebar-toggle span {
   color: #111827;
 }
 
+/* Heading scale.
+ *
+ * Most pages use `#` for every section heading — 164 h1s against 12 h2s
+ * across the wiki — so the first h1 is the page title and every later one is
+ * really a section break. Styling them identically is what made pages read as
+ * a flat wall of text, so the *first* h1 is treated as the title and
+ * subsequent ones get the section-rule treatment h2 would otherwise carry.
+ * (Fixing the underlying markdown is the better long-term answer; this makes
+ * the existing content legible either way.) */
+.markdown-section h1 {
+  font-size: 2.125rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.25rem;
+}
+
+/* Any h1 after the first acts as a section heading. */
+.markdown-section h1 ~ h1 {
+  font-size: 1.5rem;
+  margin: 2.75rem 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--agilic-primary-400);
+}
+
+/* The italic "date - section" line each page opens with. */
+.markdown-section h1 + p em,
+.markdown-section h1 + p > em:only-child {
+  color: var(--agilic-text-muted);
+  font-style: italic;
+}
+
+.markdown-section h2 {
+  font-size: 1.5rem;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+  margin: 2.75rem 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--agilic-primary-400);
+}
+
+.markdown-section h3 {
+  font-size: 1.1875rem;
+  line-height: 1.4;
+  margin: 2.25rem 0 0.75rem;
+  padding-left: 0.75rem;
+  border-left: 3px solid var(--agilic-primary-400);
+}
+
+.markdown-section h4 {
+  font-size: 1rem;
+  line-height: 1.45;
+  margin: 1.75rem 0 0.5rem;
+  color: var(--agilic-accent-700);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.8125rem;
+}
+
+/* Tables carry a lot of this wiki — 300+ rows of feature and terminology
+ * reference — so they get the card treatment rather than bare rules. */
+.markdown-section table {
+  display: table;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--agilic-border);
+  border-radius: var(--agilic-radius);
+  overflow: hidden;
+  margin: 1.5rem 0;
+  font-size: 0.9375rem;
+}
+
+.markdown-section table thead {
+  background-color: var(--agilic-surface);
+}
+
+.markdown-section table th {
+  color: var(--agilic-accent-900);
+  font-weight: 600;
+  text-align: left;
+  padding: 12px 16px;
+  border-bottom: 2px solid var(--agilic-border);
+  border-right: 1px solid var(--agilic-border-soft);
+}
+
+.markdown-section table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--agilic-border-soft);
+  border-right: 1px solid var(--agilic-border-soft);
+  vertical-align: top;
+}
+
+.markdown-section table th:last-child,
+.markdown-section table td:last-child {
+  border-right: none;
+}
+
+.markdown-section table tr:last-child td {
+  border-bottom: none;
+}
+
+/* Zebra striping keeps a wide reference row readable across its full width. */
+.markdown-section table tbody tr:nth-child(even) {
+  background-color: #fcfcfd;
+}
+
+.markdown-section table tbody tr:hover {
+  background-color: var(--agilic-highlight);
+}
+
+/* A wide table must scroll inside its own box rather than push the page. */
+.markdown-section .table-wrap {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+.markdown-section .table-wrap > table {
+  margin: 0;
+}
+
+/* Blockquotes read as the brand's pale-gold panel. None exist in the content
+ * yet, but the style is here so the first one looks intentional. */
 .markdown-section blockquote {
-  border-left-color: var(--agilic-primary-400);
+  background-color: var(--agilic-highlight);
+  border: 1px solid var(--agilic-highlight-border);
+  border-left: 4px solid var(--agilic-primary-500);
+  border-radius: var(--agilic-radius);
+  padding: 16px 20px;
+  margin: 1.5rem 0;
+  color: #713f12; /* primary-900 — readable on the pale gold */
+}
+
+.markdown-section blockquote p {
+  color: inherit;
+  margin: 0;
 }
 
 .markdown-section code {
   color: #a16207; /* primary-700 */
+  background-color: var(--agilic-surface);
+  border: 1px solid var(--agilic-border-soft);
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 0.875em;
 }
 
-/* "Back to Agilic" link, injected at top of sidebar via docsify plugin */
-/* Extra left inset clears the top-left sidebar toggle. */
+.markdown-section pre {
+  background-color: var(--agilic-surface);
+  border: 1px solid var(--agilic-border);
+  border-radius: var(--agilic-radius);
+}
+
+.markdown-section pre > code {
+  border: none;
+  background: none;
+}
+
+.markdown-section hr {
+  border: none;
+  border-top: 1px solid var(--agilic-border);
+  margin: 2.5rem 0;
+}
+
+.markdown-section ul,
+.markdown-section ol {
+  padding-left: 1.5rem;
+}
+
+.markdown-section li + li {
+  margin-top: 0.35rem;
+}
+
+/* Screenshots sit on the tinted ground so a white-background UI capture has a
+ * visible edge instead of bleeding into the card. They are the main content of
+ * most pages, so let them use the full column width. */
+.markdown-section img.agilic-zoomable {
+  background-color: var(--agilic-surface);
+  padding: 6px;
+  /* `max-width` rather than `width`: a small icon should stay its own size
+   * rather than being upscaled into blur. */
+  max-width: 100%;
+  height: auto;
+  margin: 1.25rem 0;
+}
+
+/* The italic "date - section" line under each page title. */
+.markdown-section h1 + p {
+  margin-top: 0;
+  margin-bottom: 1.75rem;
+  color: var(--agilic-text-muted);
+}
+
+/* "Back to Agilic" link, injected into the sidebar via a docsify plugin.
+ *
+ * It used to sit at the very top, which put an exit link above the wiki's own
+ * title and forced a 44px left inset to clear the sidebar toggle. It reads
+ * better as a footer: pinned to the bottom of the sidebar, out of the way of
+ * the nav but always reachable. The plugin still inserts it first in the DOM,
+ * so `order` moves it visually without changing the markup. */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar .search {
+  order: 1;
+  flex: 0 0 auto;
+}
+
+/* Spacing for this lives with the other `.sidebar > h1` rules above. */
+.sidebar > h1 {
+  order: 0;
+  flex: 0 0 auto;
+}
+
+.sidebar .sidebar-nav {
+  order: 2;
+  flex: 1 1 auto;
+  overflow-y: auto;
+  padding-top: 8px;
+}
+
 .agilic-back-link {
-  display: block;
-  padding: 16px 20px 0 44px;
+  order: 3;
+  flex: 0 0 auto;
+  padding: 14px 20px;
   font-size: 13px;
-  /* Above the sidebar toggle (z-index 30) so the link stays clickable. */
-  position: relative;
-  z-index: 31;
+  border-top: 1px solid var(--agilic-accent-700);
+  background-color: var(--agilic-accent-900);
 }
 
 .agilic-back-link a {
-  color: #9ca3af;
+  /* gray-300 rather than gray-400: on the near-black sidebar this clears the
+   * 4.5:1 contrast floor, which #9ca3af did not. */
+  color: #d1d5db;
   text-decoration: none;
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
+  font-weight: 500;
+  /* A comfortable target without making the row taller than it needs to be. */
+  padding: 4px 0;
 }
 
-.agilic-back-link a:hover {
+.agilic-back-link a:hover,
+.agilic-back-link a:focus-visible {
   color: var(--agilic-primary-400);
+  outline: none;
+}
+
+/* The arrow slides back on hover — a small nudge that reads as "leaving". */
+.agilic-back-link a::before {
+  content: '←';
+  display: inline-block;
+  transition: transform 0.15s ease;
+}
+
+.agilic-back-link a:hover::before {
+  transform: translateX(-3px);
 }
 
 /* Phone reading width.
@@ -225,7 +503,38 @@ body.close .sidebar-toggle span {
 @media screen and (max-width: 600px) {
   .markdown-section {
     max-width: none;
-    padding: 20px 18px 40px;
+    padding: 24px 18px 40px;
+    /* The card's frame costs horizontal room that a phone cannot spare, so on
+     * small screens the article goes back to sitting directly on the page. */
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .content,
+  body .content {
+    background-color: var(--agilic-card);
+  }
+
+  .markdown-section h1 {
+    font-size: 1.75rem;
+  }
+
+  .markdown-section h2 {
+    font-size: 1.3125rem;
+    margin-top: 2.25rem;
+  }
+
+  .markdown-section h3 {
+    font-size: 1.0625rem;
+  }
+
+  /* Reference tables are too wide for a phone; let them scroll in place. */
+  .markdown-section table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
   }
 }
 
@@ -234,7 +543,8 @@ body.close .sidebar-toggle span {
 @media screen and (min-width: 601px) and (max-width: 768px) {
   .markdown-section {
     max-width: 42rem;
-    padding: 24px 24px 40px;
+    padding: 32px 28px 44px;
+    margin: 20px auto 32px;
   }
 }
 

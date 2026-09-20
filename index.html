@@ -22,7 +22,9 @@
           hook.mounted(function () {
             var link = document.createElement('div')
             link.className = 'agilic-back-link'
-            link.innerHTML = '<a href="https://agilicsoftware.com/">&larr; Back to agilicsoftware.com</a>'
+            /* The arrow is supplied by theme.css via ::before, so that it can
+             * animate on hover — don't repeat it in the markup. */
+            link.innerHTML = '<a href="https://agilicsoftware.com/">Back to agilicsoftware.com</a>'
             var sidebar = document.querySelector('.sidebar')
             if (sidebar) {
               sidebar.insertBefore(link, sidebar.firstChild)
