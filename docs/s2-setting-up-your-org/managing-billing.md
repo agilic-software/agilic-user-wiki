@@ -1,70 +1,57 @@
-*September 18, 2026 • Section 2: Recurring Admin Tasks • For: Billing
-Admins*
+# Managing Billing
 
-This guide covers your organization's subscription and AI usage
-tracking. Only the person flagged as Billing Admin can see this area ---
-a narrower permission than general Org Admin access.
+*September 19, 2026 - Section 2*
 
-***See also:** Billing Admin is a single-user role, and that person must
-already have Org Admin access. Anyone with Org Admin access can update
-who holds it --- see [Permissions for People (Section
-2)](/s2-setting-up-your-org/permissions-for-people.md).*
+This guide covers your organization's subscription and AI usage tracking. Only the person flagged as Billing Admin can see this area - a narrower permission than general Org Admin access.
 
-# Getting There
+Billing Admin is a single-user role, and that person must already have Org Admin access. Anyone with Org Admin access can update who holds it
 
-Go to Org Admin. If you're the Billing Admin, you'll see two
-additional tabs: Billing and AI Usage.
+### Getting There
 
-![02f-001](media/02f-001.png)
+Go to Org Admin. If you're the Billing Admin, you'll see two additional tabs: Billing and AI Usage.
 
-# Managing Your Subscription
+<img src="media/02h-001.png" width="560" alt="02h-001">
 
-**Step 1: Check Subscription Status**
+### Managing Your Subscription
 
-The Billing tab shows whether your subscription is currently active,
-along with its start and end dates.
+Step 1: Check Subscription Status
 
-![02f-002](media/02f-002.png)
+The Billing tab shows whether your subscription is currently active, along with its start and end dates.
 
-**Step 2: Update Subscription and Payment Details**
+<img src="media/02h-002.png" width="560" alt="02h-002">
 
-Select Manage Billing. This hands you off to a secure, Stripe-hosted
-billing portal --- Agilic itself doesn't store or process your card
-details.
+Step 2: Update Subscription and Payment Details
 
--   Update your subscription
+Select Manage Billing. This hands you off to a secure, Stripe-hosted billing portal - Agilic itself doesn't store or process your card details.
 
--   Update your payment methods
+- Update your subscription
 
--   Cancel your subscription
+- Update your payment methods
 
-![02f-003](media/02f-003.png)
+- Cancel your subscription
 
-**Note:** Because this is a Stripe-hosted portal, invoice history and
-payment method management happen outside the main Agilic interface.
-Confirm whether historical invoices are also viewable directly in-app.
+<img src="media/02h-003.png" width="560" alt="02h-003">
 
-# Reviewing AI Usage
+Note: Because this is a Stripe-hosted portal, invoice history and payment method management happen outside the main Agilic interface. Confirm whether historical invoices are also viewable directly in-app.
 
-**Step 3: Check Token Usage**
+### Reviewing AI Usage
 
-The AI Usage tab's Token Usage view shows both current and historical
-token usage for your organization.
+Step 3: Check Token Usage
 
--   Reports total tokens, input tokens, output tokens, provider cost, and customer cost
+The AI Usage tab's Token Usage view shows both current and historical token usage for your organization.
 
--   Break usage down by User, AI Model, Work Package, or Record Type using the tabs
+- Reports total tokens, input tokens, output tokens, provider cost, and customer cost
 
--   Results are sortable and searchable
+- Break usage down by User, AI Model, Work Package, or Record Type using the tabs
 
-![02f-004](media/02f-004.png)
+- Results are sortable and searchable
 
-**Step 4: Review Billing History**
+<img src="media/02h-004.png" width="560" alt="02h-004">
 
-The Billing History view shows the cost of tokens for past periods, with
-token counts and costs formatted for readability.
+Step 4: Review Billing History
 
-![02f-005](media/02f-005.png)
+The Billing History view shows the cost of tokens for past periods, with token counts and costs formatted for readability.
 
-**Tip:** Use Token Usage to keep an eye on current-period costs, and
-Billing History when you need to look back at a specific past period.
+<img src="media/02h-005.png" width="560" alt="02h-005">
+
+Tip: Use Token Usage to keep an eye on current-period costs, and Billing History when you need to look back at a specific past period.

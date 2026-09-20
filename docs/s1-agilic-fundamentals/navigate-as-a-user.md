@@ -1,231 +1,242 @@
 # How to Navigate as a User
 
-*September 19, 2026 • Section 1: New User Orientation*
+*September 19, 2026 - Section 1*
 
-This is a quick tour of the main areas you'll use every day in Agilic
-as a regular team member. It won't teach you how to do every task ---
-just what each screen is for, so you know where to go. Give this about 5
-minutes.
+When you log in, you'll land on My View - your personal home base. From there, a few areas are always available to you. This is a quick tour of the main areas you'll use every day in Agilic as a regular team member. It won't teach you how to do every task - just what each screen is for, so you know where to go.
 
-# Persistent Top Navigation
+### Persistent Top Navigation
 
-A toolbar of navigation elements is visible from any screen in Agilic,
-regardless of which area you're currently in.
+A toolbar of navigation elements is visible from any screen in Agilic, regardless of which area you're currently in.
 
-![01a-001](media/01a-001.png)
+<img src="media/01a-001.png" width="560" alt="01a-001">
 
-1.  Hide / Expand Left Hand Menu
+- Hide / Expand Left Hand Menu
 
-2.  Back Button - takes you back to the Previously loaded screen
+- Back Button - takes you back to the Previously loaded screen
 
-3.  Efforts I'm the Owner/Driver (with Count of Open Efforts) of
+- Efforts I'm the Owner/Driver (with Count of Open Efforts) of
 
-4.  Items I'm Assigned to / Responsible for (with Count of Open Items)
+- Items I'm Assigned to / Responsible for (with Count of Open Items)
 
-5.  Items I've been Tagged on (with Count of Open Items)
+- Items I've been Tagged on (with Count of Open Items)
 
-6.  Items I'm Following (with Count of Open Items)
+- Items I'm Following (with Count of Open Items)
 
-7.  RIDE Items I'm involved in (with Count of Open RIDE Items)
+- RIDE Items I'm involved in (with Count of Open RIDE Items)
 
-8.  AI Agent Access
+- AI Agent Access
 
-9.  Search
+- Search
 
-10. Expanded Screen
+- Expanded Screen
 
-11. Feedback - Bugs found / Wishlist Request directly to Agilic Software
+- Feedback - Bugs found / Wishlist Request directly to Agilic Software
 
-12. Share - Easy copy of the link to this page
+- Share - Easy copy of the link to this page
 
-13. My Profile Access
+- My Profile Access
 
-14. Home Button
+- Home Button
 
-15. Private Work Package Button
+- Private Work Package Button
 
-16. Custom Links Toolbar
+- Custom Links Toolbar
 
-17. Pin Button - to Capture the page you are on as a Custom Link
+- Pin Button - to Capture the page you are on as a Custom Link
 
-**Left-Hand Side Menu**
+### Left-Hand Side Menu
 
-A traditional navigation menu, toggled open or closed using the menu
-icon at the far left of the top toolbar. Hide it for more screen space,
-or show it when you want the familiar list-style navigation.
+A traditional navigation menu, toggled open or closed using the menu icon at the far left of the top toolbar. Hide it for more screen space, or show it when you want the familiar list-style navigation.
 
-![01a-002](media/01a-002.png)
+<img src="media/01a-002.png" width="129" alt="01a-002">
 
-**Quick-Access Pill Buttons**
+### Quick-Access Pill Buttons
 
--   Owner/Driver, Assigned, Tagged, Following, and RIDE --- dedicated pill buttons that jump directly to that specific My Work tab, each showing a live count of items
+These are dedicated pill buttons that jump directly to that specific My Work tab, each showing a live count of items.
 
-![01a-003](media/01a-003.png)
+- Owner/Driver
 
-**Home and Private Work Package Buttons**
+- Assigned
 
-The Home button is always visible and takes you straight to My View → My
-Work → All tab, no matter where you are.
+- Tagged
 
-The Private Work Package button is always visible and takes you straight
-to My Private Work Package → WP Management → Objective tab, no matter
-where you are.
+- Following
 
-**Right-Side Icons**
+- RIDE
 
--   AI Agent --- opens the AI Assistant
+<img src="media/01a-003.png" width="560" alt="01a-003">
 
--   Search --- opens global search
+### Home and Private Work Package Buttons
 
--   Maximize --- expands the current screen, handy when sharing your screen on a video call
+- Home - This will take you to your My View → My Items → ALL page
 
--   Feedback --- submit a bug report or a wishlist item directly to Agilic
+- Private Work Package - This will take you to your Private Work Package → WP Management view
 
--   Share --- copy a link to the current page
+<img src="media/01a-004.png" width="560" alt="01a-004">
 
--   Profile --- opens your Profile and Settings
+### Right-Side Icons
 
-![01a-004](media/01a-004.png)
+- AI Agent - opens the AI Assistant
 
-**Custom Links**
+- Search - opens global search
 
-Build your own shortcut buttons to pages you access often --- useful for
-jumping straight to a specific Work Package view, report, or Kanban
-board without navigating there each time.
+- Maximize - expands the current screen, handy when sharing your screen on a video call
 
-![01a-005](media/01a-005.png)
+- Feedback - submit a bug report or a wishlist item directly to Agilic
 
--   The Custom Links are Added by clicking on the PIN button on the top toolbar
+- Share - copy a link to the current page
 
--   Once Pinned, you can rename and re-order the links by going to MY PROFILE → Settings and making adjustments on the Custom Link Toolbar section
+- Profile - opens your Profile and Settings
 
-![01a-006](media/01a-006.png)
+<img src="media/01a-005.png" width="560" alt="01a-005">
 
-# Your Main Navigation
+### Custom Links
 
-When you log in, you'll land on My View --- your personal home base.
-From there, a few areas are always available to you:
+Build your own shortcut buttons to pages you access often - useful for jumping straight to a specific Work Package view, report, or Kanban board without navigating there each time.
 
-**My View**
+<img src="media/01a-006.png" width="560" alt="01a-006">
 
-Your personal dashboard. Everything here is about you specifically ---
-items assigned to you, Work Packages you own, and your own reports ---
-pulled together across every Work Package you're part of.
+- The Custom Links are Added by clicking on the PIN button on the top toolbar
 
--   My Work --- tabs for Work Packages you're the Owner/Driver, and tabs for items you are Assigned to, have Tagged, or are Following. RIDE (Risks, Issues, Dependencies, Escalations) items you're involved in are also displayed.
+<img src="media/01a-007.png" width="560" alt="01a-007">
 
-![01a-007](media/01a-007.png)
+### My View
 
--   Reporting --- personalized versions of things you'll see in Work Packages and on Teams.
+Your personal dashboard. Everything here is about you specifically - items assigned to you, Work Packages you own, and your own reports - pulled together across every Work Package you're part of.
 
-![01a-008](media/01a-008.png)
+#### My Work
 
--   Kanban --- dedicated personal Kanban boards
+Tabs for Work Packages that align with the Quick-Access Pill buttons on the top of the view
 
-***See also:** For how My Kanban compares to Team, WP, and Org Kanban
-boards, see [Kanban Boards (Section
-8)](/s8-reporting/kanban-boards.md).*
+- Owner/Driver - Any effort you are officially the Owner and/or Driver of
 
--   Stakeholder Report --- shows all Stakeholder Reports from the Work Packages you're on the roster of
+- Assigned - Items you are Assigned to or are Responsible for
 
--   Status --- date-oriented list view of item state and status
+- Tagged - Items where you have been tagged on
 
--   Item Hours --- detailed summary of item hours
+- Following - Items you have chosen to Follow
 
--   Timesheet --- showing all your allocations and logged hours within every Work Package you're part of.
+- RIDE - Items you're involved in that are raised as a RIDE (Risks, Issues, Dependencies, Escalations)
 
-![01a-009](media/01a-009.png)
+<img src="media/01a-008.png" width="560" alt="01a-008">
 
--   My Profile --- your account details and additional personal information
+#### Reporting
 
-![01a-010](media/01a-010.png)
+- Personalized versions of things you'll see in Work Packages and on Teams.
 
--   My Profile --- account details
+<img src="media/01a-009.png" width="560" alt="01a-009">
 
--   Personal Settings --- custom link toolbar and UI options
+#### Kanban
 
--   Personal Connectors (like Google Drive)
+- Dedicated personal Kanban boards.
 
--   Settings --- direct link to Personal Settings
+- Stakeholder Report - shows all Stakeholder Reports from the Work Packages you're on the roster of
 
-![01a-011](media/01a-011.png)
+- Status - date-oriented list view of item state and status
 
-**My Team**
+- Item Hours - detailed summary of item hours
 
-If you belong to a team, this is where you'll find it. A team is a
-standing group --- separate from any specific Work Package --- with its
-own purpose, roster, work, reporting, and timesheets.
+See also: [Kanban Boards (Section 8)](/s8-reporting/kanban-boards.md).
 
-![01a-012](media/01a-012.png)
+### Timesheet
 
--   Only visible if you're a member, Owner, or Driver of a team
+Shows all your allocations and logged hours within every Work Package you're part of.
 
--   Team Management is the landing view, and defaults to Team Purpose
+<img src="media/01a-010.png" width="560" alt="01a-010">
 
--   From there you can see the Team's work, reporting (Kanban, Stakeholder Report, Status, Item Hours, Charts), and roster
+### My Profile
 
--   A dedicated Team Timesheet also lives here, with permissions that vary by role
+Shows your account details and additional personal information.
 
-![01a-013](media/01a-013.png)
+<img src="media/01a-011.png" width="560" alt="01a-011">
 
-***See also:** This is only a summary --- for the full breakdown of
-every My Team screen, see [How to Navigate a Team (Section
-4)](/s4-teams/navigate-a-team.md).*
+#### My Profile
 
-**Knowledge - Search**
+- Shows your account details
+
+#### Personal Settings
+
+- custom link toolbar and UI options
+
+#### Personal Connectors
+
+- Ability to connect your account via an mcp server (like Google Drive)
+
+### Settings
+
+- A direct link to Personal Settings
+
+<img src="media/01a-012.png" width="560" alt="01a-012">
+
+### My Team
+
+If you belong to a team, this is where you'll find it. A team is a standing group - separate from any specific Work Package - with its own purpose, roster, work, reporting, and timesheets.
+
+<img src="media/01a-013.png" width="148" alt="01a-013">
+
+- Only visible if you're a member, Owner, or Driver of a team
+
+- Team Management is the landing view, and defaults to Team Purpose
+
+- From there you can see the Team's work, reporting (Kanban, Stakeholder Report, Status, Item Hours, Charts), and roster
+
+- A dedicated Team Timesheet also lives here, with permissions that vary by role
+
+See also: [Navigating a Team (Section 4)](/s4-teams/navigate-a-team.md)
+
+### Knowledge - Search
 
 Organization-wide search, independent of any single Work Package.
 
-![01a-014](media/01a-014.png)
+<img src="media/01a-014.png" width="170" alt="01a-014">
 
--   Global Search for Items --- free-text search across Items
+- Global Search for Items - free-text search across Items
 
--   Global Search for Work Packages --- free-text search across Work Packages (Work Packages only, not Items)
+- Global Search for Work Packages - free-text search across Work Packages (Work Packages only, not Items)
 
-***See also:** For the full [Knowledge - Search guide, see Knowledge -
-Search (Section
-12)](/s12-knowledge-search/knowledge-search.md).*
+See also: For the full Knowledge - Search guide, see [Knowledge - Search (Section 12)](/s12-knowledge-search/knowledge-search.md).
 
-![01a-015](media/01a-015.png)
+<img src="media/01a-015.png" width="560" alt="01a-015">
 
-**About**
+### About
 
 A small reference area, not an admin screen.
 
-![01a-016](media/01a-016.png)
+<img src="media/01a-016.png" width="175" alt="01a-016">
 
--   Agilic Notifications --- Agilic-wide notifications from Agilic Software, such as maintenance window announcements
+#### Agilic Notifications
 
-![01a-017](media/01a-017.png)
+- Agilic-wide notifications from Agilic Software, such as maintenance window announcements
 
--   Org Admin Users --- a read-only list of who the admins in your organization are, useful if you need help
+<img src="media/01a-017.png" width="560" alt="01a-017">
 
-![01a-018](media/01a-018.png)
+#### Org Admin Users
 
-# Work Packages: Where the Actual Work Lives
+- A read-only list of who the admins in your organization are, useful if you need help
 
-Where the items actually live is within Work Packages, even though you
-have access to them from My View. From the main Work Packages list, you
-can open any Work Package you're part of.
+<img src="media/01a-018.png" width="560" alt="01a-018">
 
-![01a-019](media/01a-019.png)
+### Work Packages: Where the Actual Work Lives
 
-You can see all the Work Packages you are on the roster of by selecting
-Work Packages I'm On.
+Where the items actually live is within Work Packages, even though you have access to them from My View. From the main Work Packages list, you can open any Work Package you're part of.
 
-![01a-020](media/01a-020.png)
+See also: [Navigate a Work PAckage (Section 3)](/s3-work-packages/navigate-a-work-package.md)
 
-**Tip:** Work Packages have their own dedicated navigation guide --- see
-"[How to Navigate a Work Package (Section
-3)](/s3-work-packages/navigate-a-work-package.md)"
---- since there's a lot inside each one.
+<img src="media/01a-019.png" width="158" alt="01a-019">
 
-# Quick Reference
+You can see all the Work Packages you are on the roster of by selecting Work Packages I'm On.
+
+<img src="media/01a-020.png" width="560" alt="01a-020">
+
+Tip: Work Packages have their own dedicated navigation guide - see "[How to Navigate a Work Package (Section 3)](/s3-work-packages/navigate-a-work-package.md)" - since there's a lot inside each one.
+
+### Quick Reference
 
 | Screen | What it's for |
-|---|---|
+| --- | --- |
 | My View | Your personal dashboard across all your Work Packages |
 | My Team | Your standing team (if you belong to one) |
 | Knowledge - Search | Find items or Work Packages org-wide |
 | About | Announcements and a list of your org's admins |
-| Work Packages | Where you do the actual work --- see the dedicated guide |
+| Work Packages | Where you do the actual work - see the dedicated guide |
+

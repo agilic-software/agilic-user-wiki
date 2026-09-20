@@ -1,168 +1,125 @@
-*September 18, 2026 • Section 2: Setting up your Org • For: Org Admins*
+# Permissions for People
 
-This guide covers the different levels of access a person can have in
-Agilic, and where each one is controlled. Permissions in Agilic aren't
-a single on/off switch --- they're a combination of several separate
-flags and roles, each covering a different part of the app.
+*September 19, 2026 - Section 2*
 
-# The Layers of Access
-
-**Organization Membership**
-
-The most basic layer. Anyone added to your organization can sign in and
-use Agilic, scoped to whatever Work Packages and Teams they're added
-to. Managed from Org Admin → People.
-
--   Org People List --- the full roster of everyone in your organization
-
--   Give people permissions
-
--   Access User Profiles that need updated
-
--   Add / Remove Users
-
-![02c-001](media/02c-001.png)
-
-**Standard Permission Types**
+This guide covers the different levels of access a person can have in Agilic, and where each one is controlled. Permissions in Agilic aren't a single on/off switch - they're a combination of several separate flags and roles, each covering a different part of the app.
 
 To access the Org Admin area where permissions are set, you must have Org Admin-level access.
 
-**Note:** When an organization is first created, the Primary Contact is automatically given Org Admin access. The system will never let an organization drop below 1 person with Org Admin access.
+Note: When an organization is first created, the Primary Contact is automatically given Org Admin access. The system will never let an organization drop below 1 person with Org Admin access.
 
-***See also:** For creating an organization for the first time, see
-[Creating Your Organization (Section
-2)](/s2-setting-up-your-org/create-your-organization.md).*
+See also: For creating an organization for the first time, see [Creating Your Organization (Section 2)](/s2-setting-up-your-org/create-your-organization.md).
 
-Standard permissions are set in Org Admin → Org People List. Here you can grant:
+### Organization Membership
 
--   WP Creator --- the ability to create Work Packages
+#### Org People List
 
--   Team Creator --- the ability to create Teams
+- the full roster of everyone in your organization
 
--   Org Reporting --- the ability to access org-level reporting
+- Give people permissions
 
--   Admin --- full Org Admin access, which includes all other levels of access
+- Access User Profiles that need updated
 
-**Note:** Org Admin users can access everything in any Work Package or
-Team as if they were its Owner/Driver.
+- Add / Remove Users
 
-**Role**
+<img src="media/02f-001.png" width="560" alt="02f-001">
 
-Every person can be assigned a Role when they're added to the
-organization, defined under the Org Role List --- where you define what
-roles your people perform.
+#### Standard Permission Types
 
--   You can also define Role Placeholders, available for Pre-Planning across the org --- a role that exists in the system but isn't yet filled by a real person, useful when planning ahead for a hire
+- WP Creator - the ability to create Work Packages
 
--   Individual Work Packages can use the org-level Role Placeholders, or create their own for unique circumstances
+- Team Creator - the ability to create Teams
 
-![02c-002](media/02c-002.png)
+- Org Reporting - the ability to access org-level reporting
 
-**Teams**
+- Admin - full Org Admin access, which includes all other levels of access
 
-After adding someone to your organization, you can then add them to a
-Team. People without a Team can still be added to Work Packages and
-everything else --- a Team isn't a prerequisite for anything.
+Note: Org Admin users can access everything in any Work Package or Team as if they were its Owner/Driver.
 
-Being on a Team gives you access to that Team's dedicated views.
+### Role
 
-![02c-003](media/02c-003.png)
+Every person can be assigned a Role when they're added to the organization, defined under the Org Role List - where you define what roles your people perform.
 
-**Billing Admin**
+- You can also define Role Placeholders, available for Pre-Planning across the org - a role that exists in the system but isn't yet filled by a real person, useful when planning ahead for a hire or you don’t know who will be Assigned to an Effort from an existing Team
 
-A narrower flag than general Org Admin access. Only the person flagged
-as Billing Admin can see the Billing and AI Usage tabs inside Org Admin.
+- Individual Work Packages can use the org-level Role Placeholders, or create their own for unique circumstances
 
-![02c-004](media/02c-004.png)
+<img src="media/02f-002.png" width="560" alt="02f-002">
 
-**Work Package Permissions**
+### Teams
 
-A baseline level of access applies to everyone in the organization,
-regardless of Roster membership:
+After adding someone to your organization, you can then add them to a Team. People without a Team can still be added to Work Packages and everything else.
 
--   Everyone in the organization can be tagged on any item in the organization
+<img src="media/02f-003.png" width="560" alt="02f-003">
 
--   Everyone can follow any item in any Work Package
+- Note: A Team isn't a prerequisite for anything, but being on a Team gives you access to that Team's dedicated views.
 
--   Everyone can comment anywhere there's a comment field (items, WP Objective, etc.)
+### Billing Admin
 
--   Everyone can see any item or Work Package in the organization --- with the exception of Secure Items and Secure Work Packages
+A narrower flag than general Org Admin access. Only the person flagged as Billing Admin can see the Billing and AI Usage tabs inside Org Admin.
 
-Being added to a specific Work Package's Roster grants additional
-access. Anyone on the Roster can:
+<img src="media/02f-004.png" width="560" alt="02f-004">
 
--   Edit an item
+## Work Package Permissions
 
--   Be Assigned or Responsible for an item
+A baseline level of access applies to everyone in the organization, regardless of Roster membership:
 
--   Add planned hours or log time to an item (must be Assigned or Responsible on it first)
+- Everyone in the organization can be tagged on any item in the organization
 
--   Access the Work Package Timesheet
+- Everyone can follow any item in any Work Package
 
-Having access to a WP Timesheet is also how your personal Timesheet and
-your Team Timesheet get populated.
+- Everyone can comment anywhere there's a comment field (items, WP Objective, etc.)
 
-The Owner/Driver of a Work Package has additional permissions on top of
-the above:
+- Everyone can see any item or Work Package in the organization - with the exception of Secure Items and Secure Work Packages
 
--   Can update all updatable fields across the Work Package, including Settings, Objective, WP Status, and more
+### Work Package Roster
 
-**Note:** Org Admin users can access everything in any Work Package or
-Team as if they were its Owner/Driver.
+Being added to a specific Work Package's Roster grants additional access. Anyone on the Roster can:
 
-![02c-005](media/02c-005.png)
+- Edit an item
 
-**Client Portal Permissions**
+- Be Assigned or Responsible for an item
 
--   Anyone on the Work Package's Roster can access and edit the Client Portal information for that WP
+- Add planned hours or log time to an item (must be Assigned or Responsible on it first)
 
--   Anyone in the organization can view the Client Portal and add comments
+- Access the Work Package Timesheet
 
--   Client users are added within the Client Portal itself --- they can be given comment ability and the ability to upload attachments, and can always download attachments posted to the portal
+Note: Being on the WP Roster is also how your personal Timesheet and your Team Timesheet get populated.
 
-**Client Portal Access**
+### Work Package Owner / Driver
 
-A completely separate access model for external client users, managed
-through Client Management (Client Companies and Client Contacts) and
-Work Package Client Portal Management. Client users never see the
-internal application --- only their own simplified Client Portal
-experience.\
-***See also:** For adding and managing Client Contacts, see* [Managing
-Client Companies & Contacts (Section 9)](/s9-client-management/managing-client-companies-and-contacts.md)*.
-For granting a specific Work Package's Client Portal Access, see*
-[Work Package Client Portal Management (Section 3)](/s3-work-packages/work-package-client-portal-management.md)*.*
+The Owner/Driver of a Work Package has additional permissions on top of the above:
 
-# Quick Reference
+- Can update all updatable fields across the Work Package, including Settings, Objective, WP Status, and more
 
-  ------------------------------------------------------------------------
-  **Access Layer**         **Controlled Where**    **Governs**
-  ------------------------ ----------------------- -----------------------
-  Organization Membership  Org Admin → Org People  Whether someone can
-                           List                    sign in at all
+Note: Org Admin users can access everything in any Work Package or Team as if they were its Owner/Driver.
 
-  Role                     Org Admin → Org Role    Job title/skillset ---
-                           List                    not a permission
+<img src="media/02f-005.png" width="560" alt="02f-005">
 
-  Standard Permission      Org Admin → Org People  Specific org-level
-  Types (WP Creator, Team  List                    capabilities
-  Creator, Org Reporting,                          
-  Admin)                                           
+#### Client Portal Permissions
 
-  Billing Admin            Org Admin → Billing     Access to Billing / AI
-                           Admin (1 user only,     Usage tabs
-                           must already be Org     
-                           Admin)                  
+- Anyone on the Work Package's Roster can access and edit the Client Portal information for that WP
 
-  WP Roster Membership     Inside a Work Package → Edit/Assign/Timesheet
-                           Roster                  access within that WP
+- Anyone in the organization can view the Client Portal and add comments
 
-  Owner/Driver             Set on the Work Package Full field-level
-                                                   control of that WP
+- Client users are added within the Client Portal itself - they can be given comment ability and the ability to upload attachments, and can always download attachments posted to the portal
 
-  Secure WP / Secure Item  Set by Owner/Driver or  Restricts visibility to
-  (Planned, not yet        Org Admin               specific people
-  implemented)                                     
+#### Client Portal Access
 
-  Client Portal Access     Customer Management /   External client
-                           WP Client Portal Mgmt   visibility
-  ------------------------------------------------------------------------
+A completely separate access model for external client users, managed through Client Management (Client Companies and Client Contacts) and Work Package Client Portal Management. Client users never see the internal application - only their own simplified Client Portal experience.
+
+See also: For adding and managing Client Contacts, see [Managing Client Companies & Contacts (Section 9)](/s9-client-management/managing-client-companies-and-contacts.md). For granting a specific Work Package's Client Portal Access, see [Work Package Client Portal Management (Section 3)](/s3-work-packages/work-package-client-portal-management.md).
+
+### Quick Reference
+
+| Access Layer | Governs |
+| --- | --- |
+| Organization Membership | Whether someone can sign in at all |
+| Role | Job title/skillset - not a permission |
+| Standard Permission Types (WP Creator, Team Creator, Org Reporting, Admin) | Specific org-level capabilities |
+| Billing Admin | Access to Billing / AI Usage tabs |
+| WP Roster Membership | Edit/Assign/Timesheet access within that WP |
+| Owner/Driver | Full field-level control of that WP |
+| Secure WP / Secure Item (Planned, not yet implemented) | Restricts visibility to specific people |
+| Client Portal Access | External client visibility |
+
