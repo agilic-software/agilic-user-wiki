@@ -11,13 +11,9 @@ If you’re new to Agilic, start with Getting Started. If you already know what 
 ## Getting Started
 
 - [Creating an Organization](https://agilic-wiki.local/s2-create-your-organization) - steps to create your organization. If you aren’t familiar with Agilic yet, it is highly recommended to review Section 1: Agilic Fundamentals before digging into Section 2: Setting Up Your Org.
-
 - [Signing In](/getting-started/login.md)  -  how to log in to Agilic, including email/password sign-in, signing in with Google, and what to do if you're new or forgot your password.
-
 - [Core Terms & Concepts](https://agilic-wiki.local/s1-core-terms-concepts)  -  gives you a quick overview of some underlying key concepts and terms used throughout Agilic. 3 mins here will be well worth it.
-
 - [Roles & Permissions](https://agilic-wiki.local/s1-roles-and-permissions)  -  helps you understand what you can and can't do based off where you are at and what you're allowed to do, based on Agilic's system perspective.
-
 - [Navigate as a User](https://agilic-wiki.local/s1-navigate-as-a-user)  -  basic navigation explained. Once you go through this, you can easily understand how to get to wherever you need to go regardless of your role.
 
 ## Persona Guides

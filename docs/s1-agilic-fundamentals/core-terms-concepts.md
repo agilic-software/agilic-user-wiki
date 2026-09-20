@@ -29,11 +29,8 @@ The difference between a regular Item and a Milestone is a Milestone is a moment
 Every Work Package has four Work Item Types (also called the 4D's). The 4D's are Agilic's native methodology. Regardless of the Industry, this is how people talk about their work at the water cooler.
 
 - Define - (aka Requirements) What is required / must be defined in order to accomplish the WP Objective.
-
 - Do Work - Who is doing what work once we have Defined the WP Objective.
-
 - Deliver - What are ALL the External and Internal Deliverables required in order to say we have officially finished this Work Package (Define Done).
-
 - Document - All the Documentation required to support the DEFINE, DO WORK and DELIVER Items.
 
 ![01b-001](media/01b-001.png ':size=560')
@@ -43,11 +40,8 @@ Every Work Package has four Work Item Types (also called the 4D's). The 4D's are
 There are only 4 basic players within a Work Package:
 
 - Owner - Accountable for the Success of a Work Package. They typically have the final say when a situation arises.
-
 - Driver - Responsible for the delivery results of a Work Package. They typically are ensuring everyone in the effort is moving in the same direction.
-
 - Assigned - Anyone officially working on an Item (could be multiple people Assigned to an Item).
-
 - Responsible - The Point of Contact for an Item. You can only have one Responsible person on an Item.
 
 ![01b-002](media/01b-002.png ':size=560')
@@ -59,11 +53,8 @@ There are only 4 basic players within a Work Package:
 Every Work Package also has a special Item Type called a RIDE.
 
 - Risks
-
 - Issues
-
 - Dependencies
-
 - Escalations
 
 ![01b-004](media/01b-004.png ':size=560')
@@ -71,9 +62,7 @@ Every Work Package also has a special Item Type called a RIDE.
 The RIDE handles all the day-to-day things that pop up. It doesn't matter what you call them - Risks, Issues, Dependencies or Escalations - you have to do the same thing with all of them:
 
 - Document the RIDE
-
 - Show relevant Items within the Work Package - and possibly have potential solutions captured.
-
 - Then Obtain something from someone... usually information, confirmation and/or some kind of decision.
 
 Most project tools can't handle this because these types of things are not officially part of a project plan. This is where most projects fail, because this work stays hidden in emails and chat channels - and even if handled in those channels... two months later no one can find the decision that was actually made.
@@ -85,9 +74,7 @@ Note: Escalated RIDE Items are automatically shown on Executive reporting and ca
 RIDE Items have many special features that other Items do not:
 
 - Any RIDE Item can be Escalated.
-
 - RIDEs have an optional Mitigation Management section - allowing for more detailed Mitigation like selecting Likelihood (High, Medium, Low) and Impact (High, Medium, Low).
-
 - RIDEs have an optional Decision Management feature - a lightweight, but full process for asking for Decisions, capturing those decisions and then communicating those decisions. Every RIDE can have multiple Decision Requests - because sometimes things get complicated.
 
 How all this fits together in Agilic:
@@ -115,9 +102,7 @@ You can even update Status directly on any Kanban Board.
 #### Why State vs Status Matters
 
 - Clarity: No more Mystery Statuses
-
 - Team and Executive Alignment: Everyone knows what's going on
-
 - Momentum: Quicker Triage when things go off track
 
 ### Label Types
@@ -137,9 +122,7 @@ Are what most people think about when talking about Labels:
 ![01b-009](media/01b-009.png ':size=84')
 
 - Categories
-
 - Groupings
-
 - Etc.
 
 You can add as many Simple Labels as you want to any item.
@@ -151,11 +134,8 @@ Are the same as Simple Labels except Unbound Labels have 2 parts:
 ![01b-010](media/01b-010.png ':size=234')
 
 - TECH : Hardware
-
 - TECH : Software
-
 - TEAM : Alpha
-
 - TEAM : Bravo
 
 You can add as many Unbound Labels as you want to any item.
@@ -167,15 +147,10 @@ Are similar to Unbound Labels except Bound Labels can only have one of each Labe
 ![01b-011](media/01b-011.png ':size=116')
 
 - Complexity :: High
-
 - Complexity :: Low
-
 - PRIORITY :: 1
-
 - PRIORITY :: 2
-
 - PRIORITY :: 3
-
 - PRIORITY :: High
 
 You can be Complexity High or Low - but not both. You can only add 1 of each type of Bound Label to any item.

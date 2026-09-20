@@ -25,9 +25,7 @@ Step 2: Update Subscription and Payment Details
 Select Manage Billing. This hands you off to a secure, Stripe-hosted billing portal - Agilic itself doesn't store or process your card details.
 
 - Update your subscription
-
 - Update your payment methods
-
 - Cancel your subscription
 
 ![02h-003](media/02h-003.png ':size=560')
@@ -41,9 +39,7 @@ Step 3: Check Token Usage
 The AI Usage tab's Token Usage view shows both current and historical token usage for your organization.
 
 - Reports total tokens, input tokens, output tokens, provider cost, and customer cost
-
 - Break usage down by User, AI Model, Work Package, or Record Type using the tabs
-
 - Results are sortable and searchable
 
 ![02h-004](media/02h-004.png ':size=560')

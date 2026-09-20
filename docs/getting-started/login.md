@@ -11,19 +11,14 @@ If you followed an invitation link from an organization using Agilic, you'll see
 #### Signing in with email and password
 
 - Enter your email address.
-
 - Enter your password. Use the eye icon to show or hide what you've typed.
-
 - Confirm that you agree to the Terms & Conditions and Privacy Policy (tap either link to read them).
-
 - Click Sign In.
 
 ##### If something's wrong with your details
 
 - Email is required. - you left the email field empty.
-
 - Email is not valid. - what you entered doesn't look like a valid email address.
-
 - Password is required. - you left the password field empty.
 
 Fix the highlighted field and click Sign In again.

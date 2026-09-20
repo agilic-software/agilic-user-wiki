@@ -13,9 +13,7 @@ If you were invited to join an organization that already exists in Agilic, this 
 Have the following required information ready:
 
 - Primary Contact: Your name, Phone Number and email address
-
 - Your organization's basic info: name, mailing address, and phone number
-
 - A logo image for your organization, if you have one (optional - you can add this later)
 
 ### Overview: What Happens in This Process
@@ -23,7 +21,6 @@ Have the following required information ready:
 Creating your organization happens in two parts, one right after the other:
 
 - First, you create your personal Agilic account (Register)
-
 - Then, because you're the first person from your company, Agilic will automatically ask you to set up your organization before you can do anything else (Organization Creation)
 
 Once both steps are done, you'll land in Agilic ready to go.
@@ -37,9 +34,7 @@ Go to the Agilic sign-in page at [https://agilicsoftware.com/](https://agilicsof
 This will bring up the Registration page. Fill in the registration form:
 
 - First name and last name
-
 - Email address
-
 - Password (at least 8 characters) - you'll enter it twice to confirm
 
 Alternatively, you can select Sign up with Google to skip typing a password.
@@ -77,17 +72,11 @@ After Signing in, you'll see a pop-up window titled "Organization Creation." Thi
 Fill in the following:
 
 - Organization name
-
 - Organization logo (optional - you can click the logo area to upload an image)
-
 - Address: street address, city, state, country, and zip code
-
 - Primary Contact Name and Information
-
 - First Name, Last Name
-
 - Phone number
-
 - The email shown here is the one you registered with. It can not be changed.
 
 Before you continue: Your primary phone number and backup phone number need to be different from each other - same for your primary and backup email. If they match, Agilic will ask you to fix it before you can continue.
@@ -115,9 +104,7 @@ This setup step doesn't have a "skip" or "do this later" option - Agilic needs y
 Once your organization is set up, here's what to do first:
 
 - [Configure your Org Settings (Section 2)](/s2-setting-up-your-org/org-settings.md) - set date/time preferences, labels, and templates before your team starts creating Work Packages
-
 - Explore My View - your personal dashboard for anything assigned to you
-
 - Create your first Work Package - the core unit of work in Agilic, whether it's a large project or a single task
 
 See also: For inviting your team, see [Adding & Managing People (Section 2)](/s2-setting-up-your-org/adding-and-managing-people.md). For org-wide configuration, see [Setting Up Your Organization's Settings (Section 2)](/s2-setting-up-your-org/org-settings.md). For creating your first Work Package, see [Create a Work Package (Section 3)](/s3-work-packages/create-a-work-package.md).

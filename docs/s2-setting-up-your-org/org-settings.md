@@ -19,15 +19,10 @@ Step 1: Set Your Date/Time Preferences
 Under the Date/Time sub-tab, configure:
 
 - Date format
-
 - Clock Type (12 hour or 24 hour)
-
 - Time Zone (for the Org)
-
 - Number of Business Days in a week
-
 - Day of the Week your Calendar starts on
-
 - The Standard # of Business hours in a Day (for Planning / Allocation Purposes Only)
 
 ![02d-003](media/02d-003.png ':size=560')
@@ -45,9 +40,7 @@ Step 3: Set Up Global Labels
 Under Labels, you can see and use all global labels, and add labels/categories specific to your organization. There are three types:
 
 - Simple Labels - a single field. You can assign any number of these to an item.
-
 - UnBound Labels - a two-part label (e.g. "Category: Value"). You can assign any number of these.
-
 - Bound Labels - also two-part, but you can only assign one of each type - e.g. an item can be Priority:High or Priority:Low, but not both.
 
 Items and Work Packages both have their own sets of labels. Having good, consistent labels across all Items and all Work Packages makes your reporting much more valuable. However, there are always unique needs in every Project and therefore each Work Package can automatically use the Global Labels but can also set up their own.
