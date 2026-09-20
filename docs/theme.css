@@ -215,6 +215,29 @@ body.close .sidebar-toggle span {
   color: var(--agilic-primary-400);
 }
 
+/* Phone reading width.
+ *
+ * The vue theme caps the content at `max-width: 80%`, which reads well on a
+ * desktop monitor but on a phone spends a fifth of the viewport on empty
+ * gutters before its own 15px padding is added — 54px a side on a 390px
+ * screen, leaving ~38 characters per line. Below the theme's own 768px
+ * breakpoint, trade the percentage cap for a fixed edge margin. */
+@media screen and (max-width: 600px) {
+  .markdown-section {
+    max-width: none;
+    padding: 20px 18px 40px;
+  }
+}
+
+/* Tablets and narrow windows still want a reading-width cap, but a character
+ * count is a better one than a percentage of the viewport. */
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  .markdown-section {
+    max-width: 42rem;
+    padding: 24px 24px 40px;
+  }
+}
+
 /* ---------------------------------------------------------------------------
  * Screenshot lightbox
  *
