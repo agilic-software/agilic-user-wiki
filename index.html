@@ -13,7 +13,7 @@
   <script>
     window.$docsify = {
       basePath: 'docs/',      
-      name: '<img src="logo.png" alt="Agilic" onerror="this.style.display=\'none\'"> Agilic Wiki',
+      name: 'Agilic Wiki',
       loadSidebar: true,
       auto2top: true,
       search: 'auto',
@@ -27,6 +27,289 @@
             if (sidebar) {
               sidebar.insertBefore(link, sidebar.firstChild)
             }
+          })
+        },
+
+        /* Screenshot lightbox.
+         *
+         * Pages are mostly UI screenshots shrunk to the content column, where
+         * small text is unreadable. Clicking one opens it full-size. Styling
+         * lives in docs/theme.css.
+         *
+         * The overlay is built once and reused; only its <img> src changes.
+         */
+        function (hook) {
+          var overlay, overlayImg, caption, closeBtn, controls, zoomLabel
+          var lastFocused
+          var scale = 1
+          var STEPS = [1, 1.5, 2, 3, 4]
+
+          function build() {
+            overlay = document.createElement('div')
+            overlay.className = 'agilic-lightbox'
+            overlay.setAttribute('role', 'dialog')
+            overlay.setAttribute('aria-modal', 'true')
+            overlay.setAttribute('aria-label', 'Expanded image')
+            overlay.hidden = true
+
+            closeBtn = document.createElement('button')
+            closeBtn.className = 'agilic-lightbox-close'
+            closeBtn.setAttribute('aria-label', 'Close image')
+            closeBtn.innerHTML = '&times;'
+
+            overlayImg = document.createElement('img')
+            caption = document.createElement('div')
+            caption.className = 'agilic-lightbox-caption'
+
+            controls = document.createElement('div')
+            controls.className = 'agilic-lightbox-controls'
+            controls.innerHTML =
+              '<button data-zoom="out" aria-label="Zoom out">&minus;</button>' +
+              '<span class="agilic-lightbox-zoom-level">100%</span>' +
+              '<button data-zoom="in" aria-label="Zoom in">+</button>' +
+              '<button data-zoom="reset" aria-label="Reset zoom">Reset</button>'
+            zoomLabel = controls.querySelector('.agilic-lightbox-zoom-level')
+
+            overlay.appendChild(closeBtn)
+            overlay.appendChild(overlayImg)
+            overlay.appendChild(caption)
+            overlay.appendChild(controls)
+            document.body.appendChild(overlay)
+
+            closeBtn.addEventListener('click', function (e) {
+              e.stopPropagation()
+              close()
+            })
+
+            /* Only a click on the backdrop itself closes. Clicks on the image
+             * or the controls must not fall through to it. */
+            overlay.addEventListener('click', function (e) {
+              if (e.target === overlay) close()
+            })
+
+            controls.addEventListener('click', function (e) {
+              var btn = e.target.closest('button')
+              if (!btn) return
+              e.stopPropagation()
+              var kind = btn.getAttribute('data-zoom')
+              if (kind === 'in') setScale(nextStep(1))
+              else if (kind === 'out') setScale(nextStep(-1))
+              else setScale(1)
+            })
+
+            /* Click the image to step the zoom; at max it returns to fit. */
+            overlayImg.addEventListener('click', function (e) {
+              e.stopPropagation()
+              if (dragMoved) return
+              setScale(scale >= STEPS[STEPS.length - 1] ? 1 : nextStep(1))
+            })
+
+            /* Wheel / trackpad pinch zooms rather than scrolling the page. */
+            overlay.addEventListener('wheel', function (e) {
+              if (overlay.hidden) return
+              e.preventDefault()
+              zoomAround(clamp(scale * (e.deltaY < 0 ? 1.15 : 1 / 1.15)), e.clientX, e.clientY)
+            }, { passive: false })
+
+            enablePan()
+
+            /* The fitted size is viewport-relative, so it is stale after a
+             * resize or an orientation change. */
+            window.addEventListener('resize', function () {
+              if (overlay.hidden) return
+              var current = scale
+              overlayImg.style.width = ''
+              overlayImg.style.height = ''
+              requestAnimationFrame(function () {
+                captureFitSize()
+                setScale(current)
+              })
+            })
+
+            document.addEventListener('keydown', function (e) {
+              if (!overlay || overlay.hidden) return
+              if (e.key === 'Escape') { close(); return }
+              if (e.key === '+' || e.key === '=') { e.preventDefault(); setScale(nextStep(1)); return }
+              if (e.key === '-' || e.key === '_') { e.preventDefault(); setScale(nextStep(-1)); return }
+              if (e.key === '0') { e.preventDefault(); setScale(1); return }
+              /* Modal: keep Tab cycling inside the overlay. */
+              if (e.key === 'Tab') {
+                var items = [closeBtn].concat(
+                  Array.prototype.slice.call(controls.querySelectorAll('button'))
+                )
+                var i = items.indexOf(document.activeElement)
+                e.preventDefault()
+                items[(i + (e.shiftKey ? -1 : 1) + items.length) % items.length].focus()
+              }
+            })
+          }
+
+          function clamp(v) {
+            return Math.min(STEPS[STEPS.length - 1], Math.max(1, v))
+          }
+
+          function nextStep(dir) {
+            if (dir > 0) {
+              for (var i = 0; i < STEPS.length; i++) if (STEPS[i] > scale + 0.01) return STEPS[i]
+              return STEPS[STEPS.length - 1]
+            }
+            for (var j = STEPS.length - 1; j >= 0; j--) if (STEPS[j] < scale - 0.01) return STEPS[j]
+            return 1
+          }
+
+          /* Size of the image as first laid out (fitted to the overlay). Zoom
+           * multiplies this, so 100% always means "fits on screen". */
+          var fitW = 0, fitH = 0
+
+          function captureFitSize() {
+            var r = overlayImg.getBoundingClientRect()
+            fitW = r.width
+            fitH = r.height
+          }
+
+          function setScale(next) {
+            scale = clamp(next)
+            var zoomed = scale > 1
+
+            /* Enlarge the layout box rather than transform it, so the overlay
+             * actually has something to scroll. */
+            if (zoomed && fitW) {
+              overlayImg.style.width = fitW * scale + 'px'
+              overlayImg.style.height = fitH * scale + 'px'
+            } else {
+              overlayImg.style.width = ''
+              overlayImg.style.height = ''
+            }
+
+            overlay.classList.toggle('is-zoomed', zoomed)
+            zoomLabel.textContent = Math.round(scale * 100) + '%'
+            controls.querySelector('[data-zoom="out"]').disabled = scale <= 1
+            controls.querySelector('[data-zoom="in"]').disabled = scale >= STEPS[STEPS.length - 1]
+          }
+
+          /* Keep the point under the cursor roughly fixed while zooming, which
+           * is what makes wheel-zoom feel controllable. */
+          function zoomAround(next, clientX, clientY) {
+            var before = scale
+            var sx = (overlay.scrollLeft + clientX) / before
+            var sy = (overlay.scrollTop + clientY) / before
+            setScale(next)
+            if (scale > 1) {
+              overlay.scrollLeft = sx * scale - clientX
+              overlay.scrollTop = sy * scale - clientY
+            }
+          }
+
+          /* Drag to pan while zoomed. dragMoved suppresses the click-to-zoom
+           * that would otherwise fire at the end of a drag. */
+          var dragMoved = false
+          function enablePan() {
+            var down = false, sx, sy, sl, st
+            overlayImg.addEventListener('mousedown', function (e) {
+              if (scale <= 1) return
+              down = true; dragMoved = false
+              sx = e.clientX; sy = e.clientY
+              sl = overlay.scrollLeft; st = overlay.scrollTop
+              overlayImg.classList.add('is-panning')
+              e.preventDefault()
+            })
+            document.addEventListener('mousemove', function (e) {
+              if (!down) return
+              var dx = e.clientX - sx, dy = e.clientY - sy
+              if (Math.abs(dx) > 3 || Math.abs(dy) > 3) dragMoved = true
+              overlay.scrollLeft = sl - dx
+              overlay.scrollTop = st - dy
+            })
+            document.addEventListener('mouseup', function () {
+              if (!down) return
+              down = false
+              overlayImg.classList.remove('is-panning')
+              /* Let the click handler see dragMoved, then clear it. */
+              setTimeout(function () { dragMoved = false }, 0)
+            })
+          }
+
+          /* Most images are still captioned with their filename code
+           * ("01a-001"), which is noise in the overlay. Show a caption only
+           * once alt text says something a reader would want. */
+          function isFilenameAlt(alt) {
+            return !alt || /^[0-9a-z]{1,4}-?[0-9]{2,4}$/i.test(alt.trim())
+          }
+
+          function open(img) {
+            if (!overlay) build()
+            lastFocused = document.activeElement
+            overlayImg.style.width = ''
+            overlayImg.style.height = ''
+            overlayImg.src = img.src
+            overlayImg.alt = img.alt || ''
+            caption.textContent = isFilenameAlt(img.alt) ? '' : img.alt
+            scale = 1
+            overlay.classList.remove('is-zoomed')
+            overlay.scrollTop = 0
+            overlay.scrollLeft = 0
+            overlay.hidden = false
+
+            /* Measure once the browser has laid the image out — which for a
+             * not-yet-decoded image means waiting for the load. */
+            function ready() {
+              captureFitSize()
+              setScale(1)
+            }
+            if (overlayImg.complete && overlayImg.naturalWidth) {
+              requestAnimationFrame(ready)
+            } else {
+              overlayImg.addEventListener('load', ready, { once: true })
+            }
+
+            /* Next frame, so the opacity transition has a start state. */
+            requestAnimationFrame(function () {
+              overlay.classList.add('is-open')
+            })
+            closeBtn.focus()
+          }
+
+          function close() {
+            if (!overlay || overlay.hidden) return
+            overlay.classList.remove('is-open')
+            overlay.hidden = true
+            scale = 1
+            overlay.classList.remove('is-zoomed')
+            overlayImg.style.width = ''
+            overlayImg.style.height = ''
+            /* Release the decoded full-size bitmap. */
+            overlayImg.removeAttribute('src')
+            if (lastFocused && lastFocused.focus) lastFocused.focus()
+          }
+
+          /* doneEach fires after every page render, so images added by a
+           * route change get wired up too. */
+          hook.doneEach(function () {
+            var imgs = document.querySelectorAll('.markdown-section img')
+            Array.prototype.forEach.call(imgs, function (img) {
+              /* Skip inline badges/icons — only full screenshots are worth
+               * expanding, and a 28px logo in a heading is not. */
+              if (img.closest('a')) return
+              if (img.classList.contains('agilic-zoomable')) return
+
+              img.classList.add('agilic-zoomable')
+              img.setAttribute('tabindex', '0')
+              img.setAttribute('role', 'button')
+              img.setAttribute(
+                'aria-label',
+                isFilenameAlt(img.alt) ? 'Screenshot — expand' : img.alt + ' — expand'
+              )
+
+              img.addEventListener('click', function () {
+                open(img)
+              })
+              img.addEventListener('keydown', function (e) {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  e.preventDefault()
+                  open(img)
+                }
+              })
+            })
           })
         }
       ]
