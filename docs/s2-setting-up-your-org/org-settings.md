@@ -1,123 +1,104 @@
-*September 18, 2026 • Section 2: Setting up your Org • For: Org Admins*
+# Org Settings
 
-Once your organization exists in Agilic, there are a handful of org-wide
-settings worth configuring early --- before your team starts creating
-Work Packages. These live under Org Admin → Settings.
+*September 19, 2026 - Section 2*
 
-***See also:** For creating your organization for the first time, see
-[Creating Your Organization (Section
-2)](/s2-setting-up-your-org/create-your-organization.md).*
+See also: For creating your organization for the first time, see [Creating Your Organization (Section 2)](/s2-setting-up-your-org/create-your-organization.md).
 
-# Getting There
+### Getting There
 
-Go to Org Admin, then select the Settings tab. You'll see a row of
-sub-tabs across the top.
+- Go to Org Admin and select Global Settings
 
-![02b-001](media/02b-001.png)
+<img src="media/02d-001.png" width="134" alt="02d-001">
 
-![02b-002](media/02b-002.png)
+- You'll see a row of sub-tabs across the top.
 
-**Step 1: Set Your Date/Time Preferences**
+<img src="media/02d-002.png" width="560" alt="02d-002">
+
+Step 1: Set Your Date/Time Preferences
 
 Under the Date/Time sub-tab, configure:
 
--   Date format, Clock Type (12 hour or 24 hour), Time Zone (for the Org)
+- Date format
 
--   \# of Business Days in a week, Day of the Week your Calendar starts on
+- Clock Type (12 hour or 24 hour)
 
--   The Standard \# of Business hours in a Day (for Planning Purposes)
+- Time Zone (for the Org)
 
-![02b-003](media/02b-003.png)
+- Number of Business Days in a week
 
-**Step 2: Set Work Package Header Defaults**
+- Day of the Week your Calendar starts on
 
-Under Work Package Header Settings, configure the defaults that will
-apply to every new Work Package in your organization, unless someone
-overrides them for a specific Work Package. This simply allows you to
-adjust the verbiage being used at the Work Package level.
+- The Standard # of Business hours in a Day (for Planning / Allocation Purposes Only)
 
-![02b-004](media/02b-004.png)
+<img src="media/02d-003.png" width="560" alt="02d-003">
 
-**Tip:** Set these before your team starts creating Work Packages --- it
-saves everyone from having to configure the same options individually,
-every time.
+Step 2: Set Work Package Header Defaults
 
-**Step 3: Set Up Global Labels**
+Under Work Package Header Settings, configure the defaults that will apply to every new Work Package in your organization, unless someone overrides them for a specific Work Package. This simply allows you to adjust the verbiage being used at the Work Package level.
 
-Under Labels, you can see and use all global labels, and add
-labels/categories specific to your organization. There are three types:
+<img src="media/02d-004.png" width="560" alt="02d-004">
 
--   Simple Labels --- a single field. You can assign any number of these to an item.
+Tip: Set these before your team starts creating Work Packages - it saves everyone from having to configure the same options individually, every time.
 
--   UnBound Labels --- a two-part label (e.g. "Category: Value"). You can assign any number of these.
+Step 3: Set Up Global Labels
 
--   Bound Labels --- also two-part, but you can only assign one of each type --- e.g. an item can be Priority:High or Priority:Low, but not both.
+Under Labels, you can see and use all global labels, and add labels/categories specific to your organization. There are three types:
 
-Items and Work Packages both have their own sets of labels. Having good,
-consistent labels across all Items and all Work Packages makes your
-reporting much more valuable. However, there are always unique needs in
-every Project and therefore each Work Package can automatically use the
-Global Labels but can also set up their own.
+- Simple Labels - a single field. You can assign any number of these to an item.
 
-![02b-005](media/02b-005.png)
+- UnBound Labels - a two-part label (e.g. "Category: Value"). You can assign any number of these.
 
-**Tip:** These same label types are also available at the individual
-Work Package level, in that WP's own Settings --- see [Work Package
-Settings (Section
-3)](/s3-work-packages/work-package-settings.md).
+- Bound Labels - also two-part, but you can only assign one of each type - e.g. an item can be Priority:High or Priority:Low, but not both.
 
-**Step 4: Create Work Package Templates (Optional)**
+Items and Work Packages both have their own sets of labels. Having good, consistent labels across all Items and all Work Packages makes your reporting much more valuable. However, there are always unique needs in every Project and therefore each Work Package can automatically use the Global Labels but can also set up their own.
 
-Under Global Work Package Templates, set up reusable starting Templates
-so your team doesn't have to configure every new Work Package from
-scratch. Each of the following can have multiple templates created for
-any needs your organization may have:
+<img src="media/02d-005.png" width="560" alt="02d-005">
 
--   Work Package State --- defaults to System Defined unless changed
+Tip: These same label types are also available at the individual Work Package level, in that WP's own Settings - see Work Package Settings (Section 3).
 
--   Work Package Health --- defaults to System Defined unless changed
+Step 4: Create Work Package Templates (Optional)
 
--   Work Package Phase --- defaults to System Defined unless changed
+Under Global Work Package Templates, set up reusable starting Templates so your team doesn't have to configure every new Work Package from scratch. Each of the following can have multiple templates created for any needs your organization may have:
 
--   Item State --- defaults to System Defined unless changed
+#### Work Package State
 
-![02b-006](media/02b-006.png)
+- defaults to System Defined unless changed
 
-![02b-007](media/02b-007.png)
+<img src="media/02d-006.png" width="560" alt="02d-006">
 
-![02b-008](media/02b-008.png)
+#### Work Package Health
 
-![02b-009](media/02b-009.png)
+- defaults to System Defined unless changed
 
-**Step 5: Turn On Optional Modules**
+<img src="media/02d-007.png" width="560" alt="02d-007">
 
-Under Module Access, turn on optional features for your organization.
-Currently, this is where you enable Client Portal --- and optionally
-make it the default for new Work Packages.
+#### Work Package Phase
 
-![02b-010](media/02b-010.png)
+- defaults to System Defined unless changed
 
-**Tip:** Only turn on Client Portal if your organization actually works
-with external clients --- see [Client Portal Module (Section
-10)](/s10-client-portal/client-portal-module.md)
-before enabling this.
+<img src="media/02d-008.png" width="560" alt="02d-008">
 
-# Quick Reference
+#### Item State
 
-  -----------------------------------------------------------------------
-  **Sub-Tab**            **Purpose**
-  ---------------------- ------------------------------------------------
-  Date/Time              Date/timestamp format, business days, week start
+- defaults to System Defined unless changed
 
-  Work Package Header    Defaults applied to every new Work Package
-  Settings               (naming pending)
+<img src="media/02d-009.png" width="560" alt="02d-009">
 
-  Labels                 Simple, UnBound, and Bound labels/categories,
-                         org-wide
+Step 5: Turn On Optional Modules
 
-  Global Work Package    Reusable starting points for new Work Packages
-  Templates              
+Under Module Access, turn on optional features for your organization. Currently, this is where you enable Client Portal - and optionally make it the default for new Work Packages.
 
-  Module Access          Turn optional features (like Client Portal) on
-                         or off
-  -----------------------------------------------------------------------
+<img src="media/02d-010.png" width="560" alt="02d-010">
+
+Tip: Only turn on Client Portal if your organization actually works with external clients - see Client Portal Module (Section 10) before enabling this.
+
+### Quick Reference
+
+| Sub-Tab | Purpose |
+| --- | --- |
+| Date/Time | Date/timestamp format, business days, week start |
+| Work Package Header Settings | Defaults applied to every new Work Package (naming pending) |
+| Labels | Simple, UnBound, and Bound labels/categories, org-wide |
+| Global Work Package Templates | Reusable starting points for new Work Packages |
+| Module Access | Turn optional features (like Client Portal) on or off |
+

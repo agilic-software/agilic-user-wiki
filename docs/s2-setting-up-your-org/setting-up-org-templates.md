@@ -1,161 +1,133 @@
-**Setting Up Org Templates --- Item States, WP Phases & Labels**
+# Setting Up Org Templates
 
-*September 18, 2026 • Section 2: Setting Up Your Organization • For: Org
-Admins*
+*September 19, 2026 - Section 2*
 
-A hands-on, click-by-click walkthrough for entering the Item States, WP
-Phases, and Labels you've already decided on into Agilic. This is the
-"how" --- for the "what" and "why" behind these decisions, read
-the companion guide first.
+A hands-on, click-by-click walkthrough for entering the Item States, WP Phases, and Labels you've already decided on into Agilic. This is the "how" - for the "what" and "why" behind these decisions, read the companion guide first.
 
-*See also: For guidance on what to actually write for your States,
-Phases, and Labels --- and the mistakes to avoid --- see [Things to
-Consider when Setting Up Your Organization (Section
-2)](/s2-setting-up-your-org/things-to-consider-when-setting-up-your-org.md).*
+See also: For guidance on what to actually write for your States, Phases, and Labels - and the mistakes to avoid - see [Things to Consider when Setting Up Your Organization (Section 2)](/s2-setting-up-your-org/things-to-consider-when-setting-up-your-org.md).
 
-# **Getting There**
+### Getting There
 
-From any screen, expand Org Admin in the left-hand navigation, then
-select Global Settings.
+From any screen, expand Org Admin in the left-hand navigation, then select Global Settings.
 
-![02-t001](media/02-t001.png)
+<img src="media/02e-001.png" width="114" alt="02e-001">
 
-# **Part 1 --- WP Phases and Item States**
+### Part 1 - WP Phases and Item States
 
-**Step 1: Open Global WP Templates**
+Step 1: Open Global WP Templates
 
 Select Global WP Templates.
 
-![02-t002](media/02-t002.png)
+<img src="media/02e-002.png" width="560" alt="02e-002">
 
-**Step 2: Set Your Work Package Phase Settings**
+Step 2: Set Your Work Package Phase Settings
 
-Scroll down to Work Package Phase Settings and begin editing the
-existing Template
+Scroll down to Work Package Phase Settings and begin editing the existing Template
 
-![02-t003](media/02-t003.png)
+<img src="media/02e-003.png" width="560" alt="02e-003">
 
-This is where the WP Phases you wrote down in the companion guide get
-entered --- once Applied, these become available to every Work Package
-in your organization by default. *See also: For guidance on designing
-your Phases properly, see Appendix B of [Things to Consider when
-Setting Up Your Organization (Section
-2)](/s2-setting-up-your-org/things-to-consider-when-setting-up-your-org.md).*
+This is where the WP Phases you wrote down in the companion guide get entered - once Applied, these become available to every Work Package in your organization by default. See also: For guidance on designing your Phases properly, see Appendix B of [Things to Consider when Setting Up Your Organization (Section 2)](/s2-setting-up-your-org/things-to-consider-when-setting-up-your-org.md).
 
--   You can
+- You can
 
-    -   Rename, change the background color and text color, or delete a Phase
+- Rename, change the background color and text color, or delete a Phase
 
-    -   Add a Phase
+- Add a Phase
 
-    -   Re-order the Phases
+- Re-order the Phases
 
 Once you have your Phases how you like them:
 
--   Select Save As New Template
+- Select Save As New Template
 
-![02-t004](media/02-t004.png)
+<img src="media/02e-004.png" width="560" alt="02e-004">
 
--   Enter your Template Name and select Create & Apply
+- Enter your Template Name and select Create & Apply
 
-![02-t005](media/02-t005.png)
+<img src="media/02e-005.png" width="370" alt="02e-005">
 
--   In the Pick Saved Phase Template drop-down - select your Custom Template you made
+- In the Pick Saved Phase Template drop-down - select your Custom Template you made
 
-![02-t006](media/02-t006.png)
+<img src="media/02e-006.png" width="370" alt="02e-006">
 
--   Select Apply
+- Select Apply
 
-![02-t007](media/02-t007.png)
+<img src="media/02e-007.png" width="560" alt="02e-007">
 
-**Step 3: Set Your Item State Settings**
+Step 3: Set Your Item State Settings
 
-Scroll down to Item State Settings and begin editing the existing
-Template
+Scroll down to Item State Settings and begin editing the existing Template
 
-![02-t008](media/02-t008.png)
+<img src="media/02e-008.png" width="560" alt="02e-008">
 
-This is where your Item States list you wrote down in the companion
-guide gets entered --- once Applied, these become available to every
-Work Package in your organization by default. *See also: For why Item
-State and Status are kept as two separate fields, see Appendix A of
-[Things to Consider when Setting Up Your Organization (Section
-2)](/s2-setting-up-your-org/things-to-consider-when-setting-up-your-org.md).*
+This is where your Item States list you wrote down in the companion guide gets entered - once Applied, these become available to every Work Package in your organization by default. See also: For why Item State and Status are kept as two separate fields, see Appendix A of [Things to Consider when Setting Up Your Organization (Section 2)](/s2-setting-up-your-org/things-to-consider-when-setting-up-your-org.md).
 
--   You can
+- You can
 
-    -   Rename, change the background color and text color, or delete an Item
+- Rename, change the background color and text color, or delete an Item
 
-    -   Mark an Item as System State: Open or Closed
+- Mark an Item as System State: Open or Closed
 
-    -   Mark a Closed Item as Accomplished - for instance, if you Cancel an Item it was not Accomplished
+- Mark a Closed Item as Accomplished - for instance, if you Cancel an Item it was not Accomplished
 
-    -   Select an Animation that gets displayed when moved into this Item State
+- Select an Animation that gets displayed when moved into this Item State
 
-    -   Add another Item State
+- Add another Item State
 
-    -   Re-order the Items
+- Re-order the Items
 
 Once you have your Item States how you like them:
 
--   Select Save As New Template
+- Select Save As New Template
 
-![02-t009](media/02-t009.png)
+<img src="media/02e-009.png" width="560" alt="02e-009">
 
--   Enter your Template Name and select Create & Apply
+- Enter your Template Name and select Create & Apply
 
-![02-t010](media/02-t010.png)
+<img src="media/02e-010.png" width="375" alt="02e-010">
 
--   In the Pick Saved State Template drop-down - select your Custom Template you made
+- In the Pick Saved State Template drop-down - select your Custom Template you made
 
-![02-t011](media/02-t011.png)
+<img src="media/02e-011.png" width="303" alt="02e-011">
 
--   Select Apply
+- Select Apply
 
-![02-t012](media/02-t012.png)
+<img src="media/02e-012.png" width="560" alt="02e-012">
 
-# **Part 2 --- Labels**
+### Part 2 - Labels
 
-**Step 4: Open the Labels Tab**
+Step 4: Open the Labels Tab
 
-Go to Org Admin → Settings → Labels.
+<img src="media/02e-013.png" width="560" alt="02e-013">
 
-![02-t013](media/02-t013.png)
+Step 5: Confirm You're on Items
 
-**Step 5: Confirm You're on Items**
+Labels can be configured for more than one context - make sure the Items sub-tab is selected before continuing.
 
-Labels can be configured for more than one context --- make sure the
-Items sub-tab is selected before continuing.
+<img src="media/02e-014.png" width="560" alt="02e-014">
 
-![02-t014](media/02-t014.png)
+Step 6: Find the Right Label Type
 
-**Step 6: Find the Right Label Type**
+Scroll to the Label Type section that matches what you're adding: Simple, UnBound, or Bound.
 
-Scroll to the Label Type section that matches what you're adding:
-Simple, UnBound, or Bound.
+<img src="media/02e-015.png" width="560" alt="02e-015">
 
-![02-t015](media/02-t015.png)
+See also: If you're not sure which Label Type fits what you're adding, Appendix C of [Things to Consider when Setting Up Your Organization (Section 2)](/s2-setting-up-your-org/things-to-consider-when-setting-up-your-org.md) covers the difference.
 
-*See also: If you're not sure which Label Type fits what you're
-adding, Appendix C of [Things to Consider when Setting Up Your
-Organization (Section
-2)](/s2-setting-up-your-org/things-to-consider-when-setting-up-your-org.md)
-covers the difference.*
+Step 7: Create the Label
 
-**Step 7: Create the Label**
+Select Create Label under the correct Label Type, and enter the label exactly as you wrote it down in your planning.
 
-Select Create Label under the correct Label Type, and enter the label
-exactly as you wrote it down in your planning.
-
-![02-t016](media/02-t016.png)
+<img src="media/02e-016.png" width="560" alt="02e-016">
 
 You can:
 
--   Edit the Name (and Sub Name if a two-part label)
+- Edit the Name (and Sub Name if a two-part label)
 
--   Edit the Label (background) color
+- Edit the Label (background) color
 
--   Edit the Label Text Color
+- Edit the Label Text Color
 
-When you have each Label Type (Simple, Unbound, Bound) - Select Save\
-![02-t017](media/02-t017.png)
+When you have each Label Type (Simple, Unbound, Bound) - Select Save
+
+<img src="media/02e-017.png" width="560" alt="02e-017">
