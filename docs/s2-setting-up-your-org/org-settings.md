@@ -1,6 +1,5 @@
 # Org Settings
 
-*September 19, 2026 - Section 2*
 
 See also: For creating your organization for the first time, see [Creating Your Organization (Section 2)](/s2-setting-up-your-org/create-your-organization.md).
 

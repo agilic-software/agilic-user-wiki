@@ -1,4 +1,4 @@
-*September 18, 2026 • Section 4: New User Orientation*
+# Navigate Teams
 
 A Team in Agilic is a standing group you belong to --- separate from any
 one Work Package --- with its own purpose, roster, work, reporting, and

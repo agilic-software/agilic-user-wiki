@@ -1,4 +1,4 @@
-*September 18, 2026 • Section 12*
+# Knowledge - Search
 
 This guide covers using Agilic's Global Search --- free-text search
 across your organization, independent of any single Work Package.

@@ -1,5 +1,4 @@
-*September 18, 2026 • Section 3: Inside a Work Package • For: WP
-Owner/Driver*
+# Things to Consider when Pre-Planning a Work Package
 
 Pre-Planning covers everything you set up before you have your full team
 or are ready to plan out the schedule: defining the Work Package itself,

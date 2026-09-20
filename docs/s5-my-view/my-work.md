@@ -1,4 +1,4 @@
-*September 18, 2026 • Section 5*
+# My Work
 
 A tabbed view of items relevant to you, pulled from across all your Work
 Packages.

@@ -1,4 +1,4 @@
-*September 18, 2026 • Section 9 • For: Org Admins*
+# Managing Client Companies and Contacts
 
 This guide covers managing the external client companies and client
 contacts who use your Client Portal --- the internal admin counterpart

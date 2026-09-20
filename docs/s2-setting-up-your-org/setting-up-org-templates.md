@@ -1,6 +1,5 @@
 # Setting Up Org Templates
 
-*September 19, 2026 - Section 2*
 
 A hands-on, click-by-click walkthrough for entering the Item States, WP Phases, and Labels you've already decided on into Agilic. This is the "how" - for the "what" and "why" behind these decisions, read the companion guide first.
 

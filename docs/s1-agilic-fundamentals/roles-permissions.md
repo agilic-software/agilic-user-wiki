@@ -1,6 +1,5 @@
 # Roles & Permissions
 
-*September 19, 2026 - Section 1*
 
 "I'm a [role] - what can I actually do in Agilic?" This page answers that directly, organized by role rather than by feature.
 

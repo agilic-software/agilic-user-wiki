@@ -1,8 +1,5 @@
 # Setting Up Your Organization in Agilic
 
-*September 19, 2026 - Section 2*
-
-📄 Download this guide: Word (.docx) · PDF
 
 ### Table of Contents
 

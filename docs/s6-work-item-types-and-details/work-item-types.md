@@ -1,5 +1,4 @@
-*September 18, 2026 • Section 6: Core Day-to-Day Work • For: WP Roster
-members*
+# Work Item Types
 
 Define, Do Work, Document, and Deliver are the four working tabs of
 Agilic's 4D Framework --- where most of your daily work inside a Work

@@ -1,6 +1,5 @@
 # Agilic User Wiki
 
-*September 19, 2026 - Home*
 
 Agilic is built around a simple idea: you don’t just manage projects  -  you manage people’s effort. Whether you’re managing a formal project, coordinating team initiatives, tracking day-to-day work, or organizing your own responsibilities, Agilic gives you one place to define, manage, and understand the work being done.
 

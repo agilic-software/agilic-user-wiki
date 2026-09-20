@@ -1,4 +1,4 @@
-*September 18, 2026 • Section 3: New User Orientation*
+# Navigate a Work Package
 
 A Work Package (WP) is the core unit of work in Agilic --- anything from
 a large multi-team project to a single task. This is a quick tour of

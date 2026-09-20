@@ -1,4 +1,4 @@
-*September 18, 2026 • Section 7: Time Tracking • For: WP Roster members*
+# Timesheets
 
 Agilic Timesheets have two different functions: Allocation Management,
 to help with Pre-Planning by reserving capacity ahead of time, and

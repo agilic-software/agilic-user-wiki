@@ -1,6 +1,5 @@
 # Signing In
 
-*September 19, 2026 - Getting Started*
 
 The login screen is how you access your Agilic account. From here you can sign in with your email and password, sign in with Google, create a new account, or reset a forgotten password.
 

@@ -1,6 +1,5 @@
 # Agilic Terminology Index & Dictionary
 
-*September 18, 2026 • Appendix*
 
 This is a living index and dictionary of Agilic-specific terms used
 throughout the training documentation. Each entry gives a short

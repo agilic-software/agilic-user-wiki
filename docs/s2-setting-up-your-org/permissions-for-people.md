@@ -1,6 +1,5 @@
 # Permissions for People
 
-*September 19, 2026 - Section 2*
 
 This guide covers the different levels of access a person can have in Agilic, and where each one is controlled. Permissions in Agilic aren't a single on/off switch - they're a combination of several separate flags and roles, each covering a different part of the app.
 

@@ -1,5 +1,4 @@
-*September 18, 2026 • Section 6: Core Day-to-Day Work • For: WP Roster
-members*
+# Working Standard Items (the 4D's)
 
 This guide covers everything you can capture on a single item, whether
 it lives in Define, Document, Do Work, or Deliver. All four Work Item

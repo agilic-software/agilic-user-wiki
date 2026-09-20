@@ -1,6 +1,5 @@
 # Create Your Organization
 
-*September 19, 2026 - Section 2*
 
 ### Who This Guide Is For
 

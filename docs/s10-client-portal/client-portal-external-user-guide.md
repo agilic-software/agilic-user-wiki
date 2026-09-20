@@ -1,5 +1,4 @@
-*September 18, 2026 • Section 10: External Collaboration • For: Client
-Portal users (external)*
+# Client Portal Users (external)
 
 Welcome! This guide will help you get started with your Client Portal
 --- a simple, secure way to stay up to date on the work being done for

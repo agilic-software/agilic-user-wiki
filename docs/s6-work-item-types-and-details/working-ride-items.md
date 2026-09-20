@@ -1,5 +1,4 @@
-*September 18, 2026 • Section 6: Core Day-to-Day Work • For: WP Roster
-members*
+# Working RIDE Items
 
 RIDE stands for Risks, Issues, Dependencies, and Escalations --- the
 unforeseen work that comes up through a project's lifecycle. RIDE items

@@ -1,4 +1,4 @@
-*September 18, 2026 • Section 3*
+# Work Package - Client Portal Management
 
 Only relevant if this Work Package has external clients. Controls
 exactly what a client can see --- which milestones, RIDE items, and
