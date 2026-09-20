@@ -1,6 +1,5 @@
 # Feature Index
 
-*September 18, 2026 • Appendix*
 
 "I want to know about this feature --- what is it for, how does it
 work?" Start here. Grouped by category rather than alphabetically, since

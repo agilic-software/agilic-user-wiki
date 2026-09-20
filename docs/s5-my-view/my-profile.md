@@ -1,4 +1,4 @@
-*September 18, 2026 • Section 5*
+# My Profile
 
 Your personal account area.
 

@@ -1,6 +1,5 @@
 # How to Navigate as a User
 
-*September 19, 2026 - Section 1*
 
 When you log in, you'll land on My View - your personal home base. From there, a few areas are always available to you. This is a quick tour of the main areas you'll use every day in Agilic as a regular team member. It won't teach you how to do every task - just what each screen is for, so you know where to go.
 

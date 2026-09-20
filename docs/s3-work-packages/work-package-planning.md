@@ -1,5 +1,4 @@
-*September 18, 2026 • Section 3: Planning & Scheduling • For: WP Roster
-members*
+# Work Package Planning
 
 This guide covers every Planning tool available for organizing your
 schedule, in depth --- standard project Planning, used once you have

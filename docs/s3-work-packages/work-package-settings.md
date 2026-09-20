@@ -1,5 +1,4 @@
-*September 18, 2026 • Section 3: Inside a Work Package • For: WP
-Owner/Driver, Org Admin*
+# Work Package Settings
 
 WP-level configurations for the Work Package, Work Item Type, Item,
 Reporting, Labels, and Module Access sub-tabs.

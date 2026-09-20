@@ -1,6 +1,5 @@
 # Navigate Org Admin
 
-*September 19, 2026 - Section 2*
 
 Org Admin is the management console for your organization - separate from the everyday work areas covered in "How to Navigate as a User." This is a quick tour of what each tab is for. Give this about 5--10 minutes.
 

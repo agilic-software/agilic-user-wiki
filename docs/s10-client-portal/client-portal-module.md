@@ -1,5 +1,4 @@
-*September 18, 2026 • Section 10: External Collaboration • For: Internal
-users (Org Admins, WP Owner/Drivers)*
+# Client Portal Module / Internal Users
 
 This guide introduces the Client Portal from your organization's side
 --- what it is, how it gets turned on, and how it fits together, before

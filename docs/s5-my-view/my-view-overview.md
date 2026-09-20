@@ -1,4 +1,4 @@
-*September 18, 2026 • Section 5*
+# My View Overview
 
 This is the connector document for My View --- your personal dashboard,
 pulling together everything relevant to you across every Work Package

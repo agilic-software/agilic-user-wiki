@@ -1,6 +1,5 @@
 # Managing Billing
 
-*September 19, 2026 - Section 2*
 
 This guide covers your organization's subscription and AI usage tracking. Only the person flagged as Billing Admin can see this area - a narrower permission than general Org Admin access.
 

@@ -1,4 +1,4 @@
-*September 18, 2026 • Section 3*
+# Work Package Management
 
 This is the connector document for everything inside a Work Package (WP)
 --- the core unit of work in Agilic. Several areas already have their

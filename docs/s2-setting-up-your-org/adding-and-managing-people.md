@@ -1,6 +1,5 @@
 # Adding & Managing People
 
-*September 19, 2026 - Section 2*
 
 This guide covers the ongoing admin task of inviting new people into your organization, assigning them permissions, and keeping the People list current. Unlike Organization setup, this is something you'll come back to regularly as your team grows or changes.
 

@@ -1,4 +1,4 @@
-*September 18, 2026 • Section 5: Core Day-to-Day Work • For: All users*
+# My Private Work Package (PWP)
 
 This is a summary-level overview of Private Work Packages --- what they
 are and how they're identified. For the fuller picture of how they show

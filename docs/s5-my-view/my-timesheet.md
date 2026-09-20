@@ -1,4 +1,4 @@
-*September 18, 2026 • Section 5*
+# My Timesheet
 
 Showing all your allocations and logged hours within every Work Package
 you're part of.

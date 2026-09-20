@@ -1,4 +1,4 @@
-*September 18, 2026 • Section 4*
+# Team Management
 
 A Team --- is a functional group of people who do a similar type of work
 or work collectively across an Organization and have the same

@@ -1,5 +1,4 @@
-*September 18, 2026 • Section 11: AI-Powered Assistance • For: All
-users*
+# Agilic AI Assistant
 
 The Agilic AI Assistant is a chat-based companion built into Agilic.
 Rather than clicking through screens, you can ask it questions in plain

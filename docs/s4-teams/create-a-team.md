@@ -1,5 +1,4 @@
-*September 18, 2026 • Section 4: Recurring Admin Tasks • For: Org Admins
-/ Team Owners*
+# Create a Team
 
 A Team in Agilic is a standing group --- separate from any single Work
 Package --- with its own purpose and roster. This guide covers creating

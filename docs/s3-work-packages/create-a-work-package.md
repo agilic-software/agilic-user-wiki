@@ -1,11 +1,10 @@
-*September 18, 2026 • Section 3: Core Day-to-Day Work*
+# Creating a Work Package
 
 A Work Package (WP) is the core unit of work in Agilic. This guide walks
 through creating a new Work Package (WP) and getting people added to the
 WP --- something you'll do every time a new project or task needs its
 own dedicated space.
 
-# Creating a Work Package
 
 **Step 1: Start a New Work Package**
 

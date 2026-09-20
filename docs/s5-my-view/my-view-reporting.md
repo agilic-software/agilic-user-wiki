@@ -1,6 +1,5 @@
 **My View Reporting**
 
-*September 18, 2026 • Section 5*
 
 Everything under My View's Reporting tab works exactly like the Work
 Package-level reports, except every view here pulls data across every
