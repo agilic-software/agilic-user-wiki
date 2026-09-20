@@ -22,7 +22,7 @@ See also: For creating an organization for the first time, see [Creating Your Or
 
 - Add / Remove Users
 
-<img src="media/02f-001.png" width="560" alt="02f-001">
+![02f-001](media/02f-001.png ':size=560')
 
 #### Standard Permission Types
 
@@ -44,13 +44,13 @@ Every person can be assigned a Role when they're added to the organization, defi
 
 - Individual Work Packages can use the org-level Role Placeholders, or create their own for unique circumstances
 
-<img src="media/02f-002.png" width="560" alt="02f-002">
+![02f-002](media/02f-002.png ':size=560')
 
 ### Teams
 
 After adding someone to your organization, you can then add them to a Team. People without a Team can still be added to Work Packages and everything else.
 
-<img src="media/02f-003.png" width="560" alt="02f-003">
+![02f-003](media/02f-003.png ':size=560')
 
 - Note: A Team isn't a prerequisite for anything, but being on a Team gives you access to that Team's dedicated views.
 
@@ -58,7 +58,7 @@ After adding someone to your organization, you can then add them to a Team. Peop
 
 A narrower flag than general Org Admin access. Only the person flagged as Billing Admin can see the Billing and AI Usage tabs inside Org Admin.
 
-<img src="media/02f-004.png" width="560" alt="02f-004">
+![02f-004](media/02f-004.png ':size=560')
 
 ## Work Package Permissions
 
@@ -94,7 +94,7 @@ The Owner/Driver of a Work Package has additional permissions on top of the abov
 
 Note: Org Admin users can access everything in any Work Package or Team as if they were its Owner/Driver.
 
-<img src="media/02f-005.png" width="560" alt="02f-005">
+![02f-005](media/02f-005.png ':size=560')
 
 #### Client Portal Permissions
 

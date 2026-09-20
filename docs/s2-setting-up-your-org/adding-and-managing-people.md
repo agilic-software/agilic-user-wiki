@@ -10,13 +10,13 @@ See also: For a full breakdown of every access layer, see [Permissions for Peopl
 
 Go to Org Admin, then select the People tab.
 
-<img src="media/02g-001.png" width="122" alt="02g-001">
+![02g-001](media/02g-001.png ':size=122')
 
 Step 1: Review the Org People List
 
 The Org People List shows everyone currently in your organization, along with their role, employment type, and activation/verification status.
 
-<img src="media/02g-002.png" width="560" alt="02g-002">
+![02g-002](media/02g-002.png ':size=560')
 
 Tip: Check the verification/activation status column if someone says they can't log in - they may not have completed their invitation yet.
 
@@ -24,13 +24,13 @@ Step 2: Set Up Org Roles (If Needed)
 
 Before adding people, make sure the Org Role List reflects your organization's actual job titles/functions - this is what you'll assign each new person to.
 
-<img src="media/02g-003.png" width="560" alt="02g-003">
+![02g-003](media/02g-003.png ':size=560')
 
-<img src="media/02g-004.png" width="272" alt="02g-004">
+![02g-004](media/02g-004.png ':size=272')
 
 Tip: Agilic also supports "Role Placeholders," available for pre-planning across the org - a role that exists in the system but isn't yet filled by a real person. Individual Work Packages can also use these org-level role placeholders, or create their own.
 
-<img src="media/02g-005.png" width="287" alt="02g-005">
+![02g-005](media/02g-005.png ':size=287')
 
 See also: A Role is a job title/skillset label only - it carries no permissions of its own. See [Permissions for People (Section 2)](/s2-setting-up-your-org/permissions-for-people.md).
 
@@ -38,7 +38,7 @@ Step 3: Add a New Person
 
 - Click on Add User
 
-<img src="media/02g-006.png" width="560" alt="02g-006">
+![02g-006](media/02g-006.png ':size=560')
 
 - then fill in the relevant information. The Required fields are:
 
@@ -50,7 +50,7 @@ Step 3: Add a New Person
 
 - Email - Note that the email listed here is where the invitation for access to Agilic will be sent.
 
-<img src="media/02g-007.png" width="560" alt="02g-007">
+![02g-007](media/02g-007.png ':size=560')
 
 Once saved, the new person receives an invitation to join your organization.
 
@@ -78,7 +78,7 @@ Step 6: Track Invitation Status
 
 A newly added person won't be able to use Agilic until they accept their invitation and complete registration. Check back on the Org People List to see their verification status.
 
-<img src="media/02g-008.png" width="560" alt="02g-008">
+![02g-008](media/02g-008.png ':size=560')
 
 ### Related Tasks
 

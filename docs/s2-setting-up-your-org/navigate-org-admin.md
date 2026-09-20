@@ -10,25 +10,25 @@ See also: The persistent top toolbar (Home, quick-access pills, AI Agent, Search
 
 Org Admin is available if you have admin access for your organization.
 
-<img src="media/02a-001.png" width="134" alt="02a-001">
+![02a-001](media/02a-001.png ':size=134')
 
 ### Organization
 
 Your organization's profile - name, logo, license number, address, time zone, and primary contact. This is the same form used when your organization was first created.
 
-<img src="media/02a-002.png" width="560" alt="02a-002">
+![02a-002](media/02a-002.png ':size=560')
 
 ### Communication
 
 Create organization-wide announcement banners that appear to everyone in your org for a scheduled window of time.
 
-<img src="media/02a-003.png" width="560" alt="02a-003">
+![02a-003](media/02a-003.png ':size=560')
 
 ### People
 
 Manage everyone in your organization.
 
-<img src="media/02a-004.png" width="560" alt="02a-004">
+![02a-004](media/02a-004.png ':size=560')
 
 - Org People List - the full roster
 
@@ -56,7 +56,7 @@ Manage everyone in your organization.
 
 Organization-wide views that roll up data across every Work Package
 
-<img src="media/02a-005.png" width="560" alt="02a-005">
+![02a-005](media/02a-005.png ':size=560')
 
 - Kanban (Items) - unlimited Boards
 
@@ -68,7 +68,7 @@ See also: [Kanban Boards (Section 8)](/s8-reporting/kanban-boards.md).
 
 A list of every Work Package in the organization - not just the ones you personally belong to.
 
-<img src="media/02a-006.png" width="560" alt="02a-006">
+![02a-006](media/02a-006.png ':size=560')
 
 - Here you can Close or Archive old Projects
 
@@ -76,7 +76,7 @@ A list of every Work Package in the organization - not just the ones you persona
 
 Organization-wide configuration, in its own set of sub-tabs.
 
-<img src="media/02a-007.png" width="560" alt="02a-007">
+![02a-007](media/02a-007.png ':size=560')
 
 - Date/Time - date format, timestamp format, business days, calendar start day
 
@@ -112,13 +112,13 @@ Only visible if you're specifically flagged as a Billing Admin - a narrower perm
 
 - You can Update your subscription and Payment methods here or Cancel your Subscription
 
-<img src="media/02a-008.png" width="560" alt="02a-008">
+![02a-008](media/02a-008.png ':size=560')
 
 ### AI Usage
 
 Only visible if you're specifically flagged as a Billing Admin - a narrower permission than general org-admin access.
 
-<img src="media/02a-009.png" width="560" alt="02a-009">
+![02a-009](media/02a-009.png ':size=560')
 
 - Token Usage - both Current and Historical
 

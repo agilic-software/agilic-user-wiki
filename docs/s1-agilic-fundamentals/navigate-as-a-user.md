@@ -8,7 +8,7 @@ When you log in, you'll land on My View - your personal home base. From there, a
 
 A toolbar of navigation elements is visible from any screen in Agilic, regardless of which area you're currently in.
 
-<img src="media/01a-001.png" width="560" alt="01a-001">
+![01a-001](media/01a-001.png ':size=560')
 
 - Hide / Expand Left Hand Menu
 
@@ -48,7 +48,7 @@ A toolbar of navigation elements is visible from any screen in Agilic, regardles
 
 A traditional navigation menu, toggled open or closed using the menu icon at the far left of the top toolbar. Hide it for more screen space, or show it when you want the familiar list-style navigation.
 
-<img src="media/01a-002.png" width="129" alt="01a-002">
+![01a-002](media/01a-002.png ':size=129')
 
 ### Quick-Access Pill Buttons
 
@@ -64,7 +64,7 @@ These are dedicated pill buttons that jump directly to that specific My Work tab
 
 - RIDE
 
-<img src="media/01a-003.png" width="560" alt="01a-003">
+![01a-003](media/01a-003.png ':size=560')
 
 ### Home and Private Work Package Buttons
 
@@ -72,7 +72,7 @@ These are dedicated pill buttons that jump directly to that specific My Work tab
 
 - Private Work Package - This will take you to your Private Work Package → WP Management view
 
-<img src="media/01a-004.png" width="560" alt="01a-004">
+![01a-004](media/01a-004.png ':size=560')
 
 ### Right-Side Icons
 
@@ -88,17 +88,17 @@ These are dedicated pill buttons that jump directly to that specific My Work tab
 
 - Profile - opens your Profile and Settings
 
-<img src="media/01a-005.png" width="560" alt="01a-005">
+![01a-005](media/01a-005.png ':size=560')
 
 ### Custom Links
 
 Build your own shortcut buttons to pages you access often - useful for jumping straight to a specific Work Package view, report, or Kanban board without navigating there each time.
 
-<img src="media/01a-006.png" width="560" alt="01a-006">
+![01a-006](media/01a-006.png ':size=560')
 
 - The Custom Links are Added by clicking on the PIN button on the top toolbar
 
-<img src="media/01a-007.png" width="560" alt="01a-007">
+![01a-007](media/01a-007.png ':size=560')
 
 ### My View
 
@@ -118,13 +118,13 @@ Tabs for Work Packages that align with the Quick-Access Pill buttons on the top 
 
 - RIDE - Items you're involved in that are raised as a RIDE (Risks, Issues, Dependencies, Escalations)
 
-<img src="media/01a-008.png" width="560" alt="01a-008">
+![01a-008](media/01a-008.png ':size=560')
 
 #### Reporting
 
 - Personalized versions of things you'll see in Work Packages and on Teams.
 
-<img src="media/01a-009.png" width="560" alt="01a-009">
+![01a-009](media/01a-009.png ':size=560')
 
 #### Kanban
 
@@ -142,13 +142,13 @@ See also: [Kanban Boards (Section 8)](/s8-reporting/kanban-boards.md).
 
 Shows all your allocations and logged hours within every Work Package you're part of.
 
-<img src="media/01a-010.png" width="560" alt="01a-010">
+![01a-010](media/01a-010.png ':size=560')
 
 ### My Profile
 
 Shows your account details and additional personal information.
 
-<img src="media/01a-011.png" width="560" alt="01a-011">
+![01a-011](media/01a-011.png ':size=560')
 
 #### My Profile
 
@@ -166,13 +166,13 @@ Shows your account details and additional personal information.
 
 - A direct link to Personal Settings
 
-<img src="media/01a-012.png" width="560" alt="01a-012">
+![01a-012](media/01a-012.png ':size=560')
 
 ### My Team
 
 If you belong to a team, this is where you'll find it. A team is a standing group - separate from any specific Work Package - with its own purpose, roster, work, reporting, and timesheets.
 
-<img src="media/01a-013.png" width="148" alt="01a-013">
+![01a-013](media/01a-013.png ':size=148')
 
 - Only visible if you're a member, Owner, or Driver of a team
 
@@ -188,7 +188,7 @@ See also: [Navigating a Team (Section 4)](/s4-teams/navigate-a-team.md)
 
 Organization-wide search, independent of any single Work Package.
 
-<img src="media/01a-014.png" width="170" alt="01a-014">
+![01a-014](media/01a-014.png ':size=170')
 
 - Global Search for Items - free-text search across Items
 
@@ -196,25 +196,25 @@ Organization-wide search, independent of any single Work Package.
 
 See also: For the full Knowledge - Search guide, see [Knowledge - Search (Section 12)](/s12-knowledge-search/knowledge-search.md).
 
-<img src="media/01a-015.png" width="560" alt="01a-015">
+![01a-015](media/01a-015.png ':size=560')
 
 ### About
 
 A small reference area, not an admin screen.
 
-<img src="media/01a-016.png" width="175" alt="01a-016">
+![01a-016](media/01a-016.png ':size=175')
 
 #### Agilic Notifications
 
 - Agilic-wide notifications from Agilic Software, such as maintenance window announcements
 
-<img src="media/01a-017.png" width="560" alt="01a-017">
+![01a-017](media/01a-017.png ':size=560')
 
 #### Org Admin Users
 
 - A read-only list of who the admins in your organization are, useful if you need help
 
-<img src="media/01a-018.png" width="560" alt="01a-018">
+![01a-018](media/01a-018.png ':size=560')
 
 ### Work Packages: Where the Actual Work Lives
 
@@ -222,11 +222,11 @@ Where the items actually live is within Work Packages, even though you have acce
 
 See also: [Navigate a Work PAckage (Section 3)](/s3-work-packages/navigate-a-work-package.md)
 
-<img src="media/01a-019.png" width="158" alt="01a-019">
+![01a-019](media/01a-019.png ':size=158')
 
 You can see all the Work Packages you are on the roster of by selecting Work Packages I'm On.
 
-<img src="media/01a-020.png" width="560" alt="01a-020">
+![01a-020](media/01a-020.png ':size=560')
 
 Tip: Work Packages have their own dedicated navigation guide - see "[How to Navigate a Work Package (Section 3)](/s3-work-packages/navigate-a-work-package.md)" - since there's a lot inside each one.
 
