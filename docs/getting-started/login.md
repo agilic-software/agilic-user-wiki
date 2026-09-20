@@ -36,7 +36,7 @@ Instead of using a password, you can sign in with your Google account. Under Or 
 
 If you don't have an account yet, click Register next to "New User?" to create one.
 
-<img src="media/gs-001.png" width="127" alt="gs-001">
+![gs-001](media/gs-001.png ':size=127')
 
 #### Forgot your password?
 

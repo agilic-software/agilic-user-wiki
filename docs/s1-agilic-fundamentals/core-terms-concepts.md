@@ -36,7 +36,7 @@ Every Work Package has four Work Item Types (also called the 4D's). The 4D's are
 
 - Document - All the Documentation required to support the DEFINE, DO WORK and DELIVER Items.
 
-<img src="media/01b-001.png" width="560" alt="01b-001">
+![01b-001](media/01b-001.png ':size=560')
 
 #### Basic Roles in a Work Package
 
@@ -50,9 +50,9 @@ There are only 4 basic players within a Work Package:
 
 - Responsible - The Point of Contact for an Item. You can only have one Responsible person on an Item.
 
-<img src="media/01b-002.png" width="560" alt="01b-002">
+![01b-002](media/01b-002.png ':size=560')
 
-<img src="media/01b-003.png" width="560" alt="01b-003">
+![01b-003](media/01b-003.png ':size=560')
 
 #### RIDE Items
 
@@ -66,7 +66,7 @@ Every Work Package also has a special Item Type called a RIDE.
 
 - Escalations
 
-<img src="media/01b-004.png" width="560" alt="01b-004">
+![01b-004](media/01b-004.png ':size=560')
 
 The RIDE handles all the day-to-day things that pop up. It doesn't matter what you call them - Risks, Issues, Dependencies or Escalations - you have to do the same thing with all of them:
 
@@ -92,7 +92,7 @@ RIDE Items have many special features that other Items do not:
 
 How all this fits together in Agilic:
 
-<img src="media/01b-005.png" width="560" alt="01b-005">
+![01b-005](media/01b-005.png ':size=560')
 
 ### State vs Status
 
@@ -100,15 +100,15 @@ The Problem with Traditional Tools is that "Status" is a catch-all field. Blocke
 
 In Agilic, we use State for where your Item is within your process steps. This is where Blocked, In Progress and Complete belong. Status is a free-form text field that allows you to put WHY you're blocked. This saves a significant amount of time by others combing through the Comments, sending you emails and even can reduce the amount of meetings that may be needed.
 
-<img src="media/01b-006.png" width="560" alt="01b-006">
+![01b-006](media/01b-006.png ':size=560')
 
 Most views showing Items have the 'Comment Box Icon.'
 
-<img src="media/01b-007.png" width="50" alt="01b-007">
+![01b-007](media/01b-007.png ':size=50')
 
 Clicking on this opens the Comment Box for just this Item without the need to fully load the Item - saving you time, every time, when you need to update an item.
 
-<img src="media/01b-008.png" width="560" alt="01b-008">
+![01b-008](media/01b-008.png ':size=560')
 
 You can even update Status directly on any Kanban Board.
 
@@ -134,7 +134,7 @@ Note: All Labels attached to an Item will be able to be used as a Kanban column 
 
 Are what most people think about when talking about Labels:
 
-<img src="media/01b-009.png" width="84" alt="01b-009">
+![01b-009](media/01b-009.png ':size=84')
 
 - Categories
 
@@ -148,7 +148,7 @@ You can add as many Simple Labels as you want to any item.
 
 Are the same as Simple Labels except Unbound Labels have 2 parts:
 
-<img src="media/01b-010.png" width="234" alt="01b-010">
+![01b-010](media/01b-010.png ':size=234')
 
 - TECH : Hardware
 
@@ -164,7 +164,7 @@ You can add as many Unbound Labels as you want to any item.
 
 Are similar to Unbound Labels except Bound Labels can only have one of each Label Name applied:
 
-<img src="media/01b-011.png" width="116" alt="01b-011">
+![01b-011](media/01b-011.png ':size=116')
 
 - Complexity :: High
 

@@ -32,7 +32,7 @@ Step 1: Create Your Account
 
 Go to the Agilic sign-in page at [https://agilicsoftware.com/](https://agilicsoftware.com/) and select "Sign Up".
 
-<img src="media/02b-001.png" width="560" alt="02b-001">
+![02b-001](media/02b-001.png ':size=560')
 
 This will bring up the Registration page. Fill in the registration form:
 
@@ -44,7 +44,7 @@ This will bring up the Registration page. Fill in the registration form:
 
 Alternatively, you can select Sign up with Google to skip typing a password.
 
-<img src="media/02b-002.png" width="203" alt="02b-002">
+![02b-002](media/02b-002.png ':size=203')
 
 Tip: If you're not sure whether your company already has an Agilic organization, check with your team before registering - signing up fresh will start a brand-new organization, even if your coworkers are already using Agilic.
 
@@ -52,27 +52,27 @@ Step 2: Verify Your Email
 
 Right after registering, within 5 minutes, you will receive an email to verify your account. If you do not see the email then check your spam folder to see if it was caught by automated filters.
 
-<img src="media/02b-003.png" width="560" alt="02b-003">
+![02b-003](media/02b-003.png ':size=560')
 
 Click on the link in the email to verify your email address is valid
 
-<img src="media/02b-004.png" width="560" alt="02b-004">
+![02b-004](media/02b-004.png ':size=560')
 
 You should see a pop up similar to this
 
-<img src="media/02b-005.png" width="560" alt="02b-005">
+![02b-005](media/02b-005.png ':size=560')
 
 Step 3: Sign In to Your Organization for the First Time
 
 Once your email is verified, go back to the initial login screen and either sign in with Google or enter your email and password and click on Sign In
 
-<img src="media/02b-006.png" width="167" alt="02b-006">
+![02b-006](media/02b-006.png ':size=167')
 
 Step 4: Complete Your Organization's Profile
 
 After Signing in, you'll see a pop-up window titled "Organization Creation." This step is required - you won't be able to use Agilic until it's filled out.
 
-<img src="media/02b-007.png" width="376" alt="02b-007">
+![02b-007](media/02b-007.png ':size=376')
 
 Fill in the following:
 
@@ -94,15 +94,15 @@ Before you continue: Your primary phone number and backup phone number need to b
 
 When everything looks correct, select Save. You will then be taken to the Terms and Conditions page to review and Agree.
 
-<img src="media/02b-008.png" width="560" alt="02b-008">
+![02b-008](media/02b-008.png ':size=560')
 
 For Awareness: Agilic does not track any of your data, nor capture any of your data for any other reason than providing the Agilic Software service to you.
 
-<img src="media/02b-009.png" width="560" alt="02b-009">
+![02b-009](media/02b-009.png ':size=560')
 
 You'll be taken straight into Agilic, landing on your My View dashboard.
 
-<img src="media/02b-010.png" width="560" alt="02b-010">
+![02b-010](media/02b-010.png ':size=560')
 
 See also: For the full permissions model, see [Permissions for People (Section 2)](/s2-setting-up-your-org/permissions-for-people.md).
 

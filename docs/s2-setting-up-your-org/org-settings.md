@@ -8,11 +8,11 @@ See also: For creating your organization for the first time, see [Creating Your 
 
 - Go to Org Admin and select Global Settings
 
-<img src="media/02d-001.png" width="134" alt="02d-001">
+![02d-001](media/02d-001.png ':size=134')
 
 - You'll see a row of sub-tabs across the top.
 
-<img src="media/02d-002.png" width="560" alt="02d-002">
+![02d-002](media/02d-002.png ':size=560')
 
 Step 1: Set Your Date/Time Preferences
 
@@ -30,13 +30,13 @@ Under the Date/Time sub-tab, configure:
 
 - The Standard # of Business hours in a Day (for Planning / Allocation Purposes Only)
 
-<img src="media/02d-003.png" width="560" alt="02d-003">
+![02d-003](media/02d-003.png ':size=560')
 
 Step 2: Set Work Package Header Defaults
 
 Under Work Package Header Settings, configure the defaults that will apply to every new Work Package in your organization, unless someone overrides them for a specific Work Package. This simply allows you to adjust the verbiage being used at the Work Package level.
 
-<img src="media/02d-004.png" width="560" alt="02d-004">
+![02d-004](media/02d-004.png ':size=560')
 
 Tip: Set these before your team starts creating Work Packages - it saves everyone from having to configure the same options individually, every time.
 
@@ -52,7 +52,7 @@ Under Labels, you can see and use all global labels, and add labels/categories s
 
 Items and Work Packages both have their own sets of labels. Having good, consistent labels across all Items and all Work Packages makes your reporting much more valuable. However, there are always unique needs in every Project and therefore each Work Package can automatically use the Global Labels but can also set up their own.
 
-<img src="media/02d-005.png" width="560" alt="02d-005">
+![02d-005](media/02d-005.png ':size=560')
 
 Tip: These same label types are also available at the individual Work Package level, in that WP's own Settings - see Work Package Settings (Section 3).
 
@@ -64,31 +64,31 @@ Under Global Work Package Templates, set up reusable starting Templates so your 
 
 - defaults to System Defined unless changed
 
-<img src="media/02d-006.png" width="560" alt="02d-006">
+![02d-006](media/02d-006.png ':size=560')
 
 #### Work Package Health
 
 - defaults to System Defined unless changed
 
-<img src="media/02d-007.png" width="560" alt="02d-007">
+![02d-007](media/02d-007.png ':size=560')
 
 #### Work Package Phase
 
 - defaults to System Defined unless changed
 
-<img src="media/02d-008.png" width="560" alt="02d-008">
+![02d-008](media/02d-008.png ':size=560')
 
 #### Item State
 
 - defaults to System Defined unless changed
 
-<img src="media/02d-009.png" width="560" alt="02d-009">
+![02d-009](media/02d-009.png ':size=560')
 
 Step 5: Turn On Optional Modules
 
 Under Module Access, turn on optional features for your organization. Currently, this is where you enable Client Portal - and optionally make it the default for new Work Packages.
 
-<img src="media/02d-010.png" width="560" alt="02d-010">
+![02d-010](media/02d-010.png ':size=560')
 
 Tip: Only turn on Client Portal if your organization actually works with external clients - see Client Portal Module (Section 10) before enabling this.
 
