@@ -63,7 +63,7 @@
   - [Client Portal Module](s10-client-portal/client-portal-module.md)
   - [Client Portal External User Guide](s10-client-portal/client-portal-external-user-guide.md)
 - Section 11: Agilic AI Assistant
-  - [Agilic AI Assistant](s11-ai-assistant/agilic-ai-assistant.md)
+  - [Agilic AI Assistant](s11-agilic-ai-assistant/agilic-ai-assistant.md)
 - Section 12: Knowledge Search
   - [Knowledge Search](s12-knowledge-search/knowledge-search.md)
 - Appendix
