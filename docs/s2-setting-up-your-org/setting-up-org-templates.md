@@ -29,11 +29,8 @@ Scroll down to Work Package Phase Settings and begin editing the existing Templa
 This is where the WP Phases you wrote down in the companion guide get entered - once Applied, these become available to every Work Package in your organization by default. See also: For guidance on designing your Phases properly, see Appendix B of [Things to Consider when Setting Up Your Organization (Section 2)](/s2-setting-up-your-org/things-to-consider-when-setting-up-your-org.md).
 
 - You can
-
 - Rename, change the background color and text color, or delete a Phase
-
 - Add a Phase
-
 - Re-order the Phases
 
 Once you have your Phases how you like them:
@@ -63,17 +60,11 @@ Scroll down to Item State Settings and begin editing the existing Template
 This is where your Item States list you wrote down in the companion guide gets entered - once Applied, these become available to every Work Package in your organization by default. See also: For why Item State and Status are kept as two separate fields, see Appendix A of [Things to Consider when Setting Up Your Organization (Section 2)](/s2-setting-up-your-org/things-to-consider-when-setting-up-your-org.md).
 
 - You can
-
 - Rename, change the background color and text color, or delete an Item
-
 - Mark an Item as System State: Open or Closed
-
 - Mark a Closed Item as Accomplished - for instance, if you Cancel an Item it was not Accomplished
-
 - Select an Animation that gets displayed when moved into this Item State
-
 - Add another Item State
-
 - Re-order the Items
 
 Once you have your Item States how you like them:
@@ -123,9 +114,7 @@ Select Create Label under the correct Label Type, and enter the label exactly as
 You can:
 
 - Edit the Name (and Sub Name if a two-part label)
-
 - Edit the Label (background) color
-
 - Edit the Label Text Color
 
 When you have each Label Type (Simple, Unbound, Bound) - Select Save

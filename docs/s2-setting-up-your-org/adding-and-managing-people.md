@@ -41,13 +41,9 @@ Step 3: Add a New Person
 ![02g-006](media/02g-006.png ':size=560')
 
 - then fill in the relevant information. The Required fields are:
-
 - First name
-
 - Last name
-
 - Contact Number
-
 - Email - Note that the email listed here is where the invitation for access to Agilic will be sent.
 
 ![02g-007](media/02g-007.png ':size=560')
@@ -59,11 +55,8 @@ Step 4: Grant Standard Permission Types (As Needed)
 A person's Role doesn't grant them any special access on its own. If they need to create Work Packages, create Teams, access org-level reporting, or manage the organization, grant the relevant Standard Permission Type from the Org People List:
 
 - WP Creator - can create Work Packages
-
 - Team Creator - can create Teams
-
 - Org Reporting - can access org-level reporting
-
 - Admin - full Org Admin access, which includes all other levels
 
 Tip: Every organization must always have at least 1 person with Org Admin access - the system won't let you remove the last one.
@@ -83,9 +76,6 @@ A newly added person won't be able to use Agilic until they accept their invitat
 ### Related Tasks
 
 - To add someone to a Work Package, see [Work Package Roster / Add People to WP (Section 3)](/s3-work-packages/work-package-roster-add-people-to-wp.md)
-
 - To add someone to a Team, see [Team Roster / Add a Person to the Team (Section 4)](/s4-teams/team-roster-add-a-person-to-the-team.md)
-
 - To grant Billing Admin, see [Permissions for People (Section 2)](/s2-setting-up-your-org/permissions-for-people.md)
-
 - For details on what different access levels mean, see [Permissions for People (Section 2)](/s2-setting-up-your-org/permissions-for-people.md)

@@ -6,122 +6,60 @@
 
 ### Table of Contents
 
-- Before You Start
-
-- Three words to know before you start
-
-- The three questions
-
-- How this guide is organized
-
-- Step 1 - Write your Item States
-
-- A starting set that works for almost anyone
-
-- The Status field - the one that drops unnecessary meetings
-
-- Step 2 - Write your WP Phases
-
-- What this looks like in practice
-
-- Why Phases overlap, and why that is useful
-
-- How to find your Phases in ten minutes or less
-
-- A starting set that works for many - but not everyone
-
-- Does this work for Agile as well as waterfall?
-
-- The exception - using Phases to move work
-
-- Phases are per-WP, but should mostly match
-
-- Step 3 - Choose your Teams
-
-- Step 4 - Choose your Labels
-
-- The three kinds of labels, in plain words
-
-- Two questions before you create any label
-
-- A starting set
-
-- A Note about Items and some labels to avoid
-
-- Step 5 - Decide who owns the list
-
-- The minimum set of rules for organization-wide label management
-
-- Step 6 - Test it before you roll it out
-
-- The ten-item test
-
-- What good looks like
-
-- The Five Mistakes That Kill These Setups
-
-- Appendix A - Why State and Status Are Two Fields
-
-- How to make it stick
-
-- Appendix B - Designing Phases Properly
-
-- What a Phase actually is
-
-- How Phases behave on a timeline
-
-- Finding the parallel Phase
-
-- When to add a Phase
-
-- Using Phases to move work - the legitimate exception
-
-- Appendix C - Getting Label Types Right
-
-- Simple labels
-
-- Unbound labels - tick as many as apply
-
-- Bound labels - pick exactly one
-
-- Naming conventions worth adopting
-
-- Appendix D - Preventing Label Sprawl
-
-- How bad it gets
-
-- What actually works
-
-- Appendix E - Three Worked Examples
-
-- E.1 A commercial fit-out contractor
-
-- E.2 A regional food-bank charity
-
-- E.3 A software company shipping a release with an infrastructure build
-
-- Appendix F - One-Page Checklist
-
-- Appendix G - Terminology and Additional Training
-
-- G.1 How work is structured
-
-- G.2 Who does what
-
-- G.3 How work is classified
-
-- G.4 Flags and views
-
-- G.5 Additional Training
-
-A plain-English guide to Item States, WP Phases and Labels.
-
-|  |  |
-| --- | --- |
-| Who it is for | Anyone setting up a new organization within Agilic. No project-management background needed. |
-| How long | About 20 minutes to read through. About 30-60 mins to read and do the exercises. Appendices are extra detail to help with understanding. |
-| What you will produce | A state list, a phase list, a team list, a label list, and a named owner. |
-| Version | v3.4 - September 2026 |
+- [Before You Start](#before-you-start)
+  - [Three words to know before you start](#three-words-to-know-before-you-start)
+  - [The three questions](#the-three-questions)
+  - [How this guide is organized](#how-this-guide-is-organized)
+- [Step 1 - Write your Item States](#step-1-write-your-item-states)
+  - [A starting set that works for almost anyone](#a-starting-set-that-works-for-almost-anyone)
+  - [The Status field - the one that drops unnecessary meetings](#the-status-field-the-one-that-drops-unnecessary-meetings)
+- [Step 2 - Write your WP Phases](#step-2-write-your-wp-phases)
+  - [What this looks like in practice](#what-this-looks-like-in-practice)
+  - [Why Phases overlap, and why that is useful](#why-phases-overlap-and-why-that-is-useful)
+  - [How to find your Phases in ten minutes or less](#how-to-find-your-phases-in-ten-minutes-or-less)
+  - [A starting set that works for many - but not everyone](#a-starting-set-that-works-for-many-but-not-everyone)
+  - [Does this work for Agile as well as waterfall?](#does-this-work-for-agile-as-well-as-waterfall)
+  - [The exception - using Phases to move work](#the-exception-using-phases-to-move-work)
+  - [Phases are per-WP, but should mostly match](#phases-are-per-wp-but-should-mostly-match)
+- [Step 3 - Choose your Teams](#step-3-choose-your-teams)
+- [Step 4 - Choose your Labels](#step-4-choose-your-labels)
+  - [The three kinds of labels, in plain words](#the-three-kinds-of-labels-in-plain-words)
+  - [Two questions before you create any label](#two-questions-before-you-create-any-label)
+  - [A starting set](#a-starting-set)
+  - [A Note about Items and some labels to avoid](#a-note-about-items-and-some-labels-to-avoid)
+- [Step 5 - Decide who owns the list](#step-5-decide-who-owns-the-list)
+  - [The minimum set of rules for organization-wide label management](#the-minimum-set-of-rules-for-organization-wide-label-management)
+- [Step 6 - Test it before you roll it out](#step-6-test-it-before-you-roll-it-out)
+  - [The ten-item test](#the-ten-item-test)
+  - [What good looks like](#what-good-looks-like)
+- [The Five Mistakes That Kill These Setups](#the-five-mistakes-that-kill-these-setups)
+- [Appendix A - Why State and Status Are Two Fields](#appendix-a-why-state-and-status-are-two-fields)
+  - [How to make it stick](#how-to-make-it-stick)
+- [Appendix B - Designing Phases Properly](#appendix-b-designing-phases-properly)
+  - [What a Phase actually is](#what-a-phase-actually-is)
+  - [How Phases behave on a timeline](#how-phases-behave-on-a-timeline)
+  - [Finding the parallel Phase](#finding-the-parallel-phase)
+  - [When to add a Phase](#when-to-add-a-phase)
+  - [Using Phases to move work - the legitimate exception](#using-phases-to-move-work-the-legitimate-exception)
+- [Appendix C - Getting Label Types Right](#appendix-c-getting-label-types-right)
+  - [Simple labels](#simple-labels)
+  - [Unbound labels - tick as many as apply](#unbound-labels-tick-as-many-as-apply)
+  - [Bound labels - pick exactly one](#bound-labels-pick-exactly-one)
+  - [Naming conventions worth adopting](#naming-conventions-worth-adopting)
+- [Appendix D - Preventing Label Sprawl](#appendix-d-preventing-label-sprawl)
+  - [How bad it gets](#how-bad-it-gets)
+  - [What actually works](#what-actually-works)
+- [Appendix E - Three Worked Examples](#appendix-e-three-worked-examples)
+  - [E.1 A commercial fit-out contractor](#e1-a-commercial-fit-out-contractor)
+  - [E.2 A regional food-bank charity](#e2-a-regional-food-bank-charity)
+  - [E.3 A software company shipping a release with an infrastructure build](#e3-a-software-company-shipping-a-release-with-an-infrastructure-build)
+- [Appendix F - One-Page Checklist](#appendix-f-one-page-checklist)
+- [Appendix G - Terminology and Additional Training](#appendix-g-terminology-and-additional-training)
+  - [G.1 How work is structured](#g1-how-work-is-structured)
+  - [G.2 Who does what](#g2-who-does-what)
+  - [G.3 How work is classified](#g3-how-work-is-classified)
+  - [G.4 Flags and views](#g4-flags-and-views)
+  - [G.5 Additional Training](#g5-additional-training)
 
 ### Before You Start
 
@@ -245,19 +183,14 @@ Because Items belong to Phases rather than passing through them, more than one P
 Phases carry no dates of their own. A Phase stretches from the earliest start date of the Items inside it to the latest due date, so the bands on a Gantt chart shift as your work shifts:
 
 - If your phases are meant to run in parallel, you will see them running in parallel, which is simply the truth.
-
 - If your phases are meant to be sequential and two of them start to overlap, you are watching schedule creep appear - usually weeks before anyone would have reported it.
 
 #### How to find your Phases in ten minutes or less
 
 - Pick one typical Effort your organization runs - a project, a campaign, a build, a client engagement.
-
 - Write down fifteen to twenty real Items that Effort would contain. Actual tasks, in your own words. Do not tidy them up.
-
 - Sort them into piles based on what part of the Effort each one belongs to. Ignore timing and ignore order - you are grouping by kind, not by sequence.
-
 - Name each pile. Those names are your Phases.
-
 - Now look for the pile that runs the whole way through - reporting, governance, quality checks, safety, client communication. Most organizations have one and most have never named it. That is your parallel Phase and it is usually the most valuable one you will find.
 
 Aim for three to eight piles. More than eight and you have sorted by task type rather than by part of the Effort. Fewer than three and one pile is hiding something.
@@ -327,9 +260,7 @@ Labels are also where organizations lose control, because they are the easiest t
 Choosing between Unbound and Bound is the only part people get wrong. The test is one question: could a single item ever honestly need two values from this list at the same time?
 
 - Priority - nothing is both High and Low. Bound.
-
 - Team - a piece of work can easily involve Sales and Marketing both. Unbound.
-
 - Client - usually one, but sometimes a shared project. Ask before you decide.
 
 If you force a Bound label onto something that genuinely needs two values displayed, people will generally not complain. They will just pick one and drop the other, and you will never know the data is wrong. That is why this one matters more than it looks.
@@ -393,13 +324,9 @@ Do not launch this to your organization on the strength of it looking sensible o
 #### The ten-item test
 
 - Pick ten real pieces of work from the last few months. Deliberately choose awkward ones - the thing that got cancelled, the thing that dragged for months, the thing two teams argued over.
-
 - For each one, fill in the State, the Phase and every label, as it would have been at its most confusing moment.
-
 - Note every time you hesitate, have to look something up, or find yourself wanting a value that does not exist.
-
 - Now hand the same ten items to somebody who was not in the room when you designed this, and have them do it independently.
-
 - Compare. Every disagreement is a definition that is not clear enough yet.
 
 Disagreements are the point of the exercise. If two sensible people classify the same work differently, your live data will be inconsistent in exactly that way, at scale, forever. Fix the wording now while it costs nothing.
@@ -407,9 +334,7 @@ Disagreements are the point of the exercise. If two sensible people classify the
 #### What good looks like
 
 - Both people picked the same State on at least nine of ten.
-
 - Nobody needed a value (Label, State, and/or Phase) that did not exist more than once or twice.
-
 - You can explain any state or phase to a new starter in one sentence, without saying "it depends."
 
 And then leave it alone for a quarter: Resist changing anything for the first three months except outright mistakes or missed critical needs. Every change costs everyone a small amount of relearning, and most early change requests are people asking for their old system back rather than the new one being wrong. After a quarter you will have real evidence about what is actually missing.
@@ -438,17 +363,13 @@ A report saying eleven items are Blocked is an alarm with no information - requi
 #### How to make it stick
 
 - Require it for three states only - Blocked, On Hold, Cancelled. Requiring it everywhere guarantees people type "ok" to get past it.
-
 - Make reading them a habit before making writing them a rule. If Status notes are visibly used in a weekly review, people write them. If they disappear into a database, they stop within a month.
-
 - Keep them short and dated. "Waiting on supplier quote, chased 14 March" is a good one. A paragraph is not. Note that Status in Agilic is automatically timestamped for when the Status was entered, along with who made it. The most recent Status is always displayed on cards.
 
 If your team is not filling them in after a quarter, there is some kind of issue. Do not just keep asking - follow up with your team:
 
 - Do they understand the value of taking 30 seconds to update the Status? It saves them answering emails, being caught for drive-by status questions, and reduces the number of meetings needed.
-
 - Do they understand how easy it actually is to make the Status update?
-
 - If yes to both, is the requirement of when a Status is needed appropriate? Did you set too strict a rule about what has to be entered, or can they just give the status in their own words?
 
 The general wisdom is that using Status keeps everyone on the same page without requiring an in-person meeting or a current email. Status shows not only what the explanation is, but also who said it, and when they said it.
@@ -466,9 +387,7 @@ This is worth stating plainly - under the model Agilic uses, multiple Phases can
 In Agilic, Phases have no dates of their own. A Phase band on a Gantt chart runs from the earliest start date of the Items inside it to the latest due date, and it moves as those Items move. Three consequences follow:
 
 - Phases holding undated Items contribute nothing to the chart, so you are never forced to invent a date for work nobody has committed to.
-
 - Phases overlap and for a parallel phase, such as Monitoring & Control, that overlap is the whole point - it should span everything.
-
 - Where phases are meant to run in sequence, watching two bands start to overlap is one of the earliest warnings of schedule creep you will get. It shows up in the chart before it shows up in anyone's report.
 
 #### Finding the parallel Phase

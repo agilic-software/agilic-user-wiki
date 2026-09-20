@@ -15,11 +15,8 @@ See also: For creating an organization for the first time, see [Creating Your Or
 #### Org People List
 
 - the full roster of everyone in your organization
-
 - Give people permissions
-
 - Access User Profiles that need updated
-
 - Add / Remove Users
 
 ![02f-001](media/02f-001.png ':size=560')
@@ -27,11 +24,8 @@ See also: For creating an organization for the first time, see [Creating Your Or
 #### Standard Permission Types
 
 - WP Creator - the ability to create Work Packages
-
 - Team Creator - the ability to create Teams
-
 - Org Reporting - the ability to access org-level reporting
-
 - Admin - full Org Admin access, which includes all other levels of access
 
 Note: Org Admin users can access everything in any Work Package or Team as if they were its Owner/Driver.
@@ -41,7 +35,6 @@ Note: Org Admin users can access everything in any Work Package or Team as if th
 Every person can be assigned a Role when they're added to the organization, defined under the Org Role List - where you define what roles your people perform.
 
 - You can also define Role Placeholders, available for Pre-Planning across the org - a role that exists in the system but isn't yet filled by a real person, useful when planning ahead for a hire or you don’t know who will be Assigned to an Effort from an existing Team
-
 - Individual Work Packages can use the org-level Role Placeholders, or create their own for unique circumstances
 
 ![02f-002](media/02f-002.png ':size=560')
@@ -65,11 +58,8 @@ A narrower flag than general Org Admin access. Only the person flagged as Billin
 A baseline level of access applies to everyone in the organization, regardless of Roster membership:
 
 - Everyone in the organization can be tagged on any item in the organization
-
 - Everyone can follow any item in any Work Package
-
 - Everyone can comment anywhere there's a comment field (items, WP Objective, etc.)
-
 - Everyone can see any item or Work Package in the organization - with the exception of Secure Items and Secure Work Packages
 
 ### Work Package Roster
@@ -77,11 +67,8 @@ A baseline level of access applies to everyone in the organization, regardless o
 Being added to a specific Work Package's Roster grants additional access. Anyone on the Roster can:
 
 - Edit an item
-
 - Be Assigned or Responsible for an item
-
 - Add planned hours or log time to an item (must be Assigned or Responsible on it first)
-
 - Access the Work Package Timesheet
 
 Note: Being on the WP Roster is also how your personal Timesheet and your Team Timesheet get populated.
@@ -99,9 +86,7 @@ Note: Org Admin users can access everything in any Work Package or Team as if th
 #### Client Portal Permissions
 
 - Anyone on the Work Package's Roster can access and edit the Client Portal information for that WP
-
 - Anyone in the organization can view the Client Portal and add comments
-
 - Client users are added within the Client Portal itself - they can be given comment ability and the ability to upload attachments, and can always download attachments posted to the portal
 
 #### Client Portal Access
