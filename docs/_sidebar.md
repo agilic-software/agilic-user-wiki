@@ -44,9 +44,9 @@
   - [My Settings](s5-my-view/my-settings.md)
   - [My Private Work Package](s5-my-view/my-private-work-package.md)
 - Section 6: Work Item Types and Details
-  - [Working Standard Items](s6-working-standard-items/working-standard-items.md)
-  - [Work Item Types](s6-working-standard-items/work-item-types.md)
-  - [Working RIDE Items](s6-working-standard-items/working-ride-items.md)
+  - [Working Standard Items](s6-work-item-types-and-details/working-standard-items.md)
+  - [Work Item Types](s6-work-item-types-and-details/work-item-types.md)
+  - [Working RIDE Items](s6-work-item-types-and-details/working-ride-items.md)
 - Section 7: Timesheets
   - [Timesheets](s7-timesheets/timesheets.md)
 - Section 8: Reporting

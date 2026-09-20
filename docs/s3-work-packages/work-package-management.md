@@ -39,11 +39,11 @@ Escalations.
 ![03a-002](media/03a-002.png)
 
 ***See also:** Fully covered in [Work Item Types (Section
-6)](/s6-working-standard-items/work-item-types.md),
+6)](/s6-work-item-types-and-details/work-item-types.md),
 [Working Standard Items (Section
-6)](/s6-working-standard-items/working-standard-items.md),
+6)](/s6-work-item-types-and-details/working-standard-items.md),
 and [Working RIDE Items (Section
-6)](/s6-working-standard-items/working-ride-items.md).*
+6)](/s6-work-item-types-and-details/working-ride-items.md).*
 
 # Roster
 
@@ -103,7 +103,7 @@ Allocations for a person.
 
 ***See also:** Item-level Hours Summary (Planned vs. Logged) is covered
 in [Working Standard Items (Section
-6)](/s6-working-standard-items/working-standard-items.md).
+6)](/s6-work-item-types-and-details/working-standard-items.md).
 The full Timesheet guide is [Timesheets (Section
 7)](/s7-timesheets/timesheets.md).*
 

@@ -93,16 +93,16 @@ above it (e.g. "463 Items found").
 
 ***See also:** Segment is the older term for Work Item Type --- see
 [Work Item Types (Section
-6)](/s6-working-standard-items/work-item-types.md).*
+6)](/s6-work-item-types-and-details/work-item-types.md).*
 
 # Related Tasks
 
 This guide covers the search process itself. For what each result type
 actually is once you open it, see [Work Item Types (Section
-6)](/s6-working-standard-items/work-item-types.md),
+6)](/s6-work-item-types-and-details/work-item-types.md),
 [Working Standard Items (Section
-6)](/s6-working-standard-items/working-standard-items.md)
+6)](/s6-work-item-types-and-details/working-standard-items.md)
 and [Working RIDE Items (Section
-6)](/s6-working-standard-items/working-ride-items.md), or
+6)](/s6-work-item-types-and-details/working-ride-items.md), or
 [Create Work Package / Add People to WP (Section
 3)](/s3-work-packages/create-a-work-package.md).

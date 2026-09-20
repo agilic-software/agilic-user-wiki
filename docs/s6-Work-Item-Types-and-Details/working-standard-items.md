@@ -8,10 +8,10 @@ applies everywhere.
 
 ***See also:** For an overview of what each Work Item Type tab is for,
 see [Work Item Types (Section
-6)](/s6-working-standard-items/work-item-types.md). For
+6)](/s6-work-item-types-and-details/work-item-types.md). For
 what's different about RIDE items specifically, see [Working RIDE
 Items (Section
-6)](/s6-working-standard-items/working-ride-items.md).*
+6)](/s6-work-item-types-and-details/working-ride-items.md).*
 
 # Getting There
 
@@ -194,4 +194,4 @@ item.
 RIDE items include everything above, plus Risk, Mitigation, and Decision
 Management processes specific to them --- see [Working RIDE Items
 (Section
-6)](/s6-working-standard-items/working-ride-items.md).
+6)](/s6-work-item-types-and-details/working-ride-items.md).
