@@ -12,11 +12,17 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
 nav:
+  - Home: README.md
+  - Getting Started:
+    - Getting Started: getting-started/getting-started-index.md
+    - Signing In: getting-started/login.md
   - Section 1: Agilic Fundamentals:
+    - Section 1 - Agilic Fundamentals: s1-agilic-fundamentals/section1-index.md
     - Navigate as a User: s1-agilic-fundamentals/navigate-as-a-user.md
     - Core Terms & Concepts: s1-agilic-fundamentals/core-terms-concepts.md
     - Roles & Permissions: s1-agilic-fundamentals/roles-permissions.md
   - Section 2: Setting Up Your Org:
+    - Section 2 - Setting Up Your Org: s2-setting-up-your-org/section2-index.md
     - Navigate Org Admin: s2-setting-up-your-org/navigate-org-admin.md
     - Create Your Organization: s2-setting-up-your-org/create-your-organization.md
     - Things to Consider When Setting Up Your Org: s2-setting-up-your-org/things-to-consider-when-setting-up-your-org.md
@@ -26,6 +32,7 @@ nav:
     - Adding & Managing People: s2-setting-up-your-org/adding-and-managing-people.md
     - Managing Billing: s2-setting-up-your-org/managing-billing.md
   - Section 3: Work Packages:
+    - Section 3 - Work Packages: s3-work-packages/section3-index.md
     - Navigate a Work Package: s3-work-packages/navigate-a-work-package.md
     - Create a Work Package: s3-work-packages/create-a-work-package.md
     - Things to Consider When Pre-Planning a Work Package: s3-work-packages/things-to-consider-when-pre-planning-a-work-package.md
@@ -39,6 +46,7 @@ nav:
     - Work Package Timesheets: s3-work-packages/work-package-timesheets.md
     - Work Package Wiki: s3-work-packages/work-package-wiki.md
   - Section 4: Teams:
+    - Section 4 - Teams: s4-teams/section4-index.md
     - Navigate a Team: s4-teams/navigate-a-team.md
     - Create a Team: s4-teams/create-a-team.md
     - Team Management: s4-teams/team-management.md
@@ -47,6 +55,7 @@ nav:
     - Team Reporting: s4-teams/team-reporting.md
     - Team Timesheet: s4-teams/team-timesheet.md
   - Section 5: My View:
+    - Section 5 - My View: s5-my-view/section5-index.md
     - My View Overview: s5-my-view/my-view-overview.md
     - My Work: s5-my-view/my-work.md
     - My View Reporting: s5-my-view/my-view-reporting.md
@@ -55,12 +64,15 @@ nav:
     - My Settings: s5-my-view/my-settings.md
     - My Private Work Package: s5-my-view/my-private-work-package.md
   - Section 6: Work Item Types and Details:
-    - Working Standard Items: s6-working-standard-items/working-standard-items.md
-    - Work Item Types: s6-working-standard-items/work-item-types.md
-    - Working RIDE Items: s6-working-standard-items/working-ride-items.md
+    - Section 6 - Work Item Types and Details: s6-work-item-types-and-details/section6-index.md
+    - Working Standard Items: s6-work-item-types-and-details/working-standard-items.md
+    - Work Item Types: s6-work-item-types-and-details/work-item-types.md
+    - Working RIDE Items: s6-work-item-types-and-details/working-ride-items.md
   - Section 7: Timesheets:
+    - Section 7 - Timesheets: s7-timesheets/section7-index.md
     - Timesheets: s7-timesheets/timesheets.md
   - Section 8: Reporting:
+    - Section 8 - Reporting: s8-reporting/section8-index.md
     - Kanban Boards: s8-reporting/kanban-boards.md
     - Stakeholder Report: s8-reporting/stakeholder-report.md
     - Status Report: s8-reporting/status-report.md
@@ -69,14 +81,19 @@ nav:
     - Charts: s8-reporting/charts.md
     - AI Summary: s8-reporting/ai-summary.md
   - Section 9: Client Management:
+    - Section 9 - Client Management: s9-client-management/section9-index.md
     - Managing Client Companies & Contacts: s9-client-management/managing-client-companies-and-contacts.md
   - Section 10: Client Portal:
+    - Section 10 - Client Portal: s10-client-portal/section10-index.md
     - Client Portal Module: s10-client-portal/client-portal-module.md
     - Client Portal External User Guide: s10-client-portal/client-portal-external-user-guide.md
   - Section 11: Agilic AI Assistant:
-    - Agilic AI Assistant: s11-ai-assistant/agilic-ai-assistant.md
+    - Section 11 - Agilic AI Assistant: s11-agilic-ai-assistant/section11-index.md
+    - Agilic AI Assistant: s11-agilic-ai-assistant/agilic-ai-assistant.md
   - Section 12: Knowledge Search:
+    - Section 12 - Knowledge: s12-knowledge-search/section12-index.md
     - Knowledge Search: s12-knowledge-search/knowledge-search.md
   - Appendix:
+    - Appendix: s-appendix/appendix-index.md
     - Feature Index: s-appendix/feature-index.md
     - Terminology Index & Dictionary: s-appendix/terminology-index.md
